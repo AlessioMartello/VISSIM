@@ -3,15 +3,16 @@ from helpers import get_project_name
 import pandas as pd
 import openpyxl
 import pathlib
-import os
+from openpyxl.utils.dataframe import dataframe_to_rows
+
 study_period_data = pd.DataFrame()  # initialise empty DataFrame to append cleaned data and ones for results
 all_results = pd.DataFrame()
 
 # Read Excel file, extract the SC number and SCJ number.
 
-save_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs\\Demand_dependancy.xlsx")  # finding relative path folder
-
-book = openpyxl.load_workbook(save_path)
+data_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")  # finding relative path folder
+file_path = data_path.joinpath('Demand_dependancy.xlsx')
+book = openpyxl.load_workbook(file_path)
 worksheet = book.active
 sites = []
 sc = []
@@ -43,12 +44,12 @@ project_name = None  # Initialise project_name as none, to only run get_project_
 # Read each .lsa file in directory, filter based on the warmup and cooldown times.
 # Get each demand dependant stage count per filtered file.
 # Append to the all_results DataFrame.
-for path in pathlib.Path().iterdir():
+for path in pathlib.Path(data_path).iterdir():
     if str(path).endswith(suffix):
-        raw_data = load_VISSIM_file(columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
+        raw_data = load_VISSIM_file(path=path, sep=";", columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
                                     skiprows=intro_lines)
         signal_group_list_length = len(raw_data[raw_data["Time"].str.contains("SC")])
-        raw_data = load_VISSIM_file(columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
+        raw_data = load_VISSIM_file(path=path,sep=";", columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
                                     skiprows=intro_lines + signal_group_list_length)
         df = raw_data[(raw_data.Time > warmup_time) & (raw_data.Time < cooldown_time)]
         seed_results = []
@@ -59,7 +60,7 @@ for path in pathlib.Path().iterdir():
         all_results["Seed " + str(file_number + 1)] = pd.Series(seed_results, dtype=float)
         file_number += 1
         if project_name is None:
-            project_name = get_project_name()
+            project_name = get_project_name(path)
 
 # Rename the indices of the results DataFrame using the Demand dependency codes
 names = [f'{SCJ}_{SC}_{aspect}' for SCJ, SC in zip(sites, sc)]
