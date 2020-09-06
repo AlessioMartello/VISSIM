@@ -1,4 +1,3 @@
-import pandas as pd
 import pathlib
 from datetime import datetime
 import openpyxl

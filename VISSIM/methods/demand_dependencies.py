@@ -1,10 +1,17 @@
-import helpers
-
+from helpers import load_VISSIM_file
+from helpers import get_project_name
+import pandas as pd
+import openpyxl
+import pathlib
+import os
 study_period_data = pd.DataFrame()  # initialise empty DataFrame to append cleaned data and ones for results
 all_results = pd.DataFrame()
 
 # Read Excel file, extract the SC number and SCJ number.
-book = openpyxl.load_workbook('Demand_dependancy.xlsx')
+
+save_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs\\Demand_dependancy.xlsx")  # finding relative path folder
+
+book = openpyxl.load_workbook(save_path)
 worksheet = book.active
 sites = []
 sc = []
