@@ -1,7 +1,10 @@
 from helpers import load_VISSIM_file
 import pandas as pd
 import pathlib
-import os
+from datetime import datetime
+from VISSIM.methods.helpers import data_inputs_path
+from VISSIM.methods.helpers import data_outputs_path
+
 # Some values are hardcoded into the script (skipfooter and initial skiprows). These are not variable.
 # Any changing values have been considered and their calculation automated.
 # Such as the length of rows to skip
@@ -12,12 +15,12 @@ use_cols = [col for col in range(1, 400,
 suffix = ".rsz"  # Define filename suffix for Journey time analysis
 file_count = 0  # Initialise file count for column names
 
-for path in pathlib.Path().iterdir():
+for path in pathlib.Path(data_inputs_path).iterdir():
     if str(path).endswith(suffix):
-        excess_data = load_VISSIM_file(skiprows=8, skipfooter=5)  # Create a DataFrame including the excess data only
+        excess_data = load_VISSIM_file(path=path, skiprows=8, skipfooter=5)  # Create a DataFrame including the excess data only
         skip_length = len(
             excess_data[excess_data[0].str.contains("No.")])  # Get the (length) number of rows containing excess data
-        relevant_data = load_VISSIM_file(sep=";", skiprows=(8 + skip_length), use_cols=use_cols
+        relevant_data = load_VISSIM_file(path=path, sep=";", skiprows=(8 + skip_length), use_cols=use_cols
                                          )  # load only the final data by skipping the length of the
         # excess data. Not hardcoded because this is changeable
         journey_times = relevant_data.drop([0, 1, 2, 3])  # Extract only the Journey Time row
@@ -47,6 +50,8 @@ results_transposed.columns = files
 now = datetime.now()
 
 # Write results to an Excel file, timestamp ensures no overwriting
-writer = pd.ExcelWriter("JT results_" + now.strftime("%d-%m_%H.%M") + ".xlsx")
+jt_filename = "JT results_" + now.strftime("%d-%m_%H.%M") + ".xlsx"
+jt_output = data_outputs_path.joinpath(jt_filename)
+writer = pd.ExcelWriter(jt_output)
 results_transposed.to_excel(writer, "Journey time results", index=False)
 writer.save()

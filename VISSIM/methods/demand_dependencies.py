@@ -4,15 +4,16 @@ import pandas as pd
 import openpyxl
 import pathlib
 from openpyxl.utils.dataframe import dataframe_to_rows
+from VISSIM.methods.helpers import data_inputs_path
+from VISSIM.methods.helpers import data_outputs_path
 
 study_period_data = pd.DataFrame()  # initialise empty DataFrame to append cleaned data and ones for results
 all_results = pd.DataFrame()
 
 # Read Excel file, extract the SC number and SCJ number.
 
-data_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")  # finding relative path folder
-file_path = data_path.joinpath('Demand_dependancy.xlsx')
-book = openpyxl.load_workbook(file_path)
+dd_file_path = data_inputs_path.joinpath('Demand_dependancy.xlsx')
+book = openpyxl.load_workbook(dd_file_path)
 worksheet = book.active
 sites = []
 sc = []
@@ -44,7 +45,7 @@ project_name = None  # Initialise project_name as none, to only run get_project_
 # Read each .lsa file in directory, filter based on the warmup and cooldown times.
 # Get each demand dependant stage count per filtered file.
 # Append to the all_results DataFrame.
-for path in pathlib.Path(data_path).iterdir():
+for path in pathlib.Path(data_inputs_path).iterdir():
     if str(path).endswith(suffix):
         raw_data = load_VISSIM_file(path=path, sep=";", columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
                                     skiprows=intro_lines)
@@ -81,4 +82,5 @@ for row in dataframe_to_rows(all_results, index=True, header=True):
 
 # Save the file
 filename = "Demand_dependency " + str(project_name) + ".xlsx"
-book.save(filename=filename)
+demand_dependancy_output = data_outputs_path.joinpath(filename)
+book.save(demand_dependancy_output)
