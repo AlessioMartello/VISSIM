@@ -11,7 +11,7 @@ def get_demand_dependencies():
 
     # Read Excel file, extract the SC number and SCJ number.
 
-    dd_file_path = data_inputs_path.joinpath('Demand_dependancy.xlsx')
+    dd_file_path = data_inputs_path.joinpath('excel', 'Demand_dependancy.xlsx')
     book = openpyxl.load_workbook(dd_file_path)
     worksheet = book.active
     sites = []
