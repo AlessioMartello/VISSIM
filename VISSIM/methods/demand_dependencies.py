@@ -1,12 +1,13 @@
-from VISSIM.methods.helpers import load_VISSIM_file, get_project_name
-import pandas as pd
-import openpyxl
 import pathlib
+
+import openpyxl
+import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
+
 from VISSIM.methods.helpers import data_inputs_path, data_outputs_path
+from VISSIM.methods.helpers import load_VISSIM_file, get_project_name, df_writer
 
 def get_demand_dependencies():
-    study_period_data = pd.DataFrame()  # initialise empty DataFrame to append cleaned data and ones for results
     all_results = pd.DataFrame()
 
     # Read Excel file, extract the SC number and SCJ number.
@@ -33,14 +34,11 @@ def get_demand_dependencies():
     intro_lines = 8  # Hard code the number of introductory lines, to be ignored when reading DataFrame
 
     suffix = ".lsa"  # The suffix for demand dependency files from VISSIM, to be checked for when reading files
-    signal_group_list_length = 0  # Initialise variable to ensure the length of introductory data is read once only
 
     # Filter the combined DataFrame for each of the extracted value combinations. Average the length of the occurrence and
     # append the results to a list.
     aspect = "green"
-    results = list()
-    project_name = None  # Initialise project_name as none, to only run get_project_name() once at the end of the below loop
-
+    project_name = None
     # Read each .lsa file in directory, filter based on the warmup and cooldown times.
     # Get each demand dependant stage count per filtered file.
     # Append to the all_results DataFrame.
@@ -80,6 +78,4 @@ def get_demand_dependencies():
         worksheet.append(row)
 
     # Save the file
-    filename = "Demand_dependency " + str(project_name) + ".xlsx"
-    demand_dependancy_output = data_outputs_path.joinpath(filename)
-    book.save(demand_dependancy_output)
+    book.save(df_writer(project_name, "Demand_dependencies"))

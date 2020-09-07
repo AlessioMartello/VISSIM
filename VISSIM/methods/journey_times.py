@@ -2,7 +2,7 @@ from VISSIM.methods.helpers import load_VISSIM_file
 import pandas as pd
 import pathlib
 from datetime import datetime
-from VISSIM.methods.helpers import data_inputs_path, data_outputs_path
+from VISSIM.methods.helpers import data_inputs_path, df_writer, get_project_name
 
 
 # Some values are hardcoded into the script (skipfooter and initial skiprows). These are not variable.
@@ -14,7 +14,7 @@ def get_journey_times():
                                      2)]  # Make a list of columns, to use when reading the DataFrame, every other column is useful.
     suffix = ".rsz"  # Define filename suffix for Journey time analysis
     file_count = 0  # Initialise file count for column names
-
+    project_name = None
     for path in pathlib.Path(data_inputs_path).iterdir():
         if str(path).endswith(suffix):
             excess_data = load_VISSIM_file(path=path, skiprows=8,
@@ -28,7 +28,8 @@ def get_journey_times():
             journey_times = relevant_data.drop([0, 1, 2, 3])  # Extract only the Journey Time row
             results = results.append(journey_times)  # add the extracted data to a DataFrame
             file_count += 1
-
+            if project_name is None:
+                project_name = get_project_name(path)
     JT_route = relevant_data.drop([0, 1, 3, 4])  # Extract the Journey Time labels
 
     for col in use_cols:
@@ -49,11 +50,7 @@ def get_journey_times():
     files.append("Average")
     results_transposed.columns = files
 
-    now = datetime.now()
-
     # Write results to an Excel file, timestamp ensures no overwriting
-    jt_filename = "JT results_" + now.strftime("%d-%m_%H.%M") + ".xlsx"
-    jt_output = data_outputs_path.joinpath(jt_filename)
-    writer = pd.ExcelWriter(jt_output)
+    writer = pd.ExcelWriter(df_writer(project_name, "Journey_times"))
     results_transposed.to_excel(writer, "Journey time results", index=False)
     writer.save()
