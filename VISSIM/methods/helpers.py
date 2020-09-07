@@ -1,7 +1,5 @@
 import pandas as pd
 import pathlib
-from openpyxl.utils.dataframe import dataframe_to_rows
-
 
 # Function to load data from the VISSIM data files into a Pandas DataFrame
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
