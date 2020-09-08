@@ -2,6 +2,7 @@ import pandas as pd
 import pathlib
 from datetime import datetime
 
+
 # Function to load data from the VISSIM data files into a Pandas DataFrame
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
                      skipfooter=0):
@@ -19,11 +20,13 @@ def get_project_name(path):
     project_name = " ".join(project_name)
     return project_name
 
+
 def df_writer(project_name, analysis):
     now = datetime.now().strftime("%d-%m_%H.%M")
     filename = f"{analysis}_{project_name}_{now}.xlsx"
-    writer = data_outputs_path.joinpath(filename)
+    writer = data_outputs_path.joinpath(analysis.lower(), filename)
     return writer
+
 
 data_inputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")
 data_outputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\outputs")

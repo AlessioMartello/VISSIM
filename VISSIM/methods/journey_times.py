@@ -1,7 +1,6 @@
 from VISSIM.methods.helpers import load_VISSIM_file
 import pandas as pd
 import pathlib
-from datetime import datetime
 from VISSIM.methods.helpers import data_inputs_path, df_writer, get_project_name
 
 

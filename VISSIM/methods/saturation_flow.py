@@ -1,4 +1,3 @@
-from datetime import datetime
 import pathlib
 import pandas as pd
 from VISSIM.methods.helpers import data_inputs_path, data_outputs_path
@@ -113,7 +112,7 @@ def get_saturation_flow():
     results_grouped = summary_results.groupby(["ID", "Stop-line"]).agg(
         {"Saturation flow": "mean", "Number of measurements": "sum"}).round()
 
-    writer = pd.ExcelWriter(df_writer(project_name, "Satflows"))
+    writer = pd.ExcelWriter(df_writer(project_name, "Saturation_flows"))
     results_grouped.to_excel(writer, "Summary results")
     results.to_excel(writer, "All results", index=False)
     ignored_results.to_excel(writer, "Ignored files", index=False)
