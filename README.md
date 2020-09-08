@@ -25,14 +25,6 @@ Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSI
 * Navigate to run.py
 * Execute file.
 code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
@@ -42,9 +34,6 @@ Alessio Martello
 
 Pull requests welcome.
 
-## Version History
-
-## License
 ## License
 
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
