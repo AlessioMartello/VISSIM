@@ -2,6 +2,7 @@ from VISSIM.methods.journey_times import get_journey_times
 from VISSIM.methods.demand_dependencies import get_demand_dependencies
 from VISSIM.methods.saturation_flow import get_saturation_flow
 
+print("ok")
 try:
     get_journey_times()
 except:
