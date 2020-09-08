@@ -4,7 +4,7 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-from VISSIM.methods.helpers import data_inputs_path, data_outputs_path
+from VISSIM.methods.helpers import data_inputs_path
 from VISSIM.methods.helpers import load_VISSIM_file, get_project_name, df_writer
 
 def get_demand_dependencies():

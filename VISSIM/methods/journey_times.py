@@ -1,7 +1,8 @@
-from VISSIM.methods.helpers import load_VISSIM_file
 import pandas as pd
 import pathlib
-from VISSIM.methods.helpers import data_inputs_path, df_writer, get_project_name
+
+from VISSIM.methods.helpers import load_VISSIM_file, df_writer, get_project_name
+from VISSIM.methods.helpers import data_inputs_path
 
 
 # Some values are hardcoded into the script (skipfooter and initial skiprows). These are not variable.
