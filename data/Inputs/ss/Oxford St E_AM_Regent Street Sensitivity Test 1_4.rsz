@@ -1,0 +1,101 @@
+
+Table of Travel Times
+
+File:     B:\Projects\7419 Westminster COVID 19 Highways Strategy\Technical\Modelling\Regent Street VISSIM\AM\Oxford St E_AM_Regent Street Sensitivity Test 1.inp
+Comment:  Oxford St East PM peak
+Date:     26 August 2020 11:53:43
+VISSIM:   5.40-08 [38878]
+
+No.  101 (Regent NB           ): from link   140 at    1.7 m to link  1253 at   30.6 m, Distance 1066.6 m
+No.  102 (Regent SB           ): from link  1227 at    3.3 m to link   368 at   73.5 m, Distance 1072.9 m
+No.  103 (Mortimer EB         ): from link  1228 at    4.6 m to link   209 at   55.2 m, Distance  682.3 m
+No.  104 (Mortimer WB         ): from link    33 at    2.5 m to link     6 at   65.9 m, Distance  345.7 m
+No.  105 (Oxford St EB        ): from link   420 at   12.8 m to link  1283 at  116.7 m, Distance  799.5 m
+No.  106 (Oxford St WB        ): from link   128 at    4.0 m to link   748 at  102.3 m, Distance  797.6 m
+No.  107 (Shaftesbury Ave NB  ): from link   152 at   12.3 m to link  1034 at   55.8 m, Distance  830.0 m
+No.  108 (Shaftesbury Ave SB  ): from link  1306 at    0.1 m to link   763 at   63.7 m, Distance  739.7 m
+No.  109 (Charing X NB        ): from link   982 at   17.7 m to link  1193 at  115.6 m, Distance  578.8 m
+No.  110 (TCR NB              ): from link   280 at    4.4 m to link   213 at   61.7 m, Distance  495.0 m
+No.  111 (New Oxford St EB    ): from link   294 at    0.9 m to link   623 at   50.0 m, Distance  697.0 m
+No.  112 (St Giles High St WB ): from link   626 at   11.5 m to link  1284 at   50.3 m, Distance  705.5 m
+No.  113 (Kingsway NB         ): from link  1111 at    0.8 m to link  1300 at   52.1 m, Distance  294.4 m
+No.  114 (Southampton Row NB  ): from link   648 at   16.0 m to link   684 at   19.7 m, Distance  330.4 m
+No.  115 (Southampton Row SB  ): from link   797 at  122.4 m to link 10553 at    3.4 m, Distance  542.7 m
+No.  116 (Kingsway SB         ): from link 10553 at    4.0 m to link  1119 at   23.7 m, Distance  312.6 m
+No.  117 (Bloomsbury SB       ): from link  1238 at    0.4 m to link   463 at   39.7 m, Distance  580.1 m
+No.  118 (St Giles High St WB ): from link   626 at   11.6 m to link 10324 at    1.5 m, Distance  706.0 m
+No.  119 (St Giles High St WB ): from link 10324 at    1.8 m to link  1284 at   50.4 m, Distance   95.4 m
+No. 1001 (1_WB_2 Whole Route  ): from link   640 at   56.3 m to link   644 at   52.1 m, Distance  609.9 m
+No. 1002 (3_NB_2 Whole Route  ): from link   148 at   90.2 m to link  1201 at   62.7 m, Distance  500.9 m
+No. 1003 (3_SB_1 Whole Route  ): from link   359 at   48.2 m to link   898 at  119.7 m, Distance 1010.7 m
+No. 1004 (6_NB_2 Whole Route  ): from link   156 at  103.3 m to link   156 at  360.1 m, Distance  256.8 m
+No. 1005 (6_SB_1 Whole Route  ): from link   365 at   45.0 m to link   898 at   29.7 m, Distance  538.5 m
+No. 1006 (8_WB_1 Whole Route  ): from link   768 at   46.5 m to link  1301 at   24.7 m, Distance  211.2 m
+No. 1007 (8_EB_2 Whole Route  ): from link   571 at   42.8 m to link   756 at   57.5 m, Distance  496.9 m
+No. 1008 (10_EB_1 Whole Route ): from link   759 at   33.3 m to link   532 at   28.3 m, Distance 1247.7 m
+No. 1009 (10_WB_2 Whole Route ): from link   602 at   33.7 m to link   747 at   29.9 m, Distance 1556.6 m
+No. 1010 (12_NB_2 Whole Route ): from link   148 at   90.2 m to link  1252 at   28.0 m, Distance 1093.7 m
+No. 1011 (12_SB_1 Whole Route ): from link  1009 at   41.2 m to link   898 at  119.7 m, Distance 1208.0 m
+No. 1012 (13_SB_1 Whole Route ): from link   291 at   47.1 m to link   898 at   29.7 m, Distance  949.2 m
+No. 1013 (14_NB_1 Whole Route ): from link   365 at   46.1 m to link   246 at   19.0 m, Distance 1592.5 m
+No. 1014 (14_SB_2 Whole Route ): from link  1238 at   42.0 m to link   156 at  359.5 m, Distance 2006.2 m
+No. 1015 (19_NB_2 Whole Route ): from link   365 at   46.1 m to link   732 at   95.6 m, Distance 1994.0 m
+No. 1016 (19_SB_1 Whole Route ): from link   796 at   36.2 m to link   156 at  359.5 m, Distance 2181.1 m
+No. 1017 (23_NB_2 Whole Route ): from link   362 at   87.3 m to link   261 at   35.5 m, Distance  799.7 m
+No. 1018 (23_SB_1 Whole Route ): from link   291 at   47.1 m to link   898 at   29.7 m, Distance  949.2 m
+No. 1019 (24_NB_1 Whole Route ): from link   979 at   27.0 m to link   246 at   19.0 m, Distance  990.4 m
+No. 1020 (24_SB_2 Whole Route ): from link  1238 at   42.0 m to link   984 at   30.9 m, Distance 1220.9 m
+No. 1021 (25_EB_1 Whole Route ): from link   759 at   33.3 m to link   756 at   57.5 m, Distance 1527.7 m
+No. 1022 (25_WB_2 Whole Route ): from link   768 at   46.4 m to link   747 at   29.9 m, Distance 1507.1 m
+No. 1023 (29_NB_2 Whole Route ): from link   979 at   27.0 m to link   246 at   19.0 m, Distance  990.4 m
+No. 1024 (29_SB_1 Whole Route ): from link  1238 at   42.0 m to link   984 at   30.9 m, Distance 1220.9 m
+No. 1025 (38_NB_2 Whole Route ): from link   365 at   46.1 m to link   732 at   95.6 m, Distance 1994.0 m
+No. 1026 (38_SB_1 Whole Route ): from link   796 at   36.3 m to link   156 at  359.5 m, Distance 2180.9 m
+No. 1027 (55_EB_2 Whole Route ): from link   759 at   33.3 m to link   732 at   95.6 m, Distance 1506.9 m
+No. 1028 (55_WB_1 Whole Route ): from link   796 at   35.9 m to link   747 at   29.9 m, Distance 1644.6 m
+No. 1029 (59_SB_2 Whole Route ): from link   674 at   36.3 m to link   644 at   52.1 m, Distance  550.5 m
+No. 1030 (68_SB_2 Whole Route ): from link   674 at   36.3 m to link   644 at   52.1 m, Distance  550.5 m
+No. 1031 (73_NB_1 Whole Route ): from link   759 at   33.3 m to link   246 at   19.0 m, Distance  840.6 m
+No. 1032 (73_SB_2 Whole Route ): from link  1238 at   42.0 m to link   747 at   29.9 m, Distance 1461.9 m
+No. 1033 (88_NB_2 Whole Route ): from link   148 at   90.2 m to link  1248 at   63.0 m, Distance 1186.5 m
+No. 1034 (88_SB_1 Whole Route ): from link  1009 at   41.2 m to link   898 at  119.7 m, Distance 1208.0 m
+No. 1035 (91_SB_1 Whole Route ): from link   674 at   36.3 m to link   644 at   52.1 m, Distance  550.5 m
+No. 1036 (94_NB_2 Whole Route ): from link   148 at   90.2 m to link  1206 at   44.1 m, Distance  916.3 m
+No. 1037 (94_SB_1 Whole Route ): from link   291 at   45.4 m to link   367 at   97.8 m, Distance  658.6 m
+No. 1038 (98_EB_1 Whole Route ): from link   759 at   33.3 m to link   742 at   12.4 m, Distance 1412.7 m
+No. 1039 (98_WB_2 Whole Route ): from link   741 at   34.5 m to link   261 at   35.5 m, Distance 1871.1 m
+No. 1040 (134_SB_1 Whole Rout ): from link  1238 at   42.0 m to link  1075 at   26.9 m, Distance  595.6 m
+No. 1041 (139_SB_1 Whole Rout ): from link   291 at   46.2 m to link   898 at   29.7 m, Distance  950.1 m
+No. 1042 (159_NB_1 Whole Rout ): from link   362 at   83.8 m to link   261 at   35.5 m, Distance  803.2 m
+No. 1043 (159_SB_2 Whole Rout ): from link   291 at   45.5 m to link   898 at  119.7 m, Distance 1040.9 m
+No. 1044 (168_SB_1 Whole Rout ): from link   674 at   36.3 m to link   644 at   52.1 m, Distance  550.5 m
+No. 1045 (176_NB_1 Whole Rout ): from link   979 at   27.0 m to link 10116 at    3.7 m, Distance  759.5 m
+No. 1046 (176_SB_2 Whole Rout ): from link  1057 at   33.7 m to link   984 at   30.9 m, Distance  509.5 m
+No. 1047 (188_NB_1 Whole Rout ): from link   640 at   28.3 m to link   307 at    3.5 m, Distance  921.7 m
+No. 1048 (188_SB_2 Whole Rout ): from link   513 at   70.5 m to link   644 at   52.1 m, Distance  916.9 m
+No. 1049 (242_WB_1 Whole Rout ): from link   768 at   46.4 m to link   756 at   57.5 m, Distance  512.0 m
+No. 1050 (242_WB_1 1057-BP134 ): from link   768 at   46.4 m to link  1098 at   60.9 m, Distance  423.9 m
+No. 1051 (242_WB_1 BP1340-14..): from link  1098 at   60.9 m to link  1286 at   83.1 m, Distance  517.4 m
+No. 1052 (242_WB_1 14456-3310 ): from link  1286 at   83.1 m to link   756 at   57.5 m, Distance  756.3 m
+No. 1053 (390_NB_2 Whole Rout ): from link   759 at   33.3 m to link   246 at   19.0 m, Distance  840.6 m
+No. 1054 (390_SB_1 Whole Rout ): from link  1238 at   42.0 m to link   747 at   29.9 m, Distance 1461.9 m
+No. 1055 (453_NB_1 Whole Rout ): from link   148 at   90.2 m to link  1248 at   63.2 m, Distance 1186.6 m
+No. 1056 (453_SB_2 Whole Rout ): from link  1009 at   41.2 m to link   898 at  119.7 m, Distance 1208.0 m
+No. 1057 (C2_NB_2 Whole Route ): from link   359 at   48.3 m to link  1248 at   63.2 m, Distance  583.7 m
+No. 1058 (C2_SB_1 Whole Route ): from link  1009 at   41.2 m to link   254 at   19.8 m, Distance  549.9 m
+No. 1059 (X68_NB_1 Whole Rout ): from link   640 at   28.3 m to link   522 at   43.0 m, Distance  725.1 m
+No. 1060 (X68_SB_2 Whole Rout ): from link   674 at   36.3 m to link   644 at   52.1 m, Distance  550.5 m
+No. 1061 (                    ): from link  1009 at   41.2 m to link   368 at   53.4 m, Distance  892.4 m
+No. 1062 (168_NB_2 Whole Rout ): from link   640 at   28.2 m to link   648 at   92.0 m, Distance  328.3 m
+No. 1063 (22_EB_1             ): from link   359 at   48.4 m to link  1252 at   28.3 m, Distance  491.0 m
+No. 1064 (59_NB_1             ): from link   640 at   28.2 m to link   648 at   91.8 m, Distance  328.1 m
+No. 1065 (68_NB_1             ): from link   640 at   28.3 m to link   648 at   91.9 m, Distance  328.1 m
+No. 1066 (91_NB_2             ): from link   640 at   28.3 m to link   648 at   92.0 m, Distance  328.3 m
+No. 1067 (168_NB_2            ): from link   640 at   28.3 m to link   648 at   92.0 m, Distance  328.2 m
+No. 1068 (                    ): from link   128 at  138.7 m to link   261 at   35.2 m, Distance  805.9 m
+
+  Time;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;
+  VehC;  Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      Journey Time;;      1_WB_2;;    3_NB_2;;    3_SB_1;;    6_NB_2;;    6_SB_1;;    8_WB_1;;    8_EB_2;;    10_EB_1;;   10_WB_2;;   12_NB_2;;   12_SB_1;;   13_SB_1;;   14_NB_1;;   14_SB_2;;   19_NB_2;;   19_SB_1;;   23_NB_2;;   23_SB_1;;   24_NB_1;;   24_SB_2;;   25_EB_1;;   25_WB_2;;   29_NB_2;;   29_SB_1;;   38_NB_2;;   38_SB_1;;   55_EB_2;;   55_WB_1;;   59_SB_2;;   68_SB_2;;   73_NB_1;;   73_SB_2;;   88_NB_2;;   88_SB_1;;   91_SB_1;;   94_NB_2;;   94_SB_1;;   98_EB_1;;   98_WB_2;;   134_SB_1;;   139_SB_1;;   159_NB_1;;   159_SB_2;;   168_SB_1;;   176_NB_1;;   176_SB_2;;   188_NB_1;;   188_SB_2;;   242_WB_1;;   242_WB_1;;   242_WB_1;;   242_WB_1;;   390_NB_2;;   390_SB_1;;   453_NB_1;;   453_SB_2;;   C2_NB_2;;   C2_SB_1;;   X68_NB_1;;   X68_SB_2;;   453_SB_2;;   168_NB_2;;   22_EB_1;;   59_NB_1;;   68_NB_1;;   91_NB_2;;   168_NB_2;;   98_WB_2;; 
+  No.:;   101; 101;   102; 102;   103; 103;   104; 104;   105; 105;   106; 106;   107; 107;   108; 108;   109; 109;   110; 110;   111; 111;   112; 112;   113; 113;   114; 114;   115; 115;   116; 116;   117; 117;   118; 118;   119; 119;  1001;1001;  1002;1002;  1003;1003;  1004;1004;  1005;1005;  1006;1006;  1007;1007;  1008;1008;  1009;1009;  1010;1010;  1011;1011;  1012;1012;  1013;1013;  1014;1014;  1015;1015;  1016;1016;  1017;1017;  1018;1018;  1019;1019;  1020;1020;  1021;1021;  1022;1022;  1023;1023;  1024;1024;  1025;1025;  1026;1026;  1027;1027;  1028;1028;  1029;1029;  1030;1030;  1031;1031;  1032;1032;  1033;1033;  1034;1034;  1035;1035;  1036;1036;  1037;1037;  1038;1038;  1039;1039;  1040;1040;  1041;1041;  1042;1042;  1043;1043;  1044;1044;  1045;1045;  1046;1046;  1047;1047;  1048;1048;  1049;1049;  1050;1050;  1051;1051;  1052;1052;  1053;1053;  1054;1054;  1055;1055;  1056;1056;  1057;1057;  1058;1058;  1059;1059;  1060;1060;  1061;1061;  1062;1062;  1063;1063;  1064;1064;  1065;1065;  1066;1066;  1067;1067;  1068;1068;
+ Name;Regent NB;Regent NB;Regent SB;Regent SB;Mortimer EB;Mortimer EB;Mortimer WB;Mortimer WB;Oxford St EB;Oxford St EB;Oxford St WB;Oxford St WB;Shaftesbury Ave NB;Shaftesbury Ave NB;Shaftesbury Ave SB;Shaftesbury Ave SB;Charing X NB;Charing X NB;TCR NB;TCR NB;New Oxford St EB;New Oxford St EB;St Giles High St WB;St Giles High St WB;Kingsway NB;Kingsway NB;Southampton Row NB;Southampton Row NB;Southampton Row SB;Southampton Row SB;Kingsway SB;Kingsway SB;Bloomsbury SB;Bloomsbury SB;St Giles High St WB1;St Giles High St WB1;St Giles High St WB2;St Giles High St WB2;1_WB_2 Whole Route;1_WB_2 Whole Route;3_NB_2 Whole Route;3_NB_2 Whole Route;3_SB_1 Whole Route;3_SB_1 Whole Route;6_NB_2 Whole Route;6_NB_2 Whole Route;6_SB_1 Whole Route;6_SB_1 Whole Route;8_WB_1 Whole Route;8_WB_1 Whole Route;8_EB_2 Whole Route;8_EB_2 Whole Route;10_EB_1 Whole Route;10_EB_1 Whole Route;10_WB_2 Whole Route;10_WB_2 Whole Route;12_NB_2 Whole Route;12_NB_2 Whole Route;12_SB_1 Whole Route;12_SB_1 Whole Route;13_SB_1 Whole Route;13_SB_1 Whole Route;14_NB_1 Whole Route;14_NB_1 Whole Route;14_SB_2 Whole Route;14_SB_2 Whole Route;19_NB_2 Whole Route;19_NB_2 Whole Route;19_SB_1 Whole Route;19_SB_1 Whole Route;23_NB_2 Whole Route;23_NB_2 Whole Route;23_SB_1 Whole Route;23_SB_1 Whole Route;24_NB_1 Whole Route;24_NB_1 Whole Route;24_SB_2 Whole Route;24_SB_2 Whole Route;25_EB_1 Whole Route;25_EB_1 Whole Route;25_WB_2 Whole Route;25_WB_2 Whole Route;29_NB_2 Whole Route;29_NB_2 Whole Route;29_SB_1 Whole Route;29_SB_1 Whole Route;38_NB_2 Whole Route;38_NB_2 Whole Route;38_SB_1 Whole Route;38_SB_1 Whole Route;55_EB_2 Whole Route;55_EB_2 Whole Route;55_WB_1 Whole Route;55_WB_1 Whole Route;59_SB_2 Whole Route;59_SB_2 Whole Route;68_SB_2 Whole Route;68_SB_2 Whole Route;73_NB_1 Whole Route;73_NB_1 Whole Route;73_SB_2 Whole Route;73_SB_2 Whole Route;88_NB_2 Whole Route;88_NB_2 Whole Route;88_SB_1 Whole Route;88_SB_1 Whole Route;91_SB_1 Whole Route;91_SB_1 Whole Route;94_NB_2 Whole Route;94_NB_2 Whole Route;94_SB_1 Whole Route;94_SB_1 Whole Route;98_EB_1 Whole Route;98_EB_1 Whole Route;98_WB_2 Whole Route;98_WB_2 Whole Route;134_SB_1 Whole Route;134_SB_1 Whole Route;139_SB_1 Whole Route;139_SB_1 Whole Route;159_NB_1 Whole Route;159_NB_1 Whole Route;159_SB_2 Whole Route;159_SB_2 Whole Route;168_SB_1 Whole Route;168_SB_1 Whole Route;176_NB_1 Whole Route;176_NB_1 Whole Route;176_SB_2 Whole Route;176_SB_2 Whole Route;188_NB_1 Whole Route;188_NB_1 Whole Route;188_SB_2 Whole Route;188_SB_2 Whole Route;242_WB_1 Whole Route;242_WB_1 Whole Route;242_WB_1 1057-BP1340;242_WB_1 1057-BP1340;242_WB_1 BP1340-14456(External);242_WB_1 BP1340-14456(External);242_WB_1 14456-33107;242_WB_1 14456-33107;390_NB_2 Whole Route;390_NB_2 Whole Route;390_SB_1 Whole Route;390_SB_1 Whole Route;453_NB_1 Whole Route;453_NB_1 Whole Route;453_SB_2 Whole Route;453_SB_2 Whole Route;C2_NB_2 Whole Route;C2_NB_2 Whole Route;C2_SB_1 Whole Route;C2_SB_1 Whole Route;X68_NB_1 Whole Route;X68_NB_1 Whole Route;X68_SB_2 Whole Route;X68_SB_2 Whole Route;;;168_NB_2 Whole Route;168_NB_2 Whole Route;22_EB_1;22_EB_1;59_NB_1;59_NB_1;68_NB_1;68_NB_1;91_NB_2;91_NB_2;168_NB_2;168_NB_2;;;
+  7200; 680.0;  69;   0.0;   0; 172.6;  90;  79.2;  34; 176.7;  22; 190.9;  30; 206.0; 126; 313.2; 202; 191.0;  26; 120.0; 267; 220.8;  72; 222.2;  22; 108.2; 459;  82.0; 443; 178.1; 191; 100.5; 272; 168.0; 529; 199.1;  22;  25.1; 193; 652.1;   5;   0.0;   0;   0.0;   0;  63.1;   7; 430.0;   8;  68.9;   8; 204.5;  10; 361.1;   7; 538.8;   7; 923.7;   8; 443.6;  11;   0.0;   0; 679.5;   6; 928.8;   8;1017.1;   6;1213.8;   6; 564.7;   6; 286.1;   6; 398.4;   5; 595.7;   7; 566.0;   8; 606.3;   6; 353.4;  11; 600.9;  12; 973.7;  15;1176.4;  18; 537.5;  10; 663.1;  10; 257.2;   9; 271.0;   8; 223.8;  12; 476.1;  14; 951.8;   6; 391.8;   5; 221.9;   8; 849.2;  10; 177.9;  12; 489.1;   8; 730.8;   8;   0.0;   0; 269.7;   7; 537.4;   9; 313.2;  11; 241.6;   8; 307.6;   4; 283.6;   6; 314.5;   7; 402.1;   7;   0.0;   0;   0.0;   0;   0.0;   0;   0.0;   0; 256.9;  18; 462.0;   9; 934.8;  15; 450.4;   7; 263.8;   7; 256.7;   3; 223.4;   2;   0.0;   0; 345.1;   7; 140.9;   8;   0.0;   0; 136.6;   9; 135.3;   7; 132.4;   7; 140.9;   8; 238.7;   8;

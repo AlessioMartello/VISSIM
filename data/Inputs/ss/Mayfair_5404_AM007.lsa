@@ -1,0 +1,1988 @@
+
+Signal Changes Protocol
+
+File:     I:\CBJobs\jobs\Bond Street\Modelling\VISSIM\Mayfair\1_Base\Mayfair_5404_AM007.inp
+Comment:  MAYFAIR - AM PEAK
+Date:     09 September 2015 14:23:13
+VISSIM:   5.40-04 [35433]
+
+SC 260  SGroup   1  Link    156  Lane  2  At  267.0
+SC 260  SGroup   1  Link    156  Lane  1  At  267.0
+SC 260  SGroup   2  Link    365  Lane  2  At   80.2
+SC 260  SGroup   2  Link    365  Lane  1  At   80.2
+SC 260  SGroup   3  Link    155  Lane  1  At   39.9
+SC 260  SGroup   4  Link    339  Lane  1  At    5.0
+SC 260  SGroup   5  Link    239  Lane  1  At    3.7
+SC 594  SGroup   1  Link    166  Lane  2  At   80.9
+SC 594  SGroup   1  Link    166  Lane  1  At   80.7
+SC 594  SGroup   1  Link     29  Lane  1  At   12.8
+SC 594  SGroup   1  Link    164  Lane  1  At   12.6
+SC 594  SGroup   2  Link    253  Lane  1  At    9.7
+SC 587  SGroup   2  Link    135  Lane  2  At   52.9
+SC 587  SGroup   2  Link    135  Lane  3  At   52.9
+SC 587  SGroup   4  Link    135  Lane  1  At   50.0
+SC 587  SGroup   4  Link    135  Lane  1  At   52.9
+SC 587  SGroup   5  Link    138  Lane  1  At   11.9
+SC 587  SGroup   5  Link    138  Lane  2  At   11.9
+SC 587  SGroup   8  Link    141  Lane  1  At  107.8
+SC 587  SGroup   8  Link    141  Lane  2  At  107.8
+SC 587  SGroup  11  Link     55  Lane  1  At    0.8
+SC 587  SGroup  12  Link    316  Lane  1  At    3.0
+SC 587  SGroup  13  Link    323  Lane  1  At    5.9
+SC 558  SGroup  12  Link    156  Lane  2  At  373.8
+SC 558  SGroup  12  Link    156  Lane  1  At  373.8
+SC 558  SGroup  13  Link    238  Lane  1  At    1.2
+SC 456  SGroup   1  Link     72  Lane  1  At    7.6
+SC 456  SGroup   1  Link     72  Lane  2  At    7.6
+SC 456  SGroup   1  Link     72  Lane  3  At    7.6
+SC 456  SGroup   2  Link    333  Lane  1  At    7.7
+SC 410  SGroup   1  Link    128  Lane  1  At  255.1
+SC 410  SGroup   1  Link    259  Lane  1  At   36.1
+SC 410  SGroup   1  Link    259  Lane  2  At   36.1
+SC 410  SGroup   2  Link    198  Lane  1  At    6.5
+SC 409  SGroup   1  Link    265  Lane  1  At    4.4
+SC 409  SGroup   1  Link    268  Lane  1  At    8.6
+SC 409  SGroup   2  Link    193  Lane  1  At   10.9
+SC 408  SGroup   1  Link    367  Lane  1  At   94.0
+SC 408  SGroup   1  Link    367  Lane  2  At   94.1
+SC 408  SGroup   2  Link    140  Lane  2  At   40.9
+SC 408  SGroup   2  Link    140  Lane  1  At   40.9
+SC 408  SGroup   4  Link    330  Lane  1  At   13.0
+SC 408  SGroup   5  Link    331  Lane  1  At   10.5
+SC 387  SGroup   1  Link    270  Lane  1  At   93.4
+SC 387  SGroup   1  Link    294  Lane  1  At  244.3
+SC 387  SGroup   2  Link    187  Lane  1  At    8.2
+SC 379  SGroup   1  Link  10414  Lane  1  At    1.2
+SC 379  SGroup   1  Link    299  Lane  1  At   12.1
+SC 379  SGroup   2  Link    313  Lane  1  At    3.3
+SC 378  SGroup   1  Link     84  Lane  1  At  138.9
+SC 378  SGroup   1  Link     84  Lane  2  At  138.8
+SC 378  SGroup   1  Link     86  Lane  1  At   69.9
+SC 378  SGroup   2  Link    312  Lane  1  At    5.7
+SC 333  SGroup   1  Link    149  Lane  1  At   18.0
+SC 333  SGroup   2  Link    326  Lane  1  At    2.8
+SC 323  SGroup   1  Link    368  Lane  1  At  187.4
+SC 323  SGroup   1  Link    368  Lane  2  At  187.5
+SC 323  SGroup   2  Link    329  Lane  1  At   15.9
+SC 323  SGroup   3  Link    328  Lane  1  At    7.1
+SC 323  SGroup   4  Link    373  Lane  1  At    0.4
+SC 306  SGroup   1  Link     61  Lane  1  At   24.8
+SC 306  SGroup   2  Link     44  Lane  1  At  289.9
+SC 306  SGroup   3  Link    364  Lane  2  At   17.4
+SC 306  SGroup   3  Link    364  Lane  1  At   17.4
+SC 306  SGroup   4  Link    243  Lane  1  At    2.1
+SC 306  SGroup   5  Link    240  Lane  1  At    2.3
+SC 306  SGroup   6  Link    241  Lane  1  At    7.7
+SC 283  SGroup   1  Link    150  Lane  1  At  315.4
+SC 283  SGroup   1  Link    150  Lane  2  At  315.4
+SC 283  SGroup   2  Link  10286  Lane  1  At    2.4
+SC 283  SGroup   3  Link    341  Lane  1  At    1.1
+SC 282  SGroup   4  Link    159  Lane  2  At   11.7
+SC 282  SGroup   4  Link    159  Lane  1  At   11.7
+SC 282  SGroup   5  Link    353  Lane  1  At    1.5
+SC 281  SGroup   1  Link    150  Lane  1  At  157.3
+SC 281  SGroup   1  Link    150  Lane  2  At  157.3
+SC 281  SGroup   2  Link  10280  Lane  1  At    0.5
+SC 281  SGroup   3  Link    340  Lane  1  At   21.7
+SC 280  SGroup   4  Link    158  Lane  2  At   13.5
+SC 280  SGroup   4  Link    158  Lane  1  At   13.5
+SC 280  SGroup   5  Link    340  Lane  1  At   40.4
+SC 259  SGroup   1  Link    361  Lane  2  At  254.6
+SC 259  SGroup   1  Link    361  Lane  1  At  254.6
+SC 259  SGroup   2  Link    369  Lane  1  At  143.1
+SC 259  SGroup   2  Link    369  Lane  2  At  143.1
+SC 259  SGroup   3  Link    146  Lane  2  At   76.1
+SC 259  SGroup   3  Link    146  Lane  1  At   76.1
+SC 259  SGroup   4  Link    384  Lane  1  At    2.4
+SC 259  SGroup   5  Link    343  Lane  1  At    4.3
+SC 259  SGroup   6  Link    385  Lane  1  At    2.6
+SC 258  SGroup   1  Link     49  Lane  1  At  102.2
+SC 258  SGroup   2  Link     51  Lane  1  At   14.9
+SC 258  SGroup   2  Link     50  Lane  1  At   95.5
+SC 258  SGroup   3  Link     52  Lane  1  At    9.1
+SC 258  SGroup   3  Link     52  Lane  2  At    9.1
+SC 258  SGroup   5  Link    211  Lane  1  At    1.7
+SC 246  SGroup   1  Link    150  Lane  1  At  413.9
+SC 246  SGroup   1  Link    150  Lane  2  At  413.9
+SC 246  SGroup   2  Link    277  Lane  1  At    9.2
+SC 246  SGroup   2  Link    277  Lane  2  At    9.2
+SC 246  SGroup   3  Link    160  Lane  2  At   42.2
+SC 246  SGroup   3  Link    160  Lane  1  At   42.2
+SC 246  SGroup   4  Link    338  Lane  1  At    1.7
+SC 212  SGroup   2  Link    128  Lane  1  At  143.4
+SC 212  SGroup   3  Link    133  Lane  1  At   47.1
+SC 212  SGroup   3  Link    134  Lane  1  At   47.8
+SC 212  SGroup   4  Link    300  Lane  1  At    2.5
+SC 212  SGroup   5  Link    126  Lane  1  At   38.1
+SC 212  SGroup   1  Link    260  Lane  1  At   74.7
+SC 212  SGroup   6  Link    319  Lane  1  At   81.0
+SC 212  SGroup   7  Link    319  Lane  1  At   56.6
+SC 212  SGroup   8  Link    319  Lane  1  At   30.1
+SC 212  SGroup   9  Link    319  Lane  1  At    3.0
+SC 212  SGroup  10  Link    317  Lane  1  At    2.6
+SC 212  SGroup  10  Link    318  Lane  1  At    4.0
+SC 211  SGroup   1  Link    264  Lane  1  At   61.4
+SC 211  SGroup   2  Link    262  Lane  1  At   12.9
+SC 211  SGroup   3  Link     56  Lane  2  At    9.7
+SC 211  SGroup   3  Link     56  Lane  1  At    9.7
+SC 211  SGroup   4  Link    196  Lane  1  At    5.8
+SC 211  SGroup   5  Link    192  Lane  1  At    8.6
+SC 211  SGroup   6  Link    195  Lane  1  At    7.5
+SC 211  SGroup   7  Link    194  Lane  1  At    4.1
+SC 210  SGroup   1  Link    294  Lane  1  At  307.2
+SC 210  SGroup   2  Link    270  Lane  1  At    5.4
+SC 210  SGroup   3  Link      1  Lane  2  At  154.0
+SC 210  SGroup   3  Link      1  Lane  1  At  154.0
+SC 210  SGroup   4  Link    189  Lane  1  At    5.4
+SC 210  SGroup   5  Link    188  Lane  1  At    7.6
+SC 210  SGroup   6  Link    191  Lane  1  At    8.9
+SC 210  SGroup   7  Link    190  Lane  1  At    4.4
+SC 209  SGroup   1  Link    294  Lane  1  At  149.3
+SC 209  SGroup   2  Link    270  Lane  1  At  162.3
+SC 209  SGroup   3  Link    311  Lane  1  At   19.5
+SC 209  SGroup   4  Link    310  Lane  1  At   21.6
+SC 209  SGroup   5  Link    185  Lane  1  At    3.8
+SC 209  SGroup   6  Link    183  Lane  1  At    3.3
+SC 209  SGroup   7  Link    184  Lane  1  At    6.6
+SC 209  SGroup   8  Link    186  Lane  1  At    6.7
+SC 208  SGroup   1  Link    294  Lane  1  At   76.4
+SC 208  SGroup   2  Link    292  Lane  1  At    4.0
+SC 208  SGroup   3  Link    309  Lane  1  At   13.6
+SC 208  SGroup   4  Link    308  Lane  1  At    2.3
+SC 208  SGroup   5  Link    308  Lane  1  At   44.4
+SC 208  SGroup   6  Link    308  Lane  1  At   15.5
+SC 207  SGroup   1  Link  10412  Lane  1  At    3.5
+SC 207  SGroup   2  Link    292  Lane  1  At   82.3
+SC 207  SGroup   3  Link     81  Lane  1  At  192.3
+SC 207  SGroup   4  Link    307  Lane  1  At   19.2
+SC 207  SGroup   5  Link    307  Lane  1  At   50.3
+SC 207  SGroup   6  Link    307  Lane  1  At   34.7
+SC 207  SGroup   7  Link    307  Lane  1  At    2.7
+SC 206  SGroup   1  Link     86  Lane  1  At  129.9
+SC 206  SGroup   2  Link     82  Lane  1  At   82.8
+SC 206  SGroup   2  Link     82  Lane  2  At   82.8
+SC 206  SGroup   2  Link     82  Lane  3  At   82.8
+SC 206  SGroup   2  Link     82  Lane  4  At   82.8
+SC 206  SGroup   3  Link     84  Lane  1  At   52.1
+SC 206  SGroup   3  Link     84  Lane  2  At   52.1
+SC 206  SGroup   4  Link    380  Lane  1  At    0.7
+SC 206  SGroup   5  Link    306  Lane  1  At    2.8
+SC 206  SGroup   6  Link    355  Lane  1  At    4.0
+SC 206  SGroup   7  Link    381  Lane  1  At    7.8
+SC 205  SGroup   1  Link    354  Lane  2  At  186.2
+SC 205  SGroup   1  Link    354  Lane  1  At  186.2
+SC 205  SGroup   2  Link     89  Lane  1  At   10.4
+SC 205  SGroup   2  Link     89  Lane  2  At   10.4
+SC 205  SGroup   2  Link     89  Lane  3  At   10.3
+SC 205  SGroup   3  Link     88  Lane  1  At   63.7
+SC 205  SGroup   3  Link     88  Lane  2  At   63.7
+SC 205  SGroup   3  Link     88  Lane  3  At   63.7
+SC 205  SGroup   4  Link    305  Lane  1  At    5.4
+SC 205  SGroup   5  Link    379  Lane  1  At    6.3
+SC 205  SGroup   6  Link    378  Lane  1  At    4.4
+SC 205  SGroup   7  Link    356  Lane  1  At    5.9
+SC 101  SGroup   1  Link     32  Lane  2  At   69.6
+SC 101  SGroup   1  Link     32  Lane  1  At   69.6
+SC 101  SGroup   2  Link    132  Lane  1  At  190.4
+SC 101  SGroup   3  Link     33  Lane  1  At   51.3
+SC 99  SGroup   1  Link     76  Lane  1  At  112.2
+SC 99  SGroup   2  Link     95  Lane  1  At   59.4
+SC 99  SGroup   3  Link     94  Lane  1  At  352.6
+SC 99  SGroup   4  Link    337  Lane  1  At    2.7
+SC 92  SGroup   1  Link     76  Lane  1  At  513.1
+SC 92  SGroup   2  Link    280  Lane  1  At  148.2
+SC 92  SGroup   3  Link     93  Lane  1  At  133.2
+SC 92  SGroup   4  Link    304  Lane  1  At    5.5
+SC 85  SGroup   1  Link  10102  Lane  1  At   12.0
+SC 85  SGroup   1  Link     75  Lane  1  At   91.5
+SC 85  SGroup   2  Link  10103  Lane  1  At    6.1
+SC 85  SGroup   2  Link     76  Lane  1  At  376.6
+SC 85  SGroup   3  Link    336  Lane  1  At    2.1
+SC 85  SGroup   4  Link    336  Lane  1  At   18.2
+SC 84  SGroup   1  Link  10130  Lane  1  At    9.5
+SC 84  SGroup   1  Link     76  Lane  1  At  248.0
+SC 84  SGroup   2  Link     68  Lane  2  At   27.4
+SC 84  SGroup   2  Link     68  Lane  1  At   27.4
+SC 84  SGroup   3  Link    335  Lane  1  At    1.9
+SC 84  SGroup   4  Link    335  Lane  1  At   22.5
+SC 77  SGroup   1  Link     96  Lane  1  At  112.3
+SC 77  SGroup   2  Link     97  Lane  1  At  353.7
+SC 77  SGroup   3  Link     95  Lane  1  At  205.0
+SC 77  SGroup   4  Link     94  Lane  1  At  200.6
+SC 77  SGroup   5  Link    334  Lane  1  At    7.0
+SC 75  SGroup   1  Link     97  Lane  1  At  148.3
+SC 75  SGroup   2  Link     96  Lane  1  At  316.4
+SC 75  SGroup   3  Link    100  Lane  1  At  152.8
+SC 75  SGroup   4  Link    101  Lane  1  At  359.0
+SC 74  SGroup   1  Link     61  Lane  1  At  280.2
+SC 74  SGroup   1  Link     61  Lane  1  At  280.2
+SC 74  SGroup   2  Link     42  Lane  1  At   31.4
+SC 74  SGroup   2  Link     42  Lane  2  At   31.4
+SC 74  SGroup   2  Link     42  Lane  3  At   31.4
+SC 73  SGroup   1  Link    397  Lane  1  At   13.8
+SC 73  SGroup   1  Link    397  Lane  2  At   13.8
+SC 73  SGroup   2  Link     62  Lane  1  At   33.3
+SC 73  SGroup   2  Link     62  Lane  2  At   33.3
+SC 73  SGroup   3  Link    246  Lane  1  At    4.2
+SC 73  SGroup   4  Link    245  Lane  1  At    3.4
+SC 72  SGroup   1  Link    397  Lane  2  At  138.9
+SC 72  SGroup   1  Link    397  Lane  1  At  138.9
+SC 72  SGroup   2  Link    121  Lane  1  At   24.7
+SC 72  SGroup   3  Link     80  Lane  1  At  181.2
+SC 72  SGroup   3  Link     80  Lane  2  At  181.2
+SC 72  SGroup   4  Link    204  Lane  1  At    3.9
+SC 72  SGroup   5  Link    205  Lane  1  At    2.9
+SC 71  SGroup   1  Link    350  Lane  1  At   22.8
+SC 71  SGroup   1  Link      3  Lane  2  At   33.7
+SC 71  SGroup   1  Link      3  Lane  1  At   33.7
+SC 71  SGroup   2  Link      5  Lane  1  At   58.4
+SC 71  SGroup   2  Link      5  Lane  2  At   58.4
+SC 71  SGroup   3  Link    207  Lane  1  At   10.2
+SC 71  SGroup   4  Link    206  Lane  1  At    1.8
+SC 71  SGroup   5  Link    209  Lane  1  At    3.6
+SC 71  SGroup   5  Link    208  Lane  1  At    1.7
+SC 70  SGroup   1  Link     17  Lane  3  At    1.1
+SC 70  SGroup   1  Link     17  Lane  1  At    1.1
+SC 70  SGroup   1  Link     17  Lane  2  At    1.1
+SC 70  SGroup   2  Link     14  Lane  2  At   22.1
+SC 70  SGroup   2  Link     14  Lane  1  At   22.1
+SC 70  SGroup   3  Link    214  Lane  1  At    7.7
+SC 70  SGroup   3  Link    213  Lane  1  At    3.4
+SC 70  SGroup   4  Link    210  Lane  1  At    2.7
+SC 70  SGroup   5  Link    212  Lane  1  At    2.9
+SC 69  SGroup   1  Link     19  Lane  1  At    2.2
+SC 69  SGroup   1  Link     19  Lane  4  At    2.2
+SC 69  SGroup   1  Link     19  Lane  3  At    2.1
+SC 69  SGroup   1  Link     19  Lane  2  At    2.1
+SC 69  SGroup   2  Link    303  Lane  1  At    0.5
+SC 69  SGroup   3  Link    255  Lane  1  At   51.6
+SC 69  SGroup   4  Link    176  Lane  1  At    7.9
+SC 69  SGroup   5  Link    215  Lane  1  At    2.4
+SC 69  SGroup   5  Link    216  Lane  1  At    3.2
+SC 69  SGroup   5  Link    217  Lane  1  At    3.2
+SC 54  SGroup   1  Link    370  Lane  2  At   14.6
+SC 54  SGroup   1  Link    370  Lane  1  At   14.6
+SC 54  SGroup   2  Link    361  Lane  1  At   86.0
+SC 54  SGroup   2  Link    361  Lane  2  At   86.0
+SC 54  SGroup   3  Link     28  Lane  1  At   30.2
+SC 54  SGroup   4  Link    382  Lane  1  At    3.2
+SC 54  SGroup   5  Link    276  Lane  1  At    3.1
+SC 54  SGroup   6  Link    327  Lane  1  At    3.9
+SC 54  SGroup   7  Link    383  Lane  1  At    3.3
+SC 53  SGroup   1  Link    151  Lane  2  At   16.8
+SC 53  SGroup   2  Link    151  Lane  1  At   16.8
+SC 53  SGroup   3  Link    368  Lane  1  At   92.6
+SC 53  SGroup   3  Link    368  Lane  2  At   92.6
+SC 53  SGroup   4  Link    153  Lane  1  At   13.2
+SC 53  SGroup   5  Link    152  Lane  1  At    7.9
+SC 53  SGroup   6  Link    374  Lane  1  At    5.2
+SC 53  SGroup   7  Link    372  Lane  1  At    7.5
+SC 53  SGroup   8  Link    371  Lane  1  At    6.9
+SC 53  SGroup  10  Link    325  Lane  1  At    5.9
+SC 52  SGroup   1  Link    366  Lane  1  At   85.7
+SC 52  SGroup   1  Link    366  Lane  2  At   85.7
+SC 52  SGroup   2  Link    148  Lane  1  At  165.7
+SC 52  SGroup   2  Link    148  Lane  3  At  165.7
+SC 52  SGroup   2  Link    148  Lane  2  At  165.7
+SC 52  SGroup   3  Link    153  Lane  1  At   64.0
+SC 52  SGroup   4  Link    375  Lane  1  At    1.5
+SC 52  SGroup   6  Link    324  Lane  1  At   10.1
+SC 51  SGroup   1  Link    148  Lane  1  At  100.4
+SC 51  SGroup   1  Link    148  Lane  2  At  100.4
+SC 51  SGroup   1  Link    148  Lane  3  At  100.5
+SC 51  SGroup   5  Link    322  Lane  1  At   25.8
+SC 43  SGroup   1  Link    369  Lane  1  At   92.1
+SC 43  SGroup   1  Link    369  Lane  2  At   92.1
+SC 43  SGroup   2  Link    361  Lane  2  At  307.3
+SC 43  SGroup   2  Link    361  Lane  1  At  307.3
+SC 43  SGroup   3  Link    145  Lane  1  At   82.9
+SC 43  SGroup   4  Link    290  Lane  1  At    2.0
+SC 43  SGroup   5  Link    342  Lane  1  At    4.0
+SC 43  SGroup   6  Link    386  Lane  1  At    3.7
+SC 40  SGroup   1  Link    139  Lane  2  At   37.2
+SC 40  SGroup   3  Link    139  Lane  1  At   37.2
+SC 40  SGroup   6  Link    136  Lane  2  At   30.1
+SC 40  SGroup   6  Link    136  Lane  1  At   30.1
+SC 40  SGroup   7  Link    144  Lane  1  At  109.8
+SC 40  SGroup   9  Link    314  Lane  1  At    3.4
+SC 40  SGroup  14  Link    315  Lane  1  At    3.5
+SC 39  SGroup   1  Link    363  Lane  1  At   16.6
+SC 39  SGroup   1  Link    363  Lane  2  At   16.6
+SC 39  SGroup   2  Link    138  Lane  1  At   85.3
+SC 39  SGroup   2  Link    138  Lane  2  At   85.3
+SC 39  SGroup   4  Link    360  Lane  1  At  101.7
+SC 37  SGroup   1  Link     73  Lane  4  At  233.8
+SC 37  SGroup   1  Link     73  Lane  3  At  233.8
+SC 37  SGroup   1  Link     73  Lane  1  At  233.8
+SC 37  SGroup   1  Link     73  Lane  2  At  233.8
+SC 37  SGroup   2  Link     71  Lane  1  At  159.4
+SC 37  SGroup   2  Link     71  Lane  3  At  159.4
+SC 37  SGroup   2  Link     71  Lane  2  At  159.4
+SC 37  SGroup   2  Link     71  Lane  4  At  159.4
+SC 37  SGroup   3  Link     70  Lane  1  At   34.0
+SC 37  SGroup   3  Link     70  Lane  2  At   34.0
+SC 37  SGroup   4  Link     70  Lane  1  At   74.2
+SC 37  SGroup   4  Link     70  Lane  2  At   74.2
+SC 37  SGroup   4  Link    282  Lane  2  At   14.2
+SC 37  SGroup   4  Link    282  Lane  1  At   14.2
+SC 36  SGroup   1  Link     73  Lane  4  At  105.6
+SC 36  SGroup   1  Link     73  Lane  3  At  105.6
+SC 36  SGroup   1  Link     73  Lane  2  At  105.6
+SC 36  SGroup   1  Link     73  Lane  1  At  105.6
+SC 36  SGroup   2  Link     74  Lane  1  At   55.7
+SC 36  SGroup   2  Link     74  Lane  2  At   55.9
+SC 36  SGroup   3  Link    332  Lane  1  At    4.3
+SC 6  SGroup   1  Link    366  Lane  1  At   13.2
+SC 6  SGroup   1  Link    366  Lane  2  At   13.2
+SC 6  SGroup   2  Link    156  Lane  2  At   57.2
+SC 6  SGroup   2  Link    156  Lane  1  At   57.2
+SC 6  SGroup   3  Link    321  Lane  1  At    4.8
+SC 5  SGroup   1  Link    162  Lane  3  At    7.4
+SC 5  SGroup   1  Link    162  Lane  2  At    7.4
+SC 5  SGroup   1  Link    162  Lane  1  At    7.4
+SC 5  SGroup   2  Link    156  Lane  1  At  541.0
+SC 5  SGroup   2  Link    156  Lane  2  At  541.0
+SC 5  SGroup   3  Link     34  Lane  1  At   65.4
+SC 5  SGroup   3  Link     34  Lane  2  At   65.4
+SC 5  SGroup   4  Link    231  Lane  1  At    1.5
+SC 4  SGroup   8  Link    161  Lane  2  At   33.2
+SC 4  SGroup   8  Link    161  Lane  1  At   33.2
+SC 4  SGroup   9  Link     24  Lane  1  At  332.4
+SC 4  SGroup  10  Link    236  Lane  1  At    3.2
+SC 4  SGroup  11  Link    237  Lane  1  At    3.1
+SC 3  SGroup   1  Link    365  Lane  2  At  192.7
+SC 3  SGroup   1  Link    365  Lane  1  At  192.7
+SC 3  SGroup   2  Link    156  Lane  2  At  157.3
+SC 3  SGroup   2  Link    156  Lane  1  At  157.3
+SC 3  SGroup   3  Link    320  Lane  1  At    4.6
+SC 2  SGroup   1  Link    162  Lane  1  At  134.1
+SC 2  SGroup   1  Link    162  Lane  2  At  134.1
+SC 2  SGroup   1  Link    162  Lane  3  At  134.1
+SC 2  SGroup   2  Link    156  Lane  2  At  409.5
+SC 2  SGroup   2  Link    156  Lane  1  At  409.5
+SC 2  SGroup   3  Link    164  Lane  1  At   86.2
+SC 2  SGroup   4  Link     29  Lane  1  At   86.4
+SC 2  SGroup   5  Link    234  Lane  1  At    7.2
+SC 2  SGroup   6  Link    233  Lane  1  At    2.8
+SC 2  SGroup   7  Link    235  Lane  1  At    3.1
+SC 1  SGroup   1  Link    156  Lane  2  At  476.3
+SC 1  SGroup   1  Link    156  Lane  1  At  476.3
+SC 1  SGroup   2  Link    162  Lane  1  At   68.5
+SC 1  SGroup   2  Link    162  Lane  2  At   68.5
+SC 1  SGroup   2  Link    162  Lane  3  At   68.5
+SC 1  SGroup   3  Link     30  Lane  1  At  105.2
+SC 1  SGroup   3  Link     31  Lane  1  At  117.3
+SC 1  SGroup   4  Link    232  Lane  1  At    2.4
+
+     1.0;     1.0;      260;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      260;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      594;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      587;       5; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      587;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      558;      12; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      456;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      410;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      409;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      408;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      408;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      387;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      379;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      378;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      333;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      323;       3; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      323;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      306;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      306;       3; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      306;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      283;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      282;       4; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      281;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      280;       4; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      259;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      259;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      259;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      258;       5; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      258;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      258;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      246;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      246;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      246;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      212;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      212;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      211;       7; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      211;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      211;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      211;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      210;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      210;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      209;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      209;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      208;       7; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      208;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      208;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      208;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      207;       5; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      207;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      207;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      207;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      206;       5; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      206;       3; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      206;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      205;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      205;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      205;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      101;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;      101;       3; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;      101;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       99;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       92;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       85;       3; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       85;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       84;       3; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       84;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       77;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       77;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       75;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       75;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       74;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       73;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       72;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       72;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       72;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       71;       3; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       71;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       70;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       70;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       69;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       54;       7; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       54;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       54;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       53;       7; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       53;       5; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       53;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       53;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       52;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       52;       3; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       52;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       51;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       43;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       43;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       43;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       40;       6; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       40;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       39;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       39;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       37;       5; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;       37;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       37;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;       36;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        6;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        6;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        5;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;        5;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        5;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        4;      10; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;        4;       8; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        3;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        3;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        2;       3; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        2;       1; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        1;       4; green     ;     1.0; VAP      ;       0;
+     1.0;     1.0;        1;       2; red/amber ;     1.0; VAP      ;       0;
+     1.0;     1.0;        1;       1; red/amber ;     1.0; VAP      ;       0;
+     2.0;     2.0;       69;       1; red       ;     1.0; VAP      ;       0;
+     3.0;     3.0;      260;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      260;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      594;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      587;       5; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      587;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      558;      12; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      456;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      410;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      409;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      408;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      408;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      387;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      379;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      378;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      333;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      323;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      306;       3; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      306;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      283;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      282;       4; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      281;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      280;       4; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      259;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      259;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      258;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      258;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      246;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      246;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      212;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      212;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      211;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      211;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      210;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      210;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      209;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      209;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      208;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      208;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      207;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      207;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      206;       5; red       ;     2.0; VAP      ;       0;
+     3.0;     3.0;      206;       3; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      206;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      205;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      205;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      101;       3; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;      101;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       99;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       92;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       85;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       84;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       77;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       77;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       75;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       75;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       74;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       73;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       72;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       72;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       71;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       70;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       54;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       54;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       53;       5; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       53;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       53;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       52;       3; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       52;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       51;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       43;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       43;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       40;       6; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       40;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       39;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       39;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       37;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       37;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;       36;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        6;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        6;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        5;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        5;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        4;       8; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        3;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        3;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        2;       3; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        2;       1; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        1;       2; green     ;     2.0; VAP      ;       0;
+     3.0;     3.0;        1;       1; green     ;     2.0; VAP      ;       0;
+     6.0;     6.0;       73;       1; amber     ;     3.0; VAP      ;       0;
+     7.0;     7.0;       69;       4; green     ;     7.0; VAP      ;       0;
+     7.0;     7.0;       69;       2; red/amber ;     7.0; VAP      ;       0;
+     8.0;     8.0;       92;       1; amber     ;     5.0; VAP      ;       0;
+     8.0;     8.0;       84;       3; red       ;     7.0; VAP      ;       0;
+     8.0;     8.0;       72;       4; red       ;     7.0; VAP      ;       0;
+     8.0;     8.0;       69;       3; red/amber ;     8.0; VAP      ;       0;
+     9.0;     9.0;       74;       1; amber     ;     6.0; VAP      ;       0;
+     9.0;     9.0;       73;       1; red       ;     3.0; VAP      ;       0;
+     9.0;     9.0;       69;       2; green     ;     2.0; VAP      ;       0;
+    10.0;    10.0;       69;       3; green     ;     2.0; VAP      ;       0;
+    11.0;    11.0;       92;       1; red       ;     3.0; VAP      ;       0;
+    12.0;    12.0;       74;       1; red       ;     3.0; VAP      ;       0;
+    12.0;    12.0;       73;       4; green     ;    12.0; VAP      ;       0;
+    12.0;    12.0;       73;       2; red/amber ;    12.0; VAP      ;       0;
+    13.0;    13.0;       92;       4; green     ;    13.0; VAP      ;       0;
+    13.0;    13.0;       92;       3; red/amber ;    13.0; VAP      ;       0;
+    13.0;    13.0;       92;       2; red/amber ;    13.0; VAP      ;       0;
+    13.0;    13.0;       84;       1; amber     ;    10.0; VAP      ;       0;
+    13.0;    13.0;       72;       2; amber     ;    10.0; VAP      ;       0;
+    13.0;    13.0;       72;       1; amber     ;    10.0; VAP      ;       0;
+    14.0;    14.0;      206;       3; amber     ;    11.0; VAP      ;       0;
+    14.0;    14.0;      206;       1; amber     ;    11.0; VAP      ;       0;
+    14.0;    14.0;       75;       2; amber     ;    11.0; VAP      ;       0;
+    14.0;    14.0;       75;       1; amber     ;    11.0; VAP      ;       0;
+    14.0;    14.0;       73;       2; green     ;     2.0; VAP      ;       0;
+    15.0;    15.0;       92;       3; green     ;     2.0; VAP      ;       0;
+    15.0;    15.0;       92;       2; green     ;     2.0; VAP      ;       0;
+    16.0;    16.0;       84;       1; red       ;     3.0; VAP      ;       0;
+    16.0;    16.0;       72;       2; red       ;     3.0; VAP      ;       0;
+    16.0;    16.0;       72;       1; red       ;     3.0; VAP      ;       0;
+    17.0;    17.0;      206;       3; red       ;     3.0; VAP      ;       0;
+    17.0;    17.0;      206;       1; red       ;     3.0; VAP      ;       0;
+    17.0;    17.0;       75;       2; red       ;     3.0; VAP      ;       0;
+    17.0;    17.0;       75;       1; red       ;     3.0; VAP      ;       0;
+    17.0;    17.0;       74;       2; red/amber ;    17.0; VAP      ;       0;
+    18.0;    18.0;      587;       5; amber     ;    15.0; VAP      ;       0;
+    18.0;    18.0;      587;       2; amber     ;    15.0; VAP      ;       0;
+    18.0;    18.0;       84;       4; green     ;    18.0; VAP      ;       0;
+    18.0;    18.0;       72;       5; green     ;    18.0; VAP      ;       0;
+    18.0;    18.0;       72;       3; red/amber ;    18.0; VAP      ;       0;
+    18.0;    18.0;       40;       6; amber     ;    15.0; VAP      ;       0;
+    18.0;    18.0;       40;       1; amber     ;    15.0; VAP      ;       0;
+    19.0;    19.0;       84;       2; red/amber ;    19.0; VAP      ;       0;
+    19.0;    19.0;       74;       2; green     ;     2.0; VAP      ;       0;
+    19.0;    19.0;       73;       4; red       ;     7.0; VAP      ;       0;
+    20.0;    20.0;      207;       5; red       ;    19.0; VAP      ;       0;
+    20.0;    20.0;      207;       4; red       ;    19.0; VAP      ;       0;
+    20.0;    20.0;      206;       2; red/amber ;    20.0; VAP      ;       0;
+    20.0;    20.0;       75;       3; red/amber ;    20.0; VAP      ;       0;
+    20.0;    20.0;       72;       3; green     ;     2.0; VAP      ;       0;
+    21.0;    21.0;      587;       5; red       ;     3.0; VAP      ;       0;
+    21.0;    21.0;      587;       2; red       ;     3.0; VAP      ;       0;
+    21.0;    21.0;       92;       4; red       ;     8.0; VAP      ;       0;
+    21.0;    21.0;       84;       2; green     ;     2.0; VAP      ;       0;
+    21.0;    21.0;       40;       6; red       ;     3.0; VAP      ;       0;
+    21.0;    21.0;       40;       1; red       ;     3.0; VAP      ;       0;
+    21.0;    21.0;       36;       1; amber     ;    18.0; VAP      ;       0;
+    22.0;    22.0;      206;       2; green     ;     2.0; VAP      ;       0;
+    22.0;    22.0;       75;       3; green     ;     2.0; VAP      ;       0;
+    23.0;    23.0;      587;       4; red/amber ;    23.0; VAP      ;       0;
+    23.0;    23.0;      207;       2; amber     ;    20.0; VAP      ;       0;
+    23.0;    23.0;      207;       1; amber     ;    20.0; VAP      ;       0;
+    23.0;    23.0;       40;       3; red/amber ;    23.0; VAP      ;       0;
+    24.0;    24.0;       74;       2; amber     ;     5.0; VAP      ;       0;
+    24.0;    24.0;       73;       2; amber     ;    10.0; VAP      ;       0;
+    24.0;    24.0;       36;       1; red       ;     3.0; VAP      ;       0;
+    25.0;    25.0;      587;      13; green     ;    25.0; VAP      ;       0;
+    25.0;    25.0;      587;      12; green     ;    25.0; VAP      ;       0;
+    25.0;    25.0;      587;       4; green     ;     2.0; VAP      ;       0;
+    25.0;    25.0;       40;       3; green     ;     2.0; VAP      ;       0;
+    25.0;    25.0;       39;       1; amber     ;    22.0; VAP      ;       0;
+    26.0;    26.0;      387;       1; amber     ;    23.0; VAP      ;       0;
+    26.0;    26.0;      323;       3; red       ;    25.0; VAP      ;       0;
+    26.0;    26.0;      207;       2; red       ;     3.0; VAP      ;       0;
+    26.0;    26.0;      207;       1; red       ;     3.0; VAP      ;       0;
+    26.0;    26.0;       92;       3; amber     ;    11.0; VAP      ;       0;
+    26.0;    26.0;       92;       2; amber     ;    11.0; VAP      ;       0;
+    26.0;    26.0;       39;       2; amber     ;    23.0; VAP      ;       0;
+    26.0;    26.0;       37;       5; red       ;    25.0; VAP      ;       0;
+    26.0;    26.0;       36;       3; green     ;    26.0; VAP      ;       0;
+    27.0;    27.0;       74;       2; red       ;     3.0; VAP      ;       0;
+    27.0;    27.0;       73;       2; red       ;     3.0; VAP      ;       0;
+    27.0;    27.0;       36;       2; red/amber ;    27.0; VAP      ;       0;
+    28.0;    28.0;      207;       3; red/amber ;    28.0; VAP      ;       0;
+    28.0;    28.0;       39;       1; red       ;     3.0; VAP      ;       0;
+    29.0;    29.0;      387;       1; red       ;     3.0; VAP      ;       0;
+    29.0;    29.0;      258;       5; red       ;    28.0; VAP      ;       0;
+    29.0;    29.0;      205;       4; red       ;    28.0; VAP      ;       0;
+    29.0;    29.0;       92;       3; red       ;     3.0; VAP      ;       0;
+    29.0;    29.0;       92;       2; red       ;     3.0; VAP      ;       0;
+    29.0;    29.0;       72;       5; red       ;    11.0; VAP      ;       0;
+    29.0;    29.0;       39;       2; red       ;     3.0; VAP      ;       0;
+    29.0;    29.0;       36;       2; green     ;     2.0; VAP      ;       0;
+    30.0;    30.0;      323;       1; amber     ;    27.0; VAP      ;       0;
+    30.0;    30.0;      207;       7; green     ;    30.0; VAP      ;       0;
+    30.0;    30.0;      207;       6; green     ;    30.0; VAP      ;       0;
+    30.0;    30.0;      207;       3; green     ;     2.0; VAP      ;       0;
+    30.0;    30.0;       73;       3; green     ;    30.0; VAP      ;       0;
+    30.0;    30.0;       73;       1; red/amber ;    21.0; VAP      ;       0;
+    31.0;    31.0;      387;       2; green     ;    31.0; VAP      ;       0;
+    31.0;    31.0;      208;       7; red       ;    30.0; VAP      ;       0;
+    31.0;    31.0;      208;       4; red       ;    30.0; VAP      ;       0;
+    31.0;    31.0;       92;       1; red/amber ;    20.0; VAP      ;       0;
+    31.0;    31.0;       74;       1; red/amber ;    19.0; VAP      ;       0;
+    31.0;    31.0;       39;       4; red/amber ;    31.0; VAP      ;       0;
+    32.0;    32.0;      258;       2; amber     ;    29.0; VAP      ;       0;
+    32.0;    32.0;      258;       1; amber     ;    29.0; VAP      ;       0;
+    32.0;    32.0;       73;       1; green     ;     2.0; VAP      ;       0;
+    33.0;    33.0;      587;      13; red       ;     8.0; VAP      ;       0;
+    33.0;    33.0;      587;      12; red       ;     8.0; VAP      ;       0;
+    33.0;    33.0;      587;       4; amber     ;     8.0; VAP      ;       0;
+    33.0;    33.0;      323;       1; red       ;     3.0; VAP      ;       0;
+    33.0;    33.0;      208;       2; amber     ;    30.0; VAP      ;       0;
+    33.0;    33.0;      208;       1; amber     ;    30.0; VAP      ;       0;
+    33.0;    33.0;       92;       1; green     ;     2.0; VAP      ;       0;
+    33.0;    33.0;       74;       1; green     ;     2.0; VAP      ;       0;
+    33.0;    33.0;       39;       4; green     ;     2.0; VAP      ;       0;
+    34.0;    34.0;      410;       1; amber     ;    31.0; VAP      ;       0;
+    34.0;    34.0;       72;       3; amber     ;    14.0; VAP      ;       0;
+    34.0;    34.0;       37;       2; amber     ;    31.0; VAP      ;       0;
+    34.0;    34.0;       37;       1; amber     ;    31.0; VAP      ;       0;
+    35.0;    35.0;      323;       4; green     ;    35.0; VAP      ;       0;
+    35.0;    35.0;      323;       2; red/amber ;    35.0; VAP      ;       0;
+    35.0;    35.0;      258;       2; red       ;     3.0; VAP      ;       0;
+    35.0;    35.0;      258;       1; red       ;     3.0; VAP      ;       0;
+    35.0;    35.0;      209;       2; amber     ;    32.0; VAP      ;       0;
+    35.0;    35.0;      209;       1; amber     ;    32.0; VAP      ;       0;
+    36.0;    36.0;      587;       4; red       ;     3.0; VAP      ;       0;
+    36.0;    36.0;      306;       4; red       ;    35.0; VAP      ;       0;
+    36.0;    36.0;      208;       2; red       ;     3.0; VAP      ;       0;
+    36.0;    36.0;      208;       1; red       ;     3.0; VAP      ;       0;
+    36.0;    36.0;       43;       2; amber     ;    33.0; VAP      ;       0;
+    36.0;    36.0;       43;       1; amber     ;    33.0; VAP      ;       0;
+    37.0;    37.0;      410;       1; red       ;     3.0; VAP      ;       0;
+    37.0;    37.0;      387;       2; red       ;     6.0; VAP      ;       0;
+    37.0;    37.0;      323;       2; green     ;     2.0; VAP      ;       0;
+    37.0;    37.0;      258;       3; red/amber ;    37.0; VAP      ;       0;
+    37.0;    37.0;      205;       2; amber     ;    34.0; VAP      ;       0;
+    37.0;    37.0;      205;       1; amber     ;    34.0; VAP      ;       0;
+    37.0;    37.0;       72;       3; red       ;     3.0; VAP      ;       0;
+    37.0;    37.0;       37;       2; red       ;     3.0; VAP      ;       0;
+    37.0;    37.0;       37;       1; red       ;     3.0; VAP      ;       0;
+    38.0;    38.0;      306;       3; amber     ;    35.0; VAP      ;       0;
+    38.0;    38.0;      209;       2; red       ;     3.0; VAP      ;       0;
+    38.0;    38.0;      209;       1; red       ;     3.0; VAP      ;       0;
+    38.0;    38.0;      207;       7; red       ;     8.0; VAP      ;       0;
+    38.0;    38.0;      207;       6; red       ;     8.0; VAP      ;       0;
+    38.0;    38.0;       40;       3; amber     ;    13.0; VAP      ;       0;
+    39.0;    39.0;      410;       2; green     ;    39.0; VAP      ;       0;
+    39.0;    39.0;      258;       3; green     ;     2.0; VAP      ;       0;
+    39.0;    39.0;      208;       3; red/amber ;    39.0; VAP      ;       0;
+    39.0;    39.0;       72;       4; green     ;    31.0; VAP      ;       0;
+    39.0;    39.0;       72;       2; red/amber ;    23.0; VAP      ;       0;
+    39.0;    39.0;       43;       2; red       ;     3.0; VAP      ;       0;
+    39.0;    39.0;       43;       1; red       ;     3.0; VAP      ;       0;
+    39.0;    39.0;       37;       4; red/amber ;    39.0; VAP      ;       0;
+    39.0;    39.0;       37;       3; red/amber ;    39.0; VAP      ;       0;
+    40.0;    40.0;      208;       6; green     ;    40.0; VAP      ;       0;
+    40.0;    40.0;      208;       5; green     ;    40.0; VAP      ;       0;
+    40.0;    40.0;      206;       2; amber     ;    18.0; VAP      ;       0;
+    40.0;    40.0;      205;       2; red       ;     3.0; VAP      ;       0;
+    40.0;    40.0;      205;       1; red       ;     3.0; VAP      ;       0;
+    40.0;    40.0;       72;       1; red/amber ;    24.0; VAP      ;       0;
+    41.0;    41.0;      587;      11; green     ;    41.0; VAP      ;       0;
+    41.0;    41.0;      306;       3; red       ;     3.0; VAP      ;       0;
+    41.0;    41.0;      208;       3; green     ;     2.0; VAP      ;       0;
+    41.0;     1.0;       73;       3; red       ;    11.0; VAP      ;       0;
+    41.0;     1.0;       72;       2; green     ;     2.0; VAP      ;       0;
+    41.0;    41.0;       40;       3; red       ;     3.0; VAP      ;       0;
+    41.0;    41.0;       37;       4; green     ;     2.0; VAP      ;       0;
+    41.0;    41.0;       37;       3; green     ;     2.0; VAP      ;       0;
+    42.0;    42.0;      207;       3; amber     ;    12.0; VAP      ;       0;
+    42.0;    42.0;      205;       3; red/amber ;    42.0; VAP      ;       0;
+    42.0;     2.0;       72;       1; green     ;     2.0; VAP      ;       0;
+    42.0;    42.0;       36;       3; red       ;    16.0; VAP      ;       0;
+    43.0;     3.0;      387;       1; red/amber ;    14.0; VAP      ;       0;
+    43.0;    43.0;      209;       8; green     ;    43.0; VAP      ;       0;
+    43.0;    43.0;      209;       7; green     ;    43.0; VAP      ;       0;
+    43.0;    43.0;      209;       5; green     ;    43.0; VAP      ;       0;
+    43.0;    43.0;      206;       2; red       ;     3.0; VAP      ;       0;
+    43.0;    43.0;       40;       9; green     ;    43.0; VAP      ;       0;
+    43.0;    43.0;       40;       7; red/amber ;    43.0; VAP      ;       0;
+    44.0;    44.0;      306;       5; green     ;    44.0; VAP      ;       0;
+    44.0;    44.0;      306;       1; red/amber ;    44.0; VAP      ;       0;
+    44.0;    44.0;      259;       2; amber     ;    41.0; VAP      ;       0;
+    44.0;    44.0;      259;       1; amber     ;    41.0; VAP      ;       0;
+    44.0;    44.0;      209;       6; green     ;    44.0; VAP      ;       0;
+    44.0;    44.0;      205;       3; green     ;     2.0; VAP      ;       0;
+    44.0;    44.0;       43;       6; green     ;    44.0; VAP      ;       0;
+    44.0;    44.0;       43;       5; green     ;    44.0; VAP      ;       0;
+    45.0;    45.0;      410;       2; red       ;     6.0; VAP      ;       0;
+    45.0;    45.0;      408;       1; amber     ;    42.0; VAP      ;       0;
+    45.0;     5.0;      387;       1; green     ;     2.0; VAP      ;       0;
+    45.0;    45.0;      207;       3; red       ;     3.0; VAP      ;       0;
+    45.0;    45.0;      206;       3; red/amber ;    28.0; VAP      ;       0;
+    45.0;    45.0;      206;       1; red/amber ;    28.0; VAP      ;       0;
+    45.0;    45.0;       40;       7; green     ;     2.0; VAP      ;       0;
+    45.0;    45.0;       39;       4; amber     ;    12.0; VAP      ;       0;
+    46.0;    46.0;      306;       1; green     ;     2.0; VAP      ;       0;
+    46.0;    46.0;      208;       6; red       ;     6.0; VAP      ;       0;
+    46.0;    46.0;      208;       5; red       ;     6.0; VAP      ;       0;
+    46.0;    46.0;      206;       5; green     ;    43.0; VAP      ;       0;
+    46.0;     6.0;       73;       1; amber     ;    14.0; VAP      ;       0;
+    47.0;    47.0;      587;      11; red       ;     6.0; VAP      ;       0;
+    47.0;    47.0;      259;       2; red       ;     3.0; VAP      ;       0;
+    47.0;    47.0;      259;       1; red       ;     3.0; VAP      ;       0;
+    47.0;    47.0;      206;       3; green     ;     2.0; VAP      ;       0;
+    47.0;    47.0;      206;       1; green     ;     2.0; VAP      ;       0;
+    47.0;    47.0;       51;       1; amber     ;    44.0; VAP      ;       0;
+    48.0;    48.0;      408;       1; red       ;     3.0; VAP      ;       0;
+    48.0;     4.0;      258;       3; amber     ;     9.0; VAP      ;       0;
+    48.0;    48.0;      207;       4; green     ;    28.0; VAP      ;       0;
+    48.0;    48.0;      207;       2; red/amber ;    22.0; VAP      ;       0;
+    48.0;    48.0;      207;       1; red/amber ;    22.0; VAP      ;       0;
+    48.0;     8.0;       92;       1; amber     ;    15.0; VAP      ;       0;
+    48.0;    48.0;       77;       2; amber     ;    45.0; VAP      ;       0;
+    48.0;    48.0;       77;       1; amber     ;    45.0; VAP      ;       0;
+    48.0;     8.0;       72;       4; red       ;     9.0; VAP      ;       0;
+    48.0;    48.0;       39;       4; red       ;     3.0; VAP      ;       0;
+    48.0;    48.0;        2;       3; amber     ;    45.0; VAP      ;       0;
+    48.0;    48.0;        2;       1; amber     ;    45.0; VAP      ;       0;
+    49.0;    49.0;      408;       3; red/amber ;    49.0; VAP      ;       0;
+    49.0;    49.0;      208;       3; amber     ;     8.0; VAP      ;       0;
+    49.0;     9.0;       74;       1; amber     ;    16.0; VAP      ;       0;
+    49.0;     9.0;       73;       1; red       ;     3.0; VAP      ;       0;
+    49.0;    49.0;       69;       4; red       ;    42.0; VAP      ;       0;
+    50.0;    50.0;      209;       7; red       ;     7.0; VAP      ;       0;
+    50.0;    50.0;      209;       6; red       ;     6.0; VAP      ;       0;
+    50.0;    50.0;      207;       5; green     ;    30.0; VAP      ;       0;
+    50.0;    50.0;      207;       2; green     ;     2.0; VAP      ;       0;
+    50.0;    50.0;      207;       1; green     ;     2.0; VAP      ;       0;
+    50.0;    50.0;       51;       1; red       ;     3.0; VAP      ;       0;
+    50.0;    50.0;       39;       2; red/amber ;    21.0; VAP      ;       0;
+    50.0;    50.0;       39;       1; red/amber ;    22.0; VAP      ;       0;
+    50.0;    50.0;       36;       2; amber     ;    21.0; VAP      ;       0;
+    51.0;    51.0;      410;       1; red/amber ;    14.0; VAP      ;       0;
+    51.0;    51.0;      408;       3; green     ;     2.0; VAP      ;       0;
+    51.0;     7.0;      258;       3; red       ;     3.0; VAP      ;       0;
+    51.0;    11.0;       92;       1; red       ;     3.0; VAP      ;       0;
+    51.0;    51.0;       77;       2; red       ;     3.0; VAP      ;       0;
+    51.0;    51.0;       77;       1; red       ;     3.0; VAP      ;       0;
+    51.0;    51.0;        2;       3; red       ;     3.0; VAP      ;       0;
+    51.0;    51.0;        2;       1; red       ;     3.0; VAP      ;       0;
+    52.0;    52.0;      259;       6; green     ;    52.0; VAP      ;       0;
+    52.0;    52.0;      259;       5; green     ;    52.0; VAP      ;       0;
+    52.0;    52.0;      209;       8; red       ;     9.0; VAP      ;       0;
+    52.0;    52.0;      209;       5; red       ;     9.0; VAP      ;       0;
+    52.0;    52.0;      208;       3; red       ;     3.0; VAP      ;       0;
+    52.0;    12.0;       74;       1; red       ;     3.0; VAP      ;       0;
+    52.0;    12.0;       73;       4; green     ;    33.0; VAP      ;       0;
+    52.0;    12.0;       73;       2; red/amber ;    25.0; VAP      ;       0;
+    52.0;    52.0;       39;       2; green     ;     2.0; VAP      ;       0;
+    52.0;    52.0;       39;       1; green     ;     2.0; VAP      ;       0;
+    53.0;    53.0;      410;       1; green     ;     2.0; VAP      ;       0;
+    53.0;     9.0;      258;       5; green     ;    24.0; VAP      ;       0;
+    53.0;     9.0;      258;       2; red/amber ;    18.0; VAP      ;       0;
+    53.0;     9.0;      258;       1; red/amber ;    18.0; VAP      ;       0;
+    53.0;    13.0;       92;       4; green     ;    32.0; VAP      ;       0;
+    53.0;    13.0;       92;       3; red/amber ;    24.0; VAP      ;       0;
+    53.0;    13.0;       92;       2; red/amber ;    24.0; VAP      ;       0;
+    53.0;    53.0;       77;       4; red/amber ;    53.0; VAP      ;       0;
+    53.0;    53.0;       77;       3; red/amber ;    53.0; VAP      ;       0;
+    53.0;    13.0;       72;       2; amber     ;    12.0; VAP      ;       0;
+    53.0;    13.0;       72;       1; amber     ;    11.0; VAP      ;       0;
+    53.0;    53.0;       51;       2; green     ;    53.0; VAP      ;       0;
+    53.0;    53.0;       37;       3; amber     ;    12.0; VAP      ;       0;
+    53.0;    53.0;       36;       2; red       ;     3.0; VAP      ;       0;
+    53.0;    53.0;        2;       4; red/amber ;    53.0; VAP      ;       0;
+    54.0;    14.0;       73;       2; green     ;     2.0; VAP      ;       0;
+    55.0;    11.0;      258;       2; green     ;     2.0; VAP      ;       0;
+    55.0;    11.0;      258;       1; green     ;     2.0; VAP      ;       0;
+    55.0;    55.0;      208;       4; green     ;    24.0; VAP      ;       0;
+    55.0;    55.0;      208;       2; red/amber ;    19.0; VAP      ;       0;
+    55.0;    55.0;      208;       1; red/amber ;    19.0; VAP      ;       0;
+    55.0;    15.0;       92;       3; green     ;     2.0; VAP      ;       0;
+    55.0;    15.0;       92;       2; green     ;     2.0; VAP      ;       0;
+    55.0;    55.0;       77;       4; green     ;     2.0; VAP      ;       0;
+    55.0;    55.0;       77;       3; green     ;     2.0; VAP      ;       0;
+    55.0;    55.0;       69;       3; amber     ;    45.0; VAP      ;       0;
+    55.0;    55.0;       69;       2; amber     ;    46.0; VAP      ;       0;
+    55.0;    55.0;       51;       4; green     ;    55.0; VAP      ;       0;
+    55.0;    55.0;       51;       3; green     ;    55.0; VAP      ;       0;
+    55.0;    55.0;        4;      10; red       ;    54.0; VAP      ;       0;
+    55.0;    55.0;        2;       4; green     ;     2.0; VAP      ;       0;
+    56.0;    56.0;      208;       7; green     ;    25.0; VAP      ;       0;
+    56.0;    56.0;       99;       1; amber     ;    53.0; VAP      ;       0;
+    56.0;    16.0;       72;       2; red       ;     3.0; VAP      ;       0;
+    56.0;    16.0;       72;       1; red       ;     3.0; VAP      ;       0;
+    56.0;    56.0;       37;       6; green     ;    56.0; VAP      ;       0;
+    56.0;    56.0;       37;       3; red       ;     3.0; VAP      ;       0;
+    56.0;    56.0;       36;       1; red/amber ;    32.0; VAP      ;       0;
+    56.0;    56.0;        2;       5; green     ;    56.0; VAP      ;       0;
+    57.0;    57.0;      208;       2; green     ;     2.0; VAP      ;       0;
+    57.0;    57.0;      208;       1; green     ;     2.0; VAP      ;       0;
+    57.0;    17.0;       74;       2; red/amber ;    30.0; VAP      ;       0;
+    58.0;    58.0;      259;       6; red       ;     6.0; VAP      ;       0;
+    58.0;    58.0;      259;       5; red       ;     6.0; VAP      ;       0;
+    58.0;    18.0;       72;       5; green     ;    29.0; VAP      ;       0;
+    58.0;    18.0;       72;       3; red/amber ;    21.0; VAP      ;       0;
+    58.0;    58.0;       69;       3; red       ;     3.0; VAP      ;       0;
+    58.0;    58.0;       69;       2; red       ;     3.0; VAP      ;       0;
+    58.0;    58.0;       36;       1; green     ;     2.0; VAP      ;       0;
+    58.0;    58.0;        4;       8; amber     ;    55.0; VAP      ;       0;
+    59.0;    59.0;      587;       8; red/amber ;    59.0; VAP      ;       0;
+    59.0;    59.0;       99;       1; red       ;     3.0; VAP      ;       0;
+    59.0;    19.0;       74;       2; green     ;     2.0; VAP      ;       0;
+    59.0;    19.0;       73;       4; red       ;     7.0; VAP      ;       0;
+    59.0;    59.0;       37;       6; red       ;     3.0; VAP      ;       0;
+    59.0;    59.0;       37;       4; amber     ;    18.0; VAP      ;       0;
+    60.0;    20.0;      379;       1; amber     ;    57.0; VAP      ;       0;
+    60.0;    60.0;      209;       2; red/amber ;    22.0; VAP      ;       0;
+    60.0;    60.0;      209;       1; red/amber ;    22.0; VAP      ;       0;
+    60.0;    20.0;       72;       3; green     ;     2.0; VAP      ;       0;
+    60.0;    60.0;       69;       1; red/amber ;    58.0; VAP      ;       0;
+    61.0;    61.0;      587;       8; green     ;     2.0; VAP      ;       0;
+    61.0;    61.0;       99;       4; green     ;    61.0; VAP      ;       0;
+    61.0;    61.0;       99;       3; red/amber ;    61.0; VAP      ;       0;
+    61.0;    61.0;       99;       2; red/amber ;    61.0; VAP      ;       0;
+    61.0;    21.0;       92;       4; red       ;     8.0; VAP      ;       0;
+    61.0;    61.0;       75;       3; amber     ;    39.0; VAP      ;       0;
+    61.0;    61.0;       37;       5; green     ;    35.0; VAP      ;       0;
+    61.0;    61.0;       37;       1; red/amber ;    24.0; VAP      ;       0;
+    61.0;    61.0;        4;       8; red       ;     3.0; VAP      ;       0;
+    62.0;    62.0;      209;       2; green     ;     2.0; VAP      ;       0;
+    62.0;    62.0;      209;       1; green     ;     2.0; VAP      ;       0;
+    62.0;    62.0;       69;       1; green     ;     2.0; VAP      ;       0;
+    62.0;    62.0;       37;       4; red       ;     3.0; VAP      ;       0;
+    63.0;    23.0;      379;       1; red       ;     3.0; VAP      ;       0;
+    63.0;    63.0;       99;       3; green     ;     2.0; VAP      ;       0;
+    63.0;    63.0;       99;       2; green     ;     2.0; VAP      ;       0;
+    63.0;    63.0;       37;       1; green     ;     2.0; VAP      ;       0;
+    63.0;    63.0;        4;      11; green     ;    63.0; VAP      ;       0;
+    63.0;    63.0;        4;       9; red/amber ;    63.0; VAP      ;       0;
+    63.0;    63.0;        2;       5; red       ;     7.0; VAP      ;       0;
+    64.0;    64.0;       84;       4; red       ;    46.0; VAP      ;       0;
+    64.0;    64.0;       75;       3; red       ;     3.0; VAP      ;       0;
+    64.0;    24.0;       74;       2; amber     ;     5.0; VAP      ;       0;
+    64.0;    24.0;       73;       2; amber     ;    10.0; VAP      ;       0;
+    64.0;    64.0;       52;       3; amber     ;    61.0; VAP      ;       0;
+    64.0;    64.0;       37;       2; red/amber ;    27.0; VAP      ;       0;
+    65.0;    25.0;      379;       2; green     ;    65.0; VAP      ;       0;
+    65.0;    65.0;      259;       4; red       ;    64.0; VAP      ;       0;
+    65.0;    65.0;        4;       9; green     ;     2.0; VAP      ;       0;
+    66.0;    26.0;      378;       1; amber     ;    63.0; VAP      ;       0;
+    66.0;    26.0;       92;       3; amber     ;    11.0; VAP      ;       0;
+    66.0;    26.0;       92;       2; amber     ;    11.0; VAP      ;       0;
+    66.0;    66.0;       75;       2; red/amber ;    49.0; VAP      ;       0;
+    66.0;    66.0;       75;       1; red/amber ;    49.0; VAP      ;       0;
+    66.0;    66.0;       52;       1; amber     ;    63.0; VAP      ;       0;
+    66.0;    66.0;       37;       2; green     ;     2.0; VAP      ;       0;
+    67.0;    67.0;      205;       3; amber     ;    23.0; VAP      ;       0;
+    67.0;    27.0;       74;       2; red       ;     3.0; VAP      ;       0;
+    67.0;    27.0;       73;       2; red       ;     3.0; VAP      ;       0;
+    67.0;    67.0;       52;       3; red       ;     3.0; VAP      ;       0;
+    67.0;    67.0;       51;       2; red       ;    14.0; VAP      ;       0;
+    68.0;    68.0;       84;       2; amber     ;    47.0; VAP      ;       0;
+    68.0;    68.0;       75;       2; green     ;     2.0; VAP      ;       0;
+    68.0;    68.0;       75;       1; green     ;     2.0; VAP      ;       0;
+    68.0;    68.0;       53;       7; red       ;    67.0; VAP      ;       0;
+    69.0;    29.0;      378;       1; red       ;     3.0; VAP      ;       0;
+    69.0;    69.0;      323;       4; red       ;    34.0; VAP      ;       0;
+    69.0;    29.0;       92;       3; red       ;     3.0; VAP      ;       0;
+    69.0;    29.0;       92;       2; red       ;     3.0; VAP      ;       0;
+    69.0;    29.0;       72;       5; red       ;    11.0; VAP      ;       0;
+    69.0;    69.0;       52;       1; red       ;     3.0; VAP      ;       0;
+    69.0;    69.0;       40;       9; red       ;    26.0; VAP      ;       0;
+    69.0;    69.0;       39;       1; amber     ;    17.0; VAP      ;       0;
+    70.0;    70.0;      205;       3; red       ;     3.0; VAP      ;       0;
+    70.0;    30.0;       73;       3; green     ;    29.0; VAP      ;       0;
+    70.0;    30.0;       73;       1; red/amber ;    21.0; VAP      ;       0;
+    70.0;    70.0;       39;       2; amber     ;    18.0; VAP      ;       0;
+    71.0;    31.0;      379;       2; red       ;     6.0; VAP      ;       0;
+    71.0;    31.0;      378;       2; green     ;    71.0; VAP      ;       0;
+    71.0;    71.0;      210;       2; amber     ;    68.0; VAP      ;       0;
+    71.0;    71.0;      210;       1; amber     ;    68.0; VAP      ;       0;
+    71.0;    31.0;       92;       1; red/amber ;    20.0; VAP      ;       0;
+    71.0;    71.0;       85;       3; red       ;    70.0; VAP      ;       0;
+    71.0;    71.0;       84;       2; red       ;     3.0; VAP      ;       0;
+    71.0;    31.0;       74;       1; red/amber ;    19.0; VAP      ;       0;
+    72.0;    72.0;      212;       2; amber     ;    69.0; VAP      ;       0;
+    72.0;    72.0;      212;       1; amber     ;    69.0; VAP      ;       0;
+    72.0;    32.0;       73;       1; green     ;     2.0; VAP      ;       0;
+    72.0;    72.0;       53;       2; amber     ;    69.0; VAP      ;       0;
+    72.0;    72.0;       53;       1; amber     ;    69.0; VAP      ;       0;
+    72.0;    72.0;       51;       4; red       ;    17.0; VAP      ;       0;
+    72.0;    72.0;       51;       3; red       ;    17.0; VAP      ;       0;
+    72.0;    72.0;       39;       1; red       ;     3.0; VAP      ;       0;
+    73.0;    73.0;      259;       3; red/amber ;    73.0; VAP      ;       0;
+    73.0;    29.0;      258;       5; red       ;    20.0; VAP      ;       0;
+    73.0;    73.0;      205;       2; red/amber ;    33.0; VAP      ;       0;
+    73.0;    73.0;      205;       1; red/amber ;    33.0; VAP      ;       0;
+    73.0;    33.0;       92;       1; green     ;     2.0; VAP      ;       0;
+    73.0;     1.0;       84;       3; green     ;    65.0; VAP      ;       0;
+    73.0;     1.0;       84;       1; red/amber ;    57.0; VAP      ;       0;
+    73.0;    33.0;       74;       1; green     ;     2.0; VAP      ;       0;
+    73.0;    73.0;       39;       2; red       ;     3.0; VAP      ;       0;
+    74.0;    74.0;      210;       2; red       ;     3.0; VAP      ;       0;
+    74.0;    74.0;      210;       1; red       ;     3.0; VAP      ;       0;
+    74.0;     2.0;       77;       4; amber     ;    19.0; VAP      ;       0;
+    74.0;     2.0;       77;       3; amber     ;    19.0; VAP      ;       0;
+    74.0;    34.0;       72;       3; amber     ;    14.0; VAP      ;       0;
+    74.0;    74.0;        2;       4; amber     ;    19.0; VAP      ;       0;
+    75.0;    75.0;      259;       3; green     ;     2.0; VAP      ;       0;
+    75.0;    75.0;      212;       2; red       ;     3.0; VAP      ;       0;
+    75.0;    75.0;      212;       1; red       ;     3.0; VAP      ;       0;
+    75.0;    75.0;      205;       2; green     ;     2.0; VAP      ;       0;
+    75.0;    75.0;      205;       1; green     ;     2.0; VAP      ;       0;
+    75.0;     3.0;       84;       1; green     ;     2.0; VAP      ;       0;
+    75.0;    75.0;       71;       3; red       ;    74.0; VAP      ;       0;
+    75.0;    75.0;       53;       2; red       ;     3.0; VAP      ;       0;
+    75.0;    75.0;       53;       1; red       ;     3.0; VAP      ;       0;
+    75.0;    75.0;       52;       6; green     ;    75.0; VAP      ;       0;
+    75.0;    75.0;       52;       5; green     ;    75.0; VAP      ;       0;
+    75.0;    75.0;       39;       4; red/amber ;    27.0; VAP      ;       0;
+    76.0;    76.0;      323;       2; amber     ;    39.0; VAP      ;       0;
+    76.0;    32.0;      258;       2; amber     ;    21.0; VAP      ;       0;
+    76.0;    32.0;      258;       1; amber     ;    21.0; VAP      ;       0;
+    76.0;    76.0;      210;       3; red/amber ;    76.0; VAP      ;       0;
+    76.0;    76.0;      205;       4; green     ;    47.0; VAP      ;       0;
+    76.0;    76.0;       43;       6; red       ;    32.0; VAP      ;       0;
+    76.0;    76.0;       43;       5; red       ;    32.0; VAP      ;       0;
+    77.0;    37.0;      378;       2; red       ;     6.0; VAP      ;       0;
+    77.0;    29.0;      281;       1; amber     ;    74.0; VAP      ;       0;
+    77.0;     5.0;       85;       1; amber     ;    74.0; VAP      ;       0;
+    77.0;     5.0;       77;       4; red       ;     3.0; VAP      ;       0;
+    77.0;     5.0;       77;       3; red       ;     3.0; VAP      ;       0;
+    77.0;    37.0;       72;       3; red       ;     3.0; VAP      ;       0;
+    77.0;    77.0;       53;       6; green     ;    77.0; VAP      ;       0;
+    77.0;    77.0;       53;       5; amber     ;    74.0; VAP      ;       0;
+    77.0;    77.0;       53;       3; red/amber ;    77.0; VAP      ;       0;
+    77.0;    77.0;       39;       4; green     ;     2.0; VAP      ;       0;
+    77.0;    77.0;        2;       4; red       ;     3.0; VAP      ;       0;
+    78.0;    38.0;      379;       1; red/amber ;    15.0; VAP      ;       0;
+    78.0;    78.0;      212;       4; red/amber ;    78.0; VAP      ;       0;
+    78.0;    78.0;      212;       3; red/amber ;    78.0; VAP      ;       0;
+    78.0;    78.0;      210;       3; green     ;     2.0; VAP      ;       0;
+    79.0;    79.0;      323;       2; red       ;     3.0; VAP      ;       0;
+    79.0;    35.0;      258;       2; red       ;     3.0; VAP      ;       0;
+    79.0;    35.0;      258;       1; red       ;     3.0; VAP      ;       0;
+    79.0;     7.0;       77;       2; red/amber ;    28.0; VAP      ;       0;
+    79.0;     7.0;       77;       1; red/amber ;    28.0; VAP      ;       0;
+    79.0;    39.0;       72;       4; green     ;    31.0; VAP      ;       0;
+    79.0;    39.0;       72;       2; red/amber ;    23.0; VAP      ;       0;
+    79.0;    79.0;       53;       3; green     ;     2.0; VAP      ;       0;
+    79.0;    79.0;       40;       7; amber     ;    34.0; VAP      ;       0;
+    79.0;    79.0;        2;       2; red/amber ;    79.0; VAP      ;       0;
+    80.0;    40.0;      379;       1; green     ;     2.0; VAP      ;       0;
+    80.0;    32.0;      281;       1; red       ;     3.0; VAP      ;       0;
+    80.0;    80.0;      259;       3; amber     ;     5.0; VAP      ;       0;
+    80.0;    80.0;      212;       4; green     ;     2.0; VAP      ;       0;
+    80.0;    80.0;      212;       3; green     ;     2.0; VAP      ;       0;
+    80.0;     8.0;       85;       1; red       ;     3.0; VAP      ;       0;
+    80.0;     8.0;       84;       3; red       ;     7.0; VAP      ;       0;
+    80.0;    40.0;       72;       1; red/amber ;    24.0; VAP      ;       0;
+    80.0;    80.0;       53;       5; red       ;     3.0; VAP      ;       0;
+    80.0;    80.0;       51;       1; red/amber ;    30.0; VAP      ;       0;
+    80.0;    80.0;        2;       6; green     ;    80.0; VAP      ;       0;
+    81.0;    81.0;      587;       8; amber     ;    20.0; VAP      ;       0;
+    81.0;    81.0;      323;       3; green     ;    55.0; VAP      ;       0;
+    81.0;    81.0;      323;       1; red/amber ;    48.0; VAP      ;       0;
+    81.0;    37.0;      258;       3; red/amber ;    30.0; VAP      ;       0;
+    81.0;     9.0;       77;       2; green     ;     2.0; VAP      ;       0;
+    81.0;     9.0;       77;       1; green     ;     2.0; VAP      ;       0;
+    81.0;     1.0;       73;       3; red       ;    11.0; VAP      ;       0;
+    81.0;     1.0;       72;       2; green     ;     2.0; VAP      ;       0;
+    81.0;    81.0;        2;       2; green     ;     2.0; VAP      ;       0;
+    81.0;    81.0;        1;       4; red       ;    80.0; VAP      ;       0;
+    82.0;    34.0;      281;       3; red/amber ;    82.0; VAP      ;       0;
+    82.0;    10.0;       85;       4; green     ;    82.0; VAP      ;       0;
+    82.0;    10.0;       85;       2; red/amber ;    82.0; VAP      ;       0;
+    82.0;     2.0;       72;       1; green     ;     2.0; VAP      ;       0;
+    82.0;    82.0;       71;       1; amber     ;    79.0; VAP      ;       0;
+    82.0;    82.0;       51;       1; green     ;     2.0; VAP      ;       0;
+    82.0;    82.0;       40;       7; red       ;     3.0; VAP      ;       0;
+    83.0;    83.0;      323;       1; green     ;     2.0; VAP      ;       0;
+    83.0;    11.0;      306;       5; red       ;    39.0; VAP      ;       0;
+    83.0;    35.0;      281;       2; red/amber ;    83.0; VAP      ;       0;
+    83.0;     3.0;      259;       3; red       ;     3.0; VAP      ;       0;
+    83.0;    39.0;      258;       3; green     ;     2.0; VAP      ;       0;
+    83.0;     3.0;      206;       5; red       ;    37.0; VAP      ;       0;
+    83.0;    83.0;       53;       8; green     ;    83.0; VAP      ;       0;
+    83.0;    83.0;       52;       6; red       ;     8.0; VAP      ;       0;
+    83.0;    83.0;       52;       5; red       ;     8.0; VAP      ;       0;
+    83.0;    83.0;       39;       4; amber     ;     6.0; VAP      ;       0;
+    83.0;    83.0;        2;       7; green     ;    83.0; VAP      ;       0;
+    84.0;    84.0;      587;       8; red       ;     3.0; VAP      ;       0;
+    84.0;    36.0;      281;       3; green     ;     2.0; VAP      ;       0;
+    84.0;    12.0;       85;       2; green     ;     2.0; VAP      ;       0;
+    85.0;    37.0;      281;       2; green     ;     2.0; VAP      ;       0;
+    85.0;     5.0;      259;       4; green     ;    20.0; VAP      ;       0;
+    85.0;     5.0;      259;       2; red/amber ;    38.0; VAP      ;       0;
+    85.0;     5.0;      259;       1; red/amber ;    38.0; VAP      ;       0;
+    85.0;    85.0;      210;       3; amber     ;     7.0; VAP      ;       0;
+    85.0;    13.0;       84;       1; amber     ;    10.0; VAP      ;       0;
+    85.0;    85.0;       71;       1; red       ;     3.0; VAP      ;       0;
+    85.0;    85.0;       54;       2; amber     ;    82.0; VAP      ;       0;
+    85.0;    85.0;       54;       1; amber     ;    82.0; VAP      ;       0;
+    85.0;    85.0;       40;       6; red/amber ;    64.0; VAP      ;       0;
+    85.0;    85.0;       40;       1; red/amber ;    64.0; VAP      ;       0;
+    86.0;    86.0;      587;       5; red/amber ;    65.0; VAP      ;       0;
+    86.0;     6.0;      378;       1; red/amber ;    17.0; VAP      ;       0;
+    86.0;    14.0;      306;       1; amber     ;    40.0; VAP      ;       0;
+    86.0;    14.0;       75;       2; amber     ;    18.0; VAP      ;       0;
+    86.0;    14.0;       75;       1; amber     ;    18.0; VAP      ;       0;
+    86.0;     6.0;       73;       1; amber     ;    14.0; VAP      ;       0;
+    86.0;    86.0;       52;       4; red       ;    85.0; VAP      ;       0;
+    86.0;    86.0;       39;       4; red       ;     3.0; VAP      ;       0;
+    87.0;     7.0;      259;       2; green     ;     2.0; VAP      ;       0;
+    87.0;     7.0;      259;       1; green     ;     2.0; VAP      ;       0;
+    87.0;    15.0;       99;       4; red       ;    26.0; VAP      ;       0;
+    87.0;    87.0;       71;       4; green     ;    87.0; VAP      ;       0;
+    87.0;    87.0;       40;       6; green     ;     2.0; VAP      ;       0;
+    87.0;    87.0;       40;       1; green     ;     2.0; VAP      ;       0;
+    87.0;    87.0;        1;       2; amber     ;    84.0; VAP      ;       0;
+    87.0;    87.0;        1;       1; amber     ;    84.0; VAP      ;       0;
+    88.0;    88.0;      587;       5; green     ;     2.0; VAP      ;       0;
+    88.0;    88.0;      587;       2; red/amber ;    67.0; VAP      ;       0;
+    88.0;     8.0;      378;       1; green     ;     2.0; VAP      ;       0;
+    88.0;    88.0;      210;       3; red       ;     3.0; VAP      ;       0;
+    88.0;     8.0;       92;       1; amber     ;    15.0; VAP      ;       0;
+    88.0;    16.0;       84;       1; red       ;     3.0; VAP      ;       0;
+    88.0;     8.0;       72;       4; red       ;     9.0; VAP      ;       0;
+    88.0;    88.0;       71;       2; red/amber ;    88.0; VAP      ;       0;
+    88.0;    88.0;       54;       2; red       ;     3.0; VAP      ;       0;
+    88.0;    88.0;       54;       1; red       ;     3.0; VAP      ;       0;
+    88.0;    88.0;       39;       2; red/amber ;    15.0; VAP      ;       0;
+    88.0;    88.0;       39;       1; red/amber ;    16.0; VAP      ;       0;
+    89.0;    17.0;      306;       1; red       ;     3.0; VAP      ;       0;
+    89.0;    17.0;       75;       2; red       ;     3.0; VAP      ;       0;
+    89.0;    17.0;       75;       1; red       ;     3.0; VAP      ;       0;
+    89.0;     9.0;       74;       1; amber     ;    16.0; VAP      ;       0;
+    89.0;     9.0;       73;       1; red       ;     3.0; VAP      ;       0;
+    89.0;    89.0;        2;       6; red       ;     9.0; VAP      ;       0;
+    90.0;    90.0;      587;       2; green     ;     2.0; VAP      ;       0;
+    90.0;    34.0;      410;       1; amber     ;    37.0; VAP      ;       0;
+    90.0;    90.0;      283;       1; amber     ;    87.0; VAP      ;       0;
+    90.0;    42.0;      281;       3; amber     ;     6.0; VAP      ;       0;
+    90.0;    18.0;       99;       3; amber     ;    27.0; VAP      ;       0;
+    90.0;    18.0;       99;       2; amber     ;    27.0; VAP      ;       0;
+    90.0;    18.0;       84;       4; green     ;    26.0; VAP      ;       0;
+    90.0;     2.0;       71;       2; green     ;     2.0; VAP      ;       0;
+    90.0;     2.0;       70;       1; amber     ;    87.0; VAP      ;       0;
+    90.0;     2.0;       69;       1; amber     ;    28.0; VAP      ;       0;
+    90.0;    90.0;       39;       2; green     ;     2.0; VAP      ;       0;
+    90.0;    90.0;       39;       1; green     ;     2.0; VAP      ;       0;
+    90.0;    90.0;        1;       2; red       ;     3.0; VAP      ;       0;
+    90.0;    90.0;        1;       1; red       ;     3.0; VAP      ;       0;
+    91.0;     3.0;      210;       4; green     ;    91.0; VAP      ;       0;
+    91.0;    11.0;       92;       1; red       ;     3.0; VAP      ;       0;
+    91.0;    19.0;       84;       2; red/amber ;    20.0; VAP      ;       0;
+    91.0;    11.0;       43;       2; red/amber ;    52.0; VAP      ;       0;
+    91.0;    11.0;       43;       1; red/amber ;    52.0; VAP      ;       0;
+    92.0;     4.0;      408;       3; amber     ;    41.0; VAP      ;       0;
+    92.0;    20.0;      306;       4; green     ;    56.0; VAP      ;       0;
+    92.0;    20.0;      306;       3; red/amber ;    51.0; VAP      ;       0;
+    92.0;     4.0;      258;       3; amber     ;     9.0; VAP      ;       0;
+    92.0;    20.0;       75;       3; red/amber ;    28.0; VAP      ;       0;
+    92.0;    12.0;       74;       1; red       ;     3.0; VAP      ;       0;
+    92.0;    12.0;       73;       4; green     ;    33.0; VAP      ;       0;
+    92.0;    12.0;       73;       2; red/amber ;    25.0; VAP      ;       0;
+    92.0;    92.0;        1;       3; red/amber ;    92.0; VAP      ;       0;
+    93.0;    37.0;      410;       1; red       ;     3.0; VAP      ;       0;
+    93.0;    93.0;      283;       1; red       ;     3.0; VAP      ;       0;
+    93.0;    45.0;      281;       3; red       ;     3.0; VAP      ;       0;
+    93.0;    21.0;       99;       3; red       ;     3.0; VAP      ;       0;
+    93.0;    21.0;       99;       2; red       ;     3.0; VAP      ;       0;
+    93.0;    13.0;       92;       4; green     ;    32.0; VAP      ;       0;
+    93.0;    13.0;       92;       3; red/amber ;    24.0; VAP      ;       0;
+    93.0;    13.0;       92;       2; red/amber ;    24.0; VAP      ;       0;
+    93.0;    21.0;       85;       4; red       ;    11.0; VAP      ;       0;
+    93.0;    21.0;       84;       2; green     ;     2.0; VAP      ;       0;
+    93.0;    13.0;       72;       2; amber     ;    12.0; VAP      ;       0;
+    93.0;    13.0;       72;       1; amber     ;    11.0; VAP      ;       0;
+    93.0;     5.0;       70;       1; red       ;     3.0; VAP      ;       0;
+    93.0;     5.0;       69;       1; red       ;     3.0; VAP      ;       0;
+    93.0;    13.0;       43;       2; green     ;     2.0; VAP      ;       0;
+    93.0;    13.0;       43;       1; green     ;     2.0; VAP      ;       0;
+    93.0;    21.0;       36;       1; amber     ;    35.0; VAP      ;       0;
+    93.0;    93.0;        4;      11; red       ;    30.0; VAP      ;       0;
+    94.0;    22.0;      306;       3; green     ;     2.0; VAP      ;       0;
+    94.0;    46.0;      281;       2; amber     ;     9.0; VAP      ;       0;
+    94.0;    94.0;      211;       7; red       ;    93.0; VAP      ;       0;
+    94.0;    94.0;      211;       4; red       ;    93.0; VAP      ;       0;
+    94.0;     6.0;      210;       7; green     ;    94.0; VAP      ;       0;
+    94.0;     6.0;      210;       6; green     ;    94.0; VAP      ;       0;
+    94.0;     6.0;      210;       5; green     ;    94.0; VAP      ;       0;
+    94.0;    14.0;      206;       3; amber     ;    47.0; VAP      ;       0;
+    94.0;    14.0;      206;       1; amber     ;    47.0; VAP      ;       0;
+    94.0;    22.0;       75;       3; green     ;     2.0; VAP      ;       0;
+    94.0;    14.0;       73;       2; green     ;     2.0; VAP      ;       0;
+    94.0;    94.0;       54;       6; green     ;    94.0; VAP      ;       0;
+    94.0;    94.0;       54;       5; green     ;    94.0; VAP      ;       0;
+    94.0;    94.0;       54;       4; green     ;    94.0; VAP      ;       0;
+    94.0;     6.0;       53;       8; red       ;    11.0; VAP      ;       0;
+    94.0;     6.0;       53;       6; red       ;    17.0; VAP      ;       0;
+    94.0;    94.0;        5;       4; red       ;    93.0; VAP      ;       0;
+    94.0;    94.0;        1;       3; green     ;     2.0; VAP      ;       0;
+    95.0;    39.0;      410;       2; green     ;    50.0; VAP      ;       0;
+    95.0;     7.0;      408;       3; red       ;     3.0; VAP      ;       0;
+    95.0;    95.0;      283;       3; green     ;    95.0; VAP      ;       0;
+    95.0;     7.0;      258;       3; red       ;     3.0; VAP      ;       0;
+    95.0;    95.0;      246;       4; red       ;    94.0; VAP      ;       0;
+    95.0;    23.0;       99;       1; red/amber ;    36.0; VAP      ;       0;
+    95.0;    15.0;       92;       3; green     ;     2.0; VAP      ;       0;
+    95.0;    15.0;       92;       2; green     ;     2.0; VAP      ;       0;
+    95.0;     7.0;       69;       4; green     ;    46.0; VAP      ;       0;
+    95.0;     7.0;       69;       2; red/amber ;    37.0; VAP      ;       0;
+    95.0;    95.0;        4;       9; amber     ;    30.0; VAP      ;       0;
+    96.0;    96.0;      283;       2; red/amber ;    96.0; VAP      ;       0;
+    96.0;    16.0;       72;       2; red       ;     3.0; VAP      ;       0;
+    96.0;    16.0;       72;       1; red       ;     3.0; VAP      ;       0;
+    96.0;     8.0;       70;       5; green     ;    96.0; VAP      ;       0;
+    96.0;     8.0;       69;       3; red/amber ;    38.0; VAP      ;       0;
+    96.0;    24.0;       36;       1; red       ;     3.0; VAP      ;       0;
+    97.0;     1.0;      260;       2; amber     ;    94.0; VAP      ;       0;
+    97.0;     1.0;      260;       1; amber     ;    94.0; VAP      ;       0;
+    97.0;     1.0;      281;       2; red       ;     3.0; VAP      ;       0;
+    97.0;     9.0;      258;       5; green     ;    24.0; VAP      ;       0;
+    97.0;     9.0;      258;       2; red/amber ;    18.0; VAP      ;       0;
+    97.0;     9.0;      258;       1; red/amber ;    18.0; VAP      ;       0;
+    97.0;    97.0;      211;       2; amber     ;    94.0; VAP      ;       0;
+    97.0;    97.0;      211;       1; amber     ;    94.0; VAP      ;       0;
+    97.0;    17.0;      206;       3; red       ;     3.0; VAP      ;       0;
+    97.0;    17.0;      206;       1; red       ;     3.0; VAP      ;       0;
+    97.0;    25.0;       99;       1; green     ;     2.0; VAP      ;       0;
+    97.0;    17.0;       74;       2; red/amber ;    30.0; VAP      ;       0;
+    97.0;     9.0;       70;       3; green     ;    97.0; VAP      ;       0;
+    97.0;     9.0;       69;       2; green     ;     2.0; VAP      ;       0;
+    97.0;     1.0;        2;       7; red       ;    14.0; VAP      ;       0;
+    98.0;     2.0;      283;       2; green     ;     2.0; VAP      ;       0;
+    98.0;     2.0;      246;       2; amber     ;    95.0; VAP      ;       0;
+    98.0;     2.0;      246;       1; amber     ;    95.0; VAP      ;       0;
+    98.0;    26.0;       85;       2; amber     ;    14.0; VAP      ;       0;
+    98.0;    18.0;       72;       5; green     ;    29.0; VAP      ;       0;
+    98.0;    18.0;       72;       3; red/amber ;    21.0; VAP      ;       0;
+    98.0;    10.0;       69;       3; green     ;     2.0; VAP      ;       0;
+    98.0;    10.0;       52;       2; red/amber ;    98.0; VAP      ;       0;
+    98.0;    26.0;       37;       5; red       ;    37.0; VAP      ;       0;
+    98.0;    26.0;       36;       3; green     ;    56.0; VAP      ;       0;
+    98.0;     2.0;        5;       2; amber     ;    95.0; VAP      ;       0;
+    98.0;     2.0;        5;       1; amber     ;    95.0; VAP      ;       0;
+    98.0;     2.0;        4;       9; red       ;     3.0; VAP      ;       0;
+    99.0;     3.0;      281;       1; red/amber ;    19.0; VAP      ;       0;
+    99.0;    11.0;      258;       2; green     ;     2.0; VAP      ;       0;
+    99.0;    11.0;      258;       1; green     ;     2.0; VAP      ;       0;
+    99.0;    19.0;       74;       2; green     ;     2.0; VAP      ;       0;
+    99.0;    19.0;       73;       4; red       ;     7.0; VAP      ;       0;
+    99.0;    27.0;       36;       2; red/amber ;    46.0; VAP      ;       0;
+   100.0;     4.0;      260;       2; red       ;     3.0; VAP      ;       0;
+   100.0;     4.0;      260;       1; red       ;     3.0; VAP      ;       0;
+   100.0;    12.0;      408;       1; red/amber ;    52.0; VAP      ;       0;
+   100.0;   100.0;      211;       2; red       ;     3.0; VAP      ;       0;
+   100.0;   100.0;      211;       1; red       ;     3.0; VAP      ;       0;
+   100.0;    12.0;      210;       7; red       ;     6.0; VAP      ;       0;
+   100.0;    12.0;      210;       6; red       ;     6.0; VAP      ;       0;
+   100.0;    12.0;      210;       5; red       ;     6.0; VAP      ;       0;
+   100.0;    12.0;      210;       4; red       ;     9.0; VAP      ;       0;
+   100.0;    20.0;      207;       5; red       ;    50.0; VAP      ;       0;
+   100.0;    20.0;      207;       4; red       ;    52.0; VAP      ;       0;
+   100.0;    20.0;      206;       2; red/amber ;    57.0; VAP      ;       0;
+   100.0;    20.0;       72;       3; green     ;     2.0; VAP      ;       0;
+   100.0;    12.0;       52;       2; green     ;     2.0; VAP      ;       0;
+   100.0;     4.0;        2;       2; amber     ;    19.0; VAP      ;       0;
+   101.0;    45.0;      410;       2; red       ;     6.0; VAP      ;       0;
+   101.0;     5.0;      281;       1; green     ;     2.0; VAP      ;       0;
+   101.0;     5.0;      246;       2; red       ;     3.0; VAP      ;       0;
+   101.0;     5.0;      246;       1; red       ;     3.0; VAP      ;       0;
+   101.0;    21.0;       92;       4; red       ;     8.0; VAP      ;       0;
+   101.0;    29.0;       85;       2; red       ;     3.0; VAP      ;       0;
+   101.0;    29.0;       36;       2; green     ;     2.0; VAP      ;       0;
+   101.0;     5.0;        5;       2; red       ;     3.0; VAP      ;       0;
+   101.0;     5.0;        5;       1; red       ;     3.0; VAP      ;       0;
+   101.0;     5.0;        4;      10; green     ;    46.0; VAP      ;       0;
+   101.0;     5.0;        4;       8; red/amber ;    40.0; VAP      ;       0;
+   102.0;    14.0;      408;       1; green     ;     2.0; VAP      ;       0;
+   102.0;    22.0;      206;       2; green     ;     2.0; VAP      ;       0;
+   103.0;     7.0;      260;       5; green     ;   103.0; VAP      ;       0;
+   103.0;     7.0;      260;       3; red/amber ;   103.0; VAP      ;       0;
+   103.0;     7.0;      283;       3; red       ;     8.0; VAP      ;       0;
+   103.0;     7.0;      246;       3; red/amber ;   103.0; VAP      ;       0;
+   103.0;   103.0;      211;       3; red/amber ;   103.0; VAP      ;       0;
+   103.0;    23.0;      207;       2; amber     ;    53.0; VAP      ;       0;
+   103.0;    23.0;      207;       1; amber     ;    53.0; VAP      ;       0;
+   103.0;    31.0;       85;       3; green     ;    32.0; VAP      ;       0;
+   103.0;    31.0;       85;       1; red/amber ;    23.0; VAP      ;       0;
+   103.0;    15.0;       70;       5; red       ;     7.0; VAP      ;       0;
+   103.0;    15.0;       70;       3; red       ;     6.0; VAP      ;       0;
+   103.0;    15.0;       53;       3; amber     ;    24.0; VAP      ;       0;
+   103.0;     7.0;        5;       3; red/amber ;   103.0; VAP      ;       0;
+   103.0;     7.0;        4;       8; green     ;     2.0; VAP      ;       0;
+   103.0;     7.0;        2;       2; red       ;     3.0; VAP      ;       0;
+   103.0;     7.0;        1;       3; amber     ;     9.0; VAP      ;       0;
+   104.0;     8.0;      283;       2; amber     ;     6.0; VAP      ;       0;
+   104.0;    24.0;       74;       2; amber     ;     5.0; VAP      ;       0;
+   104.0;    24.0;       73;       2; amber     ;    10.0; VAP      ;       0;
+   105.0;     9.0;      260;       3; green     ;     2.0; VAP      ;       0;
+   105.0;     9.0;      558;      12; amber     ;   102.0; VAP      ;       0;
+   105.0;     9.0;      246;       3; green     ;     2.0; VAP      ;       0;
+   105.0;   105.0;      211;       6; green     ;   105.0; VAP      ;       0;
+   105.0;   105.0;      211;       5; green     ;   105.0; VAP      ;       0;
+   105.0;   105.0;      211;       3; green     ;     2.0; VAP      ;       0;
+   105.0;    33.0;       85;       1; green     ;     2.0; VAP      ;       0;
+   105.0;     9.0;        5;       3; green     ;     2.0; VAP      ;       0;
+   106.0;    26.0;      378;       1; amber     ;    18.0; VAP      ;       0;
+   106.0;    26.0;      207;       2; red       ;     3.0; VAP      ;       0;
+   106.0;    26.0;      207;       1; red       ;     3.0; VAP      ;       0;
+   106.0;    26.0;       92;       3; amber     ;    11.0; VAP      ;       0;
+   106.0;    26.0;       92;       2; amber     ;    11.0; VAP      ;       0;
+   106.0;    18.0;       53;       5; red/amber ;    26.0; VAP      ;       0;
+   106.0;    18.0;       53;       3; red       ;     3.0; VAP      ;       0;
+   106.0;    34.0;       37;       2; amber     ;    40.0; VAP      ;       0;
+   106.0;    34.0;       37;       1; amber     ;    43.0; VAP      ;       0;
+   106.0;    10.0;        2;       3; red/amber ;    55.0; VAP      ;       0;
+   106.0;    10.0;        2;       1; red/amber ;    55.0; VAP      ;       0;
+   106.0;    10.0;        1;       3; red       ;     3.0; VAP      ;       0;
+   107.0;    51.0;      410;       1; red/amber ;    14.0; VAP      ;       0;
+   107.0;    11.0;      283;       2; red       ;     3.0; VAP      ;       0;
+   107.0;    27.0;       74;       2; red       ;     3.0; VAP      ;       0;
+   107.0;    27.0;       73;       2; red       ;     3.0; VAP      ;       0;
+   108.0;    12.0;      558;      12; red       ;     3.0; VAP      ;       0;
+   108.0;    36.0;      306;       4; red       ;    16.0; VAP      ;       0;
+   108.0;    28.0;      207;       3; red/amber ;    63.0; VAP      ;       0;
+   108.0;    20.0;       53;       7; green     ;    40.0; VAP      ;       0;
+   108.0;    20.0;       53;       5; green     ;     2.0; VAP      ;       0;
+   108.0;    12.0;        2;       3; green     ;     2.0; VAP      ;       0;
+   108.0;    12.0;        2;       1; green     ;     2.0; VAP      ;       0;
+   108.0;    12.0;        1;       4; green     ;    27.0; VAP      ;       0;
+   108.0;    12.0;        1;       2; red/amber ;    18.0; VAP      ;       0;
+   108.0;    12.0;        1;       1; red/amber ;    18.0; VAP      ;       0;
+   109.0;    53.0;      410;       1; green     ;     2.0; VAP      ;       0;
+   109.0;    29.0;      378;       1; red       ;     3.0; VAP      ;       0;
+   109.0;    29.0;       92;       3; red       ;     3.0; VAP      ;       0;
+   109.0;    29.0;       92;       2; red       ;     3.0; VAP      ;       0;
+   109.0;    29.0;       72;       5; red       ;    11.0; VAP      ;       0;
+   109.0;    21.0;       53;       4; red/amber ;   109.0; VAP      ;       0;
+   109.0;    37.0;       37;       2; red       ;     3.0; VAP      ;       0;
+   109.0;    37.0;       37;       1; red       ;     3.0; VAP      ;       0;
+   110.0;    14.0;      260;       3; amber     ;     5.0; VAP      ;       0;
+   110.0;    14.0;      558;      13; green     ;   110.0; VAP      ;       0;
+   110.0;    38.0;      306;       3; amber     ;    16.0; VAP      ;       0;
+   110.0;    30.0;      207;       7; green     ;    72.0; VAP      ;       0;
+   110.0;    30.0;      207;       6; green     ;    72.0; VAP      ;       0;
+   110.0;    30.0;      207;       3; green     ;     2.0; VAP      ;       0;
+   110.0;    30.0;       73;       3; green     ;    29.0; VAP      ;       0;
+   110.0;    30.0;       73;       1; red/amber ;    21.0; VAP      ;       0;
+   110.0;    14.0;        1;       2; green     ;     2.0; VAP      ;       0;
+   110.0;    14.0;        1;       1; green     ;     2.0; VAP      ;       0;
+   111.0;    31.0;      378;       2; green     ;    34.0; VAP      ;       0;
+   111.0;    15.0;      283;       1; red/amber ;    18.0; VAP      ;       0;
+   111.0;    15.0;      280;       4; amber     ;   108.0; VAP      ;       0;
+   111.0;    23.0;      210;       2; red/amber ;    37.0; VAP      ;       0;
+   111.0;    23.0;      210;       1; red/amber ;    37.0; VAP      ;       0;
+   111.0;    31.0;      208;       7; red       ;    55.0; VAP      ;       0;
+   111.0;    31.0;      208;       4; red       ;    56.0; VAP      ;       0;
+   111.0;    31.0;       92;       1; red/amber ;    20.0; VAP      ;       0;
+   111.0;    31.0;       74;       1; red/amber ;    19.0; VAP      ;       0;
+   111.0;    23.0;       53;       4; green     ;     2.0; VAP      ;       0;
+   111.0;    39.0;       37;       4; red/amber ;    49.0; VAP      ;       0;
+   111.0;    39.0;       37;       3; red/amber ;    55.0; VAP      ;       0;
+   112.0;    32.0;       73;       1; green     ;     2.0; VAP      ;       0;
+   113.0;    17.0;      260;       3; red       ;     3.0; VAP      ;       0;
+   113.0;    41.0;      306;       3; red       ;     3.0; VAP      ;       0;
+   113.0;    17.0;      283;       1; green     ;     2.0; VAP      ;       0;
+   113.0;    25.0;      210;       2; green     ;     2.0; VAP      ;       0;
+   113.0;    25.0;      210;       1; green     ;     2.0; VAP      ;       0;
+   113.0;    33.0;      208;       2; amber     ;    56.0; VAP      ;       0;
+   113.0;    33.0;      208;       1; amber     ;    56.0; VAP      ;       0;
+   113.0;    33.0;       92;       1; green     ;     2.0; VAP      ;       0;
+   113.0;    33.0;       74;       1; green     ;     2.0; VAP      ;       0;
+   113.0;    25.0;       70;       1; red/amber ;    20.0; VAP      ;       0;
+   113.0;    41.0;       37;       4; green     ;     2.0; VAP      ;       0;
+   113.0;    41.0;       37;       3; green     ;     2.0; VAP      ;       0;
+   114.0;    26.0;      323;       3; red       ;    33.0; VAP      ;       0;
+   114.0;    18.0;      280;       4; red       ;     3.0; VAP      ;       0;
+   114.0;    34.0;       72;       3; amber     ;    14.0; VAP      ;       0;
+   114.0;    26.0;       53;      10; green     ;   114.0; VAP      ;       0;
+   114.0;    42.0;       36;       3; red       ;    16.0; VAP      ;       0;
+   115.0;    35.0;      209;       2; amber     ;    53.0; VAP      ;       0;
+   115.0;    35.0;      209;       1; amber     ;    53.0; VAP      ;       0;
+   115.0;    27.0;       70;       1; green     ;     2.0; VAP      ;       0;
+   116.0;    44.0;      306;       5; green     ;    33.0; VAP      ;       0;
+   116.0;    44.0;      306;       1; red/amber ;    27.0; VAP      ;       0;
+   116.0;    20.0;      280;       5; green     ;   116.0; VAP      ;       0;
+   116.0;    36.0;      208;       2; red       ;     3.0; VAP      ;       0;
+   116.0;    36.0;      208;       1; red       ;     3.0; VAP      ;       0;
+   116.0;    36.0;       43;       2; amber     ;    23.0; VAP      ;       0;
+   116.0;    36.0;       43;       1; amber     ;    23.0; VAP      ;       0;
+   117.0;    21.0;      260;       4; green     ;   117.0; VAP      ;       0;
+   117.0;    37.0;      378;       2; red       ;     6.0; VAP      ;       0;
+   117.0;    29.0;      258;       5; red       ;    20.0; VAP      ;       0;
+   117.0;    29.0;      205;       4; red       ;    41.0; VAP      ;       0;
+   117.0;    37.0;       72;       3; red       ;     3.0; VAP      ;       0;
+   118.0;    30.0;      323;       1; amber     ;    35.0; VAP      ;       0;
+   118.0;    46.0;      306;       1; green     ;     2.0; VAP      ;       0;
+   118.0;    38.0;      209;       2; red       ;     3.0; VAP      ;       0;
+   118.0;    38.0;      209;       1; red       ;     3.0; VAP      ;       0;
+   118.0;    38.0;      207;       7; red       ;     8.0; VAP      ;       0;
+   118.0;    38.0;      207;       6; red       ;     8.0; VAP      ;       0;
+   119.0;    39.0;      208;       3; red/amber ;    67.0; VAP      ;       0;
+   119.0;    39.0;       72;       4; green     ;    31.0; VAP      ;       0;
+   119.0;    39.0;       72;       2; red/amber ;    23.0; VAP      ;       0;
+   119.0;    39.0;       43;       2; red       ;     3.0; VAP      ;       0;
+   119.0;    39.0;       43;       1; red       ;     3.0; VAP      ;       0;
+   120.0;    32.0;      258;       2; amber     ;    21.0; VAP      ;       0;
+   120.0;    32.0;      258;       1; amber     ;    21.0; VAP      ;       0;
+   120.0;    40.0;      208;       6; green     ;    74.0; VAP      ;       0;
+   120.0;    40.0;      208;       5; green     ;    74.0; VAP      ;       0;
+   120.0;    40.0;      206;       2; amber     ;    18.0; VAP      ;       0;
+   120.0;    48.0;       77;       2; amber     ;    39.0; VAP      ;       0;
+   120.0;    48.0;       77;       1; amber     ;    39.0; VAP      ;       0;
+   120.0;    40.0;       72;       1; red/amber ;    24.0; VAP      ;       0;
+   120.0;    32.0;       53;      10; red       ;     6.0; VAP      ;       0;
+   121.0;    33.0;      323;       1; red       ;     3.0; VAP      ;       0;
+   121.0;    41.0;      208;       3; green     ;     2.0; VAP      ;       0;
+   121.0;     1.0;       73;       3; red       ;    11.0; VAP      ;       0;
+   121.0;     1.0;       72;       2; green     ;     2.0; VAP      ;       0;
+   121.0;    33.0;       53;       4; amber     ;    10.0; VAP      ;       0;
+   121.0;    25.0;        5;       3; amber     ;    16.0; VAP      ;       0;
+   122.0;    26.0;      246;       3; amber     ;    17.0; VAP      ;       0;
+   122.0;    42.0;      207;       3; amber     ;    12.0; VAP      ;       0;
+   122.0;     2.0;       72;       1; green     ;     2.0; VAP      ;       0;
+   122.0;    50.0;       36;       2; amber     ;    21.0; VAP      ;       0;
+   123.0;    35.0;      323;       4; green     ;    54.0; VAP      ;       0;
+   123.0;    35.0;      323;       2; red/amber ;    44.0; VAP      ;       0;
+   123.0;    35.0;      258;       2; red       ;     3.0; VAP      ;       0;
+   123.0;    35.0;      258;       1; red       ;     3.0; VAP      ;       0;
+   123.0;    43.0;      209;       8; green     ;    71.0; VAP      ;       0;
+   123.0;    43.0;      209;       7; green     ;    73.0; VAP      ;       0;
+   123.0;    43.0;      209;       5; green     ;    71.0; VAP      ;       0;
+   123.0;    43.0;      206;       2; red       ;     3.0; VAP      ;       0;
+   123.0;    51.0;       77;       2; red       ;     3.0; VAP      ;       0;
+   123.0;    51.0;       77;       1; red       ;     3.0; VAP      ;       0;
+   124.0;    28.0;      260;       5; red       ;    21.0; VAP      ;       0;
+   124.0;    44.0;      259;       2; amber     ;    37.0; VAP      ;       0;
+   124.0;    44.0;      259;       1; amber     ;    37.0; VAP      ;       0;
+   124.0;    44.0;      209;       6; green     ;    74.0; VAP      ;       0;
+   124.0;    36.0;       53;       4; red       ;     3.0; VAP      ;       0;
+   124.0;    44.0;       43;       6; green     ;    48.0; VAP      ;       0;
+   124.0;    44.0;       43;       5; green     ;    48.0; VAP      ;       0;
+   124.0;    28.0;        5;       3; red       ;     3.0; VAP      ;       0;
+   125.0;    37.0;      323;       2; green     ;     2.0; VAP      ;       0;
+   125.0;    37.0;      258;       3; red/amber ;    30.0; VAP      ;       0;
+   125.0;    29.0;      246;       3; red       ;     3.0; VAP      ;       0;
+   125.0;    45.0;      207;       3; red       ;     3.0; VAP      ;       0;
+   125.0;    45.0;      206;       3; red/amber ;    28.0; VAP      ;       0;
+   125.0;    45.0;      206;       1; red/amber ;    28.0; VAP      ;       0;
+   125.0;    37.0;      205;       2; amber     ;    50.0; VAP      ;       0;
+   125.0;    37.0;      205;       1; amber     ;    50.0; VAP      ;       0;
+   125.0;    53.0;       77;       4; red/amber ;    48.0; VAP      ;       0;
+   125.0;    53.0;       77;       3; red/amber ;    48.0; VAP      ;       0;
+   125.0;    53.0;       37;       3; amber     ;    12.0; VAP      ;       0;
+   125.0;    53.0;       36;       2; red       ;     3.0; VAP      ;       0;
+   126.0;     6.0;      378;       1; red/amber ;    17.0; VAP      ;       0;
+   126.0;    46.0;      208;       6; red       ;     6.0; VAP      ;       0;
+   126.0;    46.0;      208;       5; red       ;     6.0; VAP      ;       0;
+   126.0;    46.0;      206;       5; green     ;    43.0; VAP      ;       0;
+   126.0;     6.0;       73;       1; amber     ;    14.0; VAP      ;       0;
+   126.0;    30.0;        5;       4; green     ;    32.0; VAP      ;       0;
+   126.0;    30.0;        5;       2; red/amber ;    25.0; VAP      ;       0;
+   126.0;    30.0;        5;       1; red/amber ;    25.0; VAP      ;       0;
+   127.0;    47.0;      259;       2; red       ;     3.0; VAP      ;       0;
+   127.0;    47.0;      259;       1; red       ;     3.0; VAP      ;       0;
+   127.0;    39.0;      258;       3; green     ;     2.0; VAP      ;       0;
+   127.0;    31.0;      246;       4; green     ;    32.0; VAP      ;       0;
+   127.0;    31.0;      246;       2; red/amber ;    26.0; VAP      ;       0;
+   127.0;    31.0;      246;       1; red/amber ;    26.0; VAP      ;       0;
+   127.0;    47.0;      206;       3; green     ;     2.0; VAP      ;       0;
+   127.0;    47.0;      206;       1; green     ;     2.0; VAP      ;       0;
+   127.0;    55.0;       77;       4; green     ;     2.0; VAP      ;       0;
+   127.0;    55.0;       77;       3; green     ;     2.0; VAP      ;       0;
+   127.0;    39.0;       71;       2; amber     ;    37.0; VAP      ;       0;
+   127.0;    39.0;       52;       2; amber     ;    27.0; VAP      ;       0;
+   128.0;     8.0;      378;       1; green     ;     2.0; VAP      ;       0;
+   128.0;    16.0;      211;       6; red       ;    23.0; VAP      ;       0;
+   128.0;    16.0;      211;       5; red       ;    23.0; VAP      ;       0;
+   128.0;    48.0;      207;       4; green     ;    28.0; VAP      ;       0;
+   128.0;    48.0;      207;       2; red/amber ;    22.0; VAP      ;       0;
+   128.0;    48.0;      207;       1; red/amber ;    22.0; VAP      ;       0;
+   128.0;    40.0;      205;       2; red       ;     3.0; VAP      ;       0;
+   128.0;    40.0;      205;       1; red       ;     3.0; VAP      ;       0;
+   128.0;    56.0;       99;       1; amber     ;    31.0; VAP      ;       0;
+   128.0;     8.0;       92;       1; amber     ;    15.0; VAP      ;       0;
+   128.0;     8.0;       72;       4; red       ;     9.0; VAP      ;       0;
+   128.0;    40.0;       53;       2; red/amber ;    53.0; VAP      ;       0;
+   128.0;    40.0;       53;       1; red/amber ;    53.0; VAP      ;       0;
+   128.0;    56.0;       37;       6; green     ;    69.0; VAP      ;       0;
+   128.0;    56.0;       37;       3; red       ;     3.0; VAP      ;       0;
+   128.0;    56.0;       36;       1; red/amber ;    32.0; VAP      ;       0;
+   128.0;    32.0;        5;       2; green     ;     2.0; VAP      ;       0;
+   128.0;    32.0;        5;       1; green     ;     2.0; VAP      ;       0;
+   129.0;    33.0;      246;       2; green     ;     2.0; VAP      ;       0;
+   129.0;    33.0;      246;       1; green     ;     2.0; VAP      ;       0;
+   129.0;    49.0;      208;       3; amber     ;     8.0; VAP      ;       0;
+   129.0;     9.0;       74;       1; amber     ;    16.0; VAP      ;       0;
+   129.0;     9.0;       73;       1; red       ;     3.0; VAP      ;       0;
+   130.0;    18.0;      587;       5; amber     ;    42.0; VAP      ;       0;
+   130.0;    18.0;      587;       2; amber     ;    40.0; VAP      ;       0;
+   130.0;    50.0;      209;       7; red       ;     7.0; VAP      ;       0;
+   130.0;    50.0;      209;       6; red       ;     6.0; VAP      ;       0;
+   130.0;    50.0;      207;       5; green     ;    30.0; VAP      ;       0;
+   130.0;    50.0;      207;       2; green     ;     2.0; VAP      ;       0;
+   130.0;    50.0;      207;       1; green     ;     2.0; VAP      ;       0;
+   130.0;    42.0;      205;       3; red/amber ;    60.0; VAP      ;       0;
+   130.0;    42.0;       71;       2; red       ;     3.0; VAP      ;       0;
+   130.0;    42.0;       53;       2; green     ;     2.0; VAP      ;       0;
+   130.0;    42.0;       53;       1; green     ;     2.0; VAP      ;       0;
+   130.0;    42.0;       52;       2; red       ;     3.0; VAP      ;       0;
+   130.0;    18.0;       40;       6; amber     ;    43.0; VAP      ;       0;
+   130.0;    18.0;       40;       1; amber     ;    43.0; VAP      ;       0;
+   130.0;    58.0;       36;       1; green     ;     2.0; VAP      ;       0;
+   131.0;    35.0;      280;       5; red       ;    15.0; VAP      ;       0;
+   131.0;    19.0;      211;       3; amber     ;    26.0; VAP      ;       0;
+   131.0;    59.0;       99;       1; red       ;     3.0; VAP      ;       0;
+   131.0;    11.0;       92;       1; red       ;     3.0; VAP      ;       0;
+   131.0;    59.0;       37;       6; red       ;     3.0; VAP      ;       0;
+   131.0;    59.0;       37;       4; amber     ;    18.0; VAP      ;       0;
+   132.0;    36.0;      260;       4; red       ;    15.0; VAP      ;       0;
+   132.0;    52.0;      259;       6; green     ;    74.0; VAP      ;       0;
+   132.0;    52.0;      259;       5; green     ;    74.0; VAP      ;       0;
+   132.0;    52.0;      209;       8; red       ;     9.0; VAP      ;       0;
+   132.0;    52.0;      209;       5; red       ;     9.0; VAP      ;       0;
+   132.0;    52.0;      208;       3; red       ;     3.0; VAP      ;       0;
+   132.0;    44.0;      205;       3; green     ;     2.0; VAP      ;       0;
+   132.0;    12.0;       74;       1; red       ;     3.0; VAP      ;       0;
+   132.0;    12.0;       73;       4; green     ;    33.0; VAP      ;       0;
+   132.0;    12.0;       73;       2; red/amber ;    25.0; VAP      ;       0;
+   132.0;    44.0;       52;       4; green     ;    46.0; VAP      ;       0;
+   132.0;    44.0;       52;       3; red/amber ;    65.0; VAP      ;       0;
+   132.0;    44.0;       52;       1; red/amber ;    63.0; VAP      ;       0;
+   133.0;    21.0;      587;       5; red       ;     3.0; VAP      ;       0;
+   133.0;    21.0;      587;       2; red       ;     3.0; VAP      ;       0;
+   133.0;    45.0;      408;       1; amber     ;    31.0; VAP      ;       0;
+   133.0;    61.0;       99;       4; green     ;    46.0; VAP      ;       0;
+   133.0;    61.0;       99;       3; red/amber ;    40.0; VAP      ;       0;
+   133.0;    61.0;       99;       2; red/amber ;    40.0; VAP      ;       0;
+   133.0;    13.0;       92;       4; green     ;    32.0; VAP      ;       0;
+   133.0;    13.0;       92;       3; red/amber ;    24.0; VAP      ;       0;
+   133.0;    13.0;       92;       2; red/amber ;    24.0; VAP      ;       0;
+   133.0;    61.0;       75;       3; amber     ;    39.0; VAP      ;       0;
+   133.0;    13.0;       72;       2; amber     ;    12.0; VAP      ;       0;
+   133.0;    13.0;       72;       1; amber     ;    11.0; VAP      ;       0;
+   133.0;    45.0;       71;       3; green     ;    58.0; VAP      ;       0;
+   133.0;    37.0;       54;       6; red       ;    39.0; VAP      ;       0;
+   133.0;    37.0;       54;       4; red       ;    39.0; VAP      ;       0;
+   133.0;    21.0;       40;       6; red       ;     3.0; VAP      ;       0;
+   133.0;    21.0;       40;       1; red       ;     3.0; VAP      ;       0;
+   133.0;    61.0;       37;       5; green     ;    35.0; VAP      ;       0;
+   133.0;    61.0;       37;       1; red/amber ;    24.0; VAP      ;       0;
+   134.0;    22.0;      211;       3; red       ;     3.0; VAP      ;       0;
+   134.0;    14.0;       73;       2; green     ;     2.0; VAP      ;       0;
+   134.0;    46.0;       52;       3; green     ;     2.0; VAP      ;       0;
+   134.0;    46.0;       52;       1; green     ;     2.0; VAP      ;       0;
+   134.0;    62.0;       37;       4; red       ;     3.0; VAP      ;       0;
+   135.0;    23.0;      587;       4; red/amber ;    99.0; VAP      ;       0;
+   135.0;    55.0;      208;       4; green     ;    24.0; VAP      ;       0;
+   135.0;    55.0;      208;       2; red/amber ;    19.0; VAP      ;       0;
+   135.0;    55.0;      208;       1; red/amber ;    19.0; VAP      ;       0;
+   135.0;    45.0;      101;       4; red       ;   134.0; VAP      ;       0;
+   135.0;    63.0;       99;       3; green     ;     2.0; VAP      ;       0;
+   135.0;    63.0;       99;       2; green     ;     2.0; VAP      ;       0;
+   135.0;    15.0;       92;       3; green     ;     2.0; VAP      ;       0;
+   135.0;    15.0;       92;       2; green     ;     2.0; VAP      ;       0;
+   135.0;    47.0;       51;       1; amber     ;    53.0; VAP      ;       0;
+   135.0;    23.0;       40;       3; red/amber ;    94.0; VAP      ;       0;
+   135.0;    63.0;       37;       1; green     ;     2.0; VAP      ;       0;
+   136.0;    48.0;      408;       1; red       ;     3.0; VAP      ;       0;
+   136.0;     4.0;      258;       3; amber     ;     9.0; VAP      ;       0;
+   136.0;    24.0;      212;       4; amber     ;    56.0; VAP      ;       0;
+   136.0;    24.0;      212;       3; amber     ;    56.0; VAP      ;       0;
+   136.0;    56.0;      208;       7; green     ;    25.0; VAP      ;       0;
+   136.0;    64.0;       84;       4; red       ;    46.0; VAP      ;       0;
+   136.0;    64.0;       75;       3; red       ;     3.0; VAP      ;       0;
+   136.0;    16.0;       72;       2; red       ;     3.0; VAP      ;       0;
+   136.0;    16.0;       72;       1; red       ;     3.0; VAP      ;       0;
+   136.0;    48.0;       71;       5; green     ;   136.0; VAP      ;       0;
+   136.0;    64.0;       37;       2; red/amber ;    27.0; VAP      ;       0;
+   137.0;    25.0;      587;      13; green     ;   104.0; VAP      ;       0;
+   137.0;    25.0;      587;      12; green     ;   104.0; VAP      ;       0;
+   137.0;    25.0;      587;       4; green     ;     2.0; VAP      ;       0;
+   137.0;    49.0;      408;       3; red/amber ;    42.0; VAP      ;       0;
+   137.0;    25.0;      211;       2; red/amber ;    37.0; VAP      ;       0;
+   137.0;    25.0;      211;       1; red/amber ;    37.0; VAP      ;       0;
+   137.0;    57.0;      208;       2; green     ;     2.0; VAP      ;       0;
+   137.0;    57.0;      208;       1; green     ;     2.0; VAP      ;       0;
+   137.0;     2.0;      101;       3; amber     ;   134.0; VAP      ;       0;
+   137.0;     2.0;      101;       2; amber     ;   134.0; VAP      ;       0;
+   137.0;    17.0;       74;       2; red/amber ;    30.0; VAP      ;       0;
+   137.0;    49.0;       69;       4; red       ;    42.0; VAP      ;       0;
+   137.0;    25.0;       40;       3; green     ;     2.0; VAP      ;       0;
+   137.0;    25.0;       39;       1; amber     ;    47.0; VAP      ;       0;
+   138.0;    58.0;      259;       6; red       ;     6.0; VAP      ;       0;
+   138.0;    58.0;      259;       5; red       ;     6.0; VAP      ;       0;
+   138.0;    66.0;       75;       2; red/amber ;    49.0; VAP      ;       0;
+   138.0;    66.0;       75;       1; red/amber ;    49.0; VAP      ;       0;
+   138.0;    18.0;       72;       5; green     ;    29.0; VAP      ;       0;
+   138.0;    18.0;       72;       3; red/amber ;    21.0; VAP      ;       0;
+   138.0;    50.0;       51;       1; red       ;     3.0; VAP      ;       0;
+   138.0;    26.0;       39;       2; amber     ;    48.0; VAP      ;       0;
+   138.0;    66.0;       37;       2; green     ;     2.0; VAP      ;       0;
+   139.0;    51.0;      408;       3; green     ;     2.0; VAP      ;       0;
+   139.0;    43.0;      280;       4; red/amber ;    25.0; VAP      ;       0;
+   139.0;     7.0;      258;       3; red       ;     3.0; VAP      ;       0;
+   139.0;    27.0;      212;       4; red       ;     3.0; VAP      ;       0;
+   139.0;    27.0;      212;       3; red       ;     3.0; VAP      ;       0;
+   139.0;    27.0;      211;       2; green     ;     2.0; VAP      ;       0;
+   139.0;    27.0;      211;       1; green     ;     2.0; VAP      ;       0;
+   139.0;    19.0;       74;       2; green     ;     2.0; VAP      ;       0;
+   139.0;    19.0;       73;       4; red       ;     7.0; VAP      ;       0;
+   140.0;    44.0;      260;       2; red/amber ;    40.0; VAP      ;       0;
+   140.0;    44.0;      260;       1; red/amber ;    40.0; VAP      ;       0;
+   140.0;    28.0;      211;       7; green     ;    46.0; VAP      ;       0;
+   140.0;    28.0;      211;       4; green     ;    46.0; VAP      ;       0;
+   140.0;    60.0;      209;       2; red/amber ;    22.0; VAP      ;       0;
+   140.0;    60.0;      209;       1; red/amber ;    22.0; VAP      ;       0;
+   140.0;    52.0;      205;       3; amber     ;     8.0; VAP      ;       0;
+   140.0;     5.0;      101;       3; red       ;     3.0; VAP      ;       0;
+   140.0;     5.0;      101;       2; red       ;     3.0; VAP      ;       0;
+   140.0;    68.0;       84;       2; amber     ;    47.0; VAP      ;       0;
+   140.0;    68.0;       75;       2; green     ;     2.0; VAP      ;       0;
+   140.0;    68.0;       75;       1; green     ;     2.0; VAP      ;       0;
+   140.0;    20.0;       72;       3; green     ;     2.0; VAP      ;       0;
+   140.0;    44.0;       54;       5; red       ;    46.0; VAP      ;       0;
+   140.0;    28.0;       39;       1; red       ;     3.0; VAP      ;       0;
+   141.0;    45.0;      280;       4; green     ;     2.0; VAP      ;       0;
+   141.0;     9.0;      258;       5; green     ;    24.0; VAP      ;       0;
+   141.0;     9.0;      258;       2; red/amber ;    18.0; VAP      ;       0;
+   141.0;     9.0;      258;       1; red/amber ;    18.0; VAP      ;       0;
+   141.0;    29.0;      212;       2; red/amber ;    66.0; VAP      ;       0;
+   141.0;    29.0;      212;       1; red/amber ;    66.0; VAP      ;       0;
+   141.0;    21.0;       92;       4; red       ;     8.0; VAP      ;       0;
+   141.0;    53.0;       71;       5; red       ;     5.0; VAP      ;       0;
+   141.0;    53.0;       71;       4; red       ;    54.0; VAP      ;       0;
+   141.0;    53.0;       51;       2; green     ;    74.0; VAP      ;       0;
+   141.0;    29.0;       39;       2; red       ;     3.0; VAP      ;       0;
+   142.0;    46.0;      260;       2; green     ;     2.0; VAP      ;       0;
+   142.0;    46.0;      260;       1; green     ;     2.0; VAP      ;       0;
+   142.0;    62.0;      209;       2; green     ;     2.0; VAP      ;       0;
+   142.0;    62.0;      209;       1; green     ;     2.0; VAP      ;       0;
+   143.0;    11.0;      258;       2; green     ;     2.0; VAP      ;       0;
+   143.0;    11.0;      258;       1; green     ;     2.0; VAP      ;       0;
+   143.0;    31.0;      212;       2; green     ;     2.0; VAP      ;       0;
+   143.0;    31.0;      212;       1; green     ;     2.0; VAP      ;       0;
+   143.0;    55.0;      205;       3; red       ;     3.0; VAP      ;       0;
+   143.0;    71.0;       85;       3; red       ;    40.0; VAP      ;       0;
+   143.0;    71.0;       84;       2; red       ;     3.0; VAP      ;       0;
+   143.0;    55.0;       69;       3; amber     ;    45.0; VAP      ;       0;
+   143.0;    55.0;       69;       2; amber     ;    46.0; VAP      ;       0;
+   143.0;    55.0;       51;       4; green     ;    71.0; VAP      ;       0;
+   143.0;    55.0;       51;       3; green     ;    71.0; VAP      ;       0;
+   143.0;    31.0;       39;       4; red/amber ;    57.0; VAP      ;       0;
+   144.0;     9.0;      101;       1; red/amber ;   144.0; VAP      ;       0;
+   144.0;    24.0;       74;       2; amber     ;     5.0; VAP      ;       0;
+   144.0;    24.0;       73;       2; amber     ;    10.0; VAP      ;       0;
+   144.0;    48.0;        2;       3; amber     ;    36.0; VAP      ;       0;
+   144.0;    48.0;        2;       1; amber     ;    36.0; VAP      ;       0;
+   145.0;    33.0;      587;      13; red       ;     8.0; VAP      ;       0;
+   145.0;    33.0;      587;      12; red       ;     8.0; VAP      ;       0;
+   145.0;    33.0;      587;       4; amber     ;     8.0; VAP      ;       0;
+   145.0;    65.0;      259;       4; red       ;    60.0; VAP      ;       0;
+   145.0;     1.0;       84;       3; green     ;    65.0; VAP      ;       0;
+   145.0;     1.0;       84;       1; red/amber ;    57.0; VAP      ;       0;
+   145.0;    33.0;       39;       4; green     ;     2.0; VAP      ;       0;
+   146.0;    34.0;      410;       1; amber     ;    37.0; VAP      ;       0;
+   146.0;    26.0;      387;       1; amber     ;   101.0; VAP      ;       0;
+   146.0;    26.0;      378;       1; amber     ;    18.0; VAP      ;       0;
+   146.0;    11.0;      101;       1; green     ;     2.0; VAP      ;       0;
+   146.0;    26.0;       92;       3; amber     ;    11.0; VAP      ;       0;
+   146.0;    26.0;       92;       2; amber     ;    11.0; VAP      ;       0;
+   146.0;     2.0;       77;       4; amber     ;    19.0; VAP      ;       0;
+   146.0;     2.0;       77;       3; amber     ;    19.0; VAP      ;       0;
+   146.0;    58.0;       69;       3; red       ;     3.0; VAP      ;       0;
+   146.0;    58.0;       69;       2; red       ;     3.0; VAP      ;       0;
+   147.0;    51.0;      282;       4; amber     ;   144.0; VAP      ;       0;
+   147.0;     3.0;       84;       1; green     ;     2.0; VAP      ;       0;
+   147.0;    27.0;       74;       2; red       ;     3.0; VAP      ;       0;
+   147.0;    27.0;       73;       2; red       ;     3.0; VAP      ;       0;
+   147.0;    59.0;       70;       4; red       ;   146.0; VAP      ;       0;
+   147.0;    51.0;        2;       3; red       ;     3.0; VAP      ;       0;
+   147.0;    51.0;        2;       1; red       ;     3.0; VAP      ;       0;
+   148.0;    36.0;      587;       4; red       ;     3.0; VAP      ;       0;
+   148.0;    60.0;       69;       1; red/amber ;    55.0; VAP      ;       0;
+   148.0;    52.0;       54;       2; red/amber ;    60.0; VAP      ;       0;
+   148.0;    52.0;       54;       1; red/amber ;    60.0; VAP      ;       0;
+   149.0;    37.0;      410;       1; red       ;     3.0; VAP      ;       0;
+   149.0;    29.0;      387;       1; red       ;     3.0; VAP      ;       0;
+   149.0;    29.0;      378;       1; red       ;     3.0; VAP      ;       0;
+   149.0;    61.0;      205;       7; green     ;   149.0; VAP      ;       0;
+   149.0;    61.0;      205;       6; green     ;   149.0; VAP      ;       0;
+   149.0;    61.0;      205;       5; green     ;   149.0; VAP      ;       0;
+   149.0;    61.0;      205;       4; green     ;    32.0; VAP      ;       0;
+   149.0;    29.0;       92;       3; red       ;     3.0; VAP      ;       0;
+   149.0;    29.0;       92;       2; red       ;     3.0; VAP      ;       0;
+   149.0;     5.0;       85;       1; amber     ;    44.0; VAP      ;       0;
+   149.0;     5.0;       77;       4; red       ;     3.0; VAP      ;       0;
+   149.0;     5.0;       77;       3; red       ;     3.0; VAP      ;       0;
+   149.0;    29.0;       72;       5; red       ;    11.0; VAP      ;       0;
+   149.0;    53.0;        2;       4; red/amber ;    72.0; VAP      ;       0;
+   150.0;    54.0;      282;       4; red       ;     3.0; VAP      ;       0;
+   150.0;    30.0;       73;       3; green     ;    29.0; VAP      ;       0;
+   150.0;    30.0;       73;       1; red/amber ;    21.0; VAP      ;       0;
+   150.0;    62.0;       70;       1; amber     ;    35.0; VAP      ;       0;
+   150.0;    62.0;       69;       1; green     ;     2.0; VAP      ;       0;
+   150.0;    54.0;       54;       2; green     ;     2.0; VAP      ;       0;
+   150.0;    54.0;       54;       1; green     ;     2.0; VAP      ;       0;
+   150.0;    38.0;       40;       3; amber     ;    13.0; VAP      ;       0;
+   151.0;    39.0;      410;       2; green     ;    50.0; VAP      ;       0;
+   151.0;    31.0;      387;       2; green     ;   114.0; VAP      ;       0;
+   151.0;    31.0;      378;       2; green     ;    34.0; VAP      ;       0;
+   151.0;    31.0;       92;       1; red/amber ;    20.0; VAP      ;       0;
+   151.0;     7.0;       77;       2; red/amber ;    28.0; VAP      ;       0;
+   151.0;     7.0;       77;       1; red/amber ;    28.0; VAP      ;       0;
+   151.0;    31.0;       74;       1; red/amber ;    19.0; VAP      ;       0;
+   151.0;    63.0;       71;       1; red/amber ;    66.0; VAP      ;       0;
+   151.0;    55.0;        4;      10; red       ;    50.0; VAP      ;       0;
+   151.0;    55.0;        2;       4; green     ;     2.0; VAP      ;       0;
+   152.0;     8.0;      409;       1; amber     ;   149.0; VAP      ;       0;
+   152.0;    56.0;      282;       5; green     ;   152.0; VAP      ;       0;
+   152.0;     8.0;       85;       1; red       ;     3.0; VAP      ;       0;
+   152.0;     8.0;       84;       3; red       ;     7.0; VAP      ;       0;
+   152.0;    32.0;       73;       1; green     ;     2.0; VAP      ;       0;
+   152.0;    64.0;       52;       3; amber     ;    18.0; VAP      ;       0;
+   152.0;    56.0;        2;       5; green     ;    89.0; VAP      ;       0;
+   153.0;    41.0;      587;      11; green     ;   106.0; VAP      ;       0;
+   153.0;    73.0;      259;       3; red/amber ;    70.0; VAP      ;       0;
+   153.0;    33.0;       92;       1; green     ;     2.0; VAP      ;       0;
+   153.0;     9.0;       77;       2; green     ;     2.0; VAP      ;       0;
+   153.0;     9.0;       77;       1; green     ;     2.0; VAP      ;       0;
+   153.0;    33.0;       74;       1; green     ;     2.0; VAP      ;       0;
+   153.0;    65.0;       71;       1; green     ;     2.0; VAP      ;       0;
+   153.0;    65.0;       70;       1; red       ;     3.0; VAP      ;       0;
+   153.0;    41.0;       40;       3; red       ;     3.0; VAP      ;       0;
+   154.0;    10.0;       85;       4; green     ;    61.0; VAP      ;       0;
+   154.0;    10.0;       85;       2; red/amber ;    53.0; VAP      ;       0;
+   154.0;    34.0;       72;       3; amber     ;    14.0; VAP      ;       0;
+   154.0;    66.0;       52;       1; amber     ;    20.0; VAP      ;       0;
+   154.0;    58.0;        4;       8; amber     ;    51.0; VAP      ;       0;
+   155.0;    11.0;      409;       1; red       ;     3.0; VAP      ;       0;
+   155.0;    11.0;      306;       5; red       ;    39.0; VAP      ;       0;
+   155.0;    75.0;      259;       3; green     ;     2.0; VAP      ;       0;
+   155.0;    67.0;      205;       7; red       ;     6.0; VAP      ;       0;
+   155.0;    67.0;      205;       6; red       ;     6.0; VAP      ;       0;
+   155.0;    67.0;      205;       5; red       ;     6.0; VAP      ;       0;
+   155.0;    67.0;       52;       3; red       ;     3.0; VAP      ;       0;
+   155.0;    67.0;       51;       2; red       ;    14.0; VAP      ;       0;
+   155.0;    43.0;       40;       9; green     ;    86.0; VAP      ;       0;
+   155.0;    43.0;       40;       7; red/amber ;    73.0; VAP      ;       0;
+   156.0;    12.0;       85;       2; green     ;     2.0; VAP      ;       0;
+   156.0;    68.0;       70;       5; green     ;    53.0; VAP      ;       0;
+   156.0;    68.0;       70;       2; red/amber ;   156.0; VAP      ;       0;
+   156.0;    68.0;       53;       7; red       ;    48.0; VAP      ;       0;
+   156.0;    76.0;       43;       6; red       ;    32.0; VAP      ;       0;
+   156.0;    76.0;       43;       5; red       ;    32.0; VAP      ;       0;
+   157.0;    45.0;      410;       2; red       ;     6.0; VAP      ;       0;
+   157.0;    13.0;      409;       2; green     ;   157.0; VAP      ;       0;
+   157.0;    37.0;      387;       2; red       ;     6.0; VAP      ;       0;
+   157.0;    37.0;      378;       2; red       ;     6.0; VAP      ;       0;
+   157.0;    69.0;      323;       4; red       ;    34.0; VAP      ;       0;
+   157.0;    22.0;      101;       1; amber     ;    11.0; VAP      ;       0;
+   157.0;    13.0;       84;       1; amber     ;    10.0; VAP      ;       0;
+   157.0;    37.0;       72;       3; red       ;     3.0; VAP      ;       0;
+   157.0;    69.0;       52;       1; red       ;     3.0; VAP      ;       0;
+   157.0;    45.0;       40;       7; green     ;     2.0; VAP      ;       0;
+   157.0;    45.0;       39;       4; amber     ;    12.0; VAP      ;       0;
+   157.0;    61.0;        4;       8; red       ;     3.0; VAP      ;       0;
+   158.0;    14.0;      306;       1; amber     ;    40.0; VAP      ;       0;
+   158.0;    14.0;       75;       2; amber     ;    18.0; VAP      ;       0;
+   158.0;    14.0;       75;       1; amber     ;    18.0; VAP      ;       0;
+   158.0;    70.0;       70;       2; green     ;     2.0; VAP      ;       0;
+   159.0;    47.0;      587;      11; red       ;     6.0; VAP      ;       0;
+   159.0;    71.0;      210;       2; amber     ;    46.0; VAP      ;       0;
+   159.0;    71.0;      210;       1; amber     ;    46.0; VAP      ;       0;
+   159.0;    15.0;       99;       4; red       ;    26.0; VAP      ;       0;
+   159.0;    39.0;       72;       4; green     ;    31.0; VAP      ;       0;
+   159.0;    39.0;       72;       2; red/amber ;    23.0; VAP      ;       0;
+   159.0;    63.0;        4;      11; green     ;    66.0; VAP      ;       0;
+   159.0;    63.0;        4;       9; red/amber ;    61.0; VAP      ;       0;
+   159.0;    63.0;        2;       5; red       ;     7.0; VAP      ;       0;
+   160.0;    80.0;      259;       3; amber     ;     5.0; VAP      ;       0;
+   160.0;    25.0;      101;       1; red       ;     3.0; VAP      ;       0;
+   160.0;    16.0;       84;       1; red       ;     3.0; VAP      ;       0;
+   160.0;    40.0;       72;       1; red/amber ;    24.0; VAP      ;       0;
+   160.0;    72.0;       53;       2; amber     ;    30.0; VAP      ;       0;
+   160.0;    72.0;       53;       1; amber     ;    30.0; VAP      ;       0;
+   160.0;    72.0;       51;       4; red       ;    17.0; VAP      ;       0;
+   160.0;    72.0;       51;       3; red       ;    17.0; VAP      ;       0;
+   160.0;    48.0;       39;       4; red       ;     3.0; VAP      ;       0;
+   161.0;    17.0;      306;       1; red       ;     3.0; VAP      ;       0;
+   161.0;    29.0;      258;       5; red       ;    20.0; VAP      ;       0;
+   161.0;    17.0;       75;       2; red       ;     3.0; VAP      ;       0;
+   161.0;    17.0;       75;       1; red       ;     3.0; VAP      ;       0;
+   161.0;     1.0;       73;       3; red       ;    11.0; VAP      ;       0;
+   161.0;     1.0;       72;       2; green     ;     2.0; VAP      ;       0;
+   161.0;    65.0;        4;       9; green     ;     2.0; VAP      ;       0;
+   162.0;    74.0;      210;       2; red       ;     3.0; VAP      ;       0;
+   162.0;    74.0;      210;       1; red       ;     3.0; VAP      ;       0;
+   162.0;    18.0;       99;       3; amber     ;    27.0; VAP      ;       0;
+   162.0;    18.0;       99;       2; amber     ;    27.0; VAP      ;       0;
+   162.0;    18.0;       84;       4; green     ;    26.0; VAP      ;       0;
+   162.0;     2.0;       72;       1; green     ;     2.0; VAP      ;       0;
+   162.0;    50.0;       39;       2; red/amber ;    21.0; VAP      ;       0;
+   162.0;    50.0;       39;       1; red/amber ;    22.0; VAP      ;       0;
+   163.0;    51.0;      410;       1; red/amber ;    14.0; VAP      ;       0;
+   163.0;     3.0;      387;       1; red/amber ;    14.0; VAP      ;       0;
+   163.0;     3.0;      259;       3; red       ;     3.0; VAP      ;       0;
+   163.0;     3.0;      206;       5; red       ;    37.0; VAP      ;       0;
+   163.0;    19.0;       84;       2; red/amber ;    20.0; VAP      ;       0;
+   163.0;    75.0;       71;       3; red       ;    30.0; VAP      ;       0;
+   163.0;    75.0;       53;       2; red       ;     3.0; VAP      ;       0;
+   163.0;    75.0;       53;       1; red       ;     3.0; VAP      ;       0;
+   163.0;    75.0;       52;       6; green     ;    80.0; VAP      ;       0;
+   163.0;    75.0;       52;       5; green     ;    80.0; VAP      ;       0;
+   164.0;    76.0;      323;       2; amber     ;    39.0; VAP      ;       0;
+   164.0;    20.0;      306;       4; green     ;    56.0; VAP      ;       0;
+   164.0;    20.0;      306;       3; red/amber ;    51.0; VAP      ;       0;
+   164.0;    32.0;      258;       2; amber     ;    21.0; VAP      ;       0;
+   164.0;    32.0;      258;       1; amber     ;    21.0; VAP      ;       0;
+   164.0;    76.0;      210;       3; red/amber ;    76.0; VAP      ;       0;
+   164.0;    29.0;      101;       4; green     ;    29.0; VAP      ;       0;
+   164.0;    29.0;      101;       3; red/amber ;    24.0; VAP      ;       0;
+   164.0;    29.0;      101;       2; red/amber ;    24.0; VAP      ;       0;
+   164.0;    20.0;       75;       3; red/amber ;    28.0; VAP      ;       0;
+   164.0;    52.0;       39;       2; green     ;     2.0; VAP      ;       0;
+   164.0;    52.0;       39;       1; green     ;     2.0; VAP      ;       0;
+   165.0;    53.0;      410;       1; green     ;     2.0; VAP      ;       0;
+   165.0;     5.0;      387;       1; green     ;     2.0; VAP      ;       0;
+   165.0;     5.0;      259;       4; green     ;    20.0; VAP      ;       0;
+   165.0;     5.0;      259;       2; red/amber ;    38.0; VAP      ;       0;
+   165.0;     5.0;      259;       1; red/amber ;    38.0; VAP      ;       0;
+   165.0;    21.0;       99;       3; red       ;     3.0; VAP      ;       0;
+   165.0;    21.0;       99;       2; red       ;     3.0; VAP      ;       0;
+   165.0;    21.0;       85;       4; red       ;    11.0; VAP      ;       0;
+   165.0;    21.0;       84;       2; green     ;     2.0; VAP      ;       0;
+   165.0;    77.0;       53;       6; green     ;    71.0; VAP      ;       0;
+   165.0;    77.0;       53;       5; amber     ;    57.0; VAP      ;       0;
+   165.0;    77.0;       53;       3; red/amber ;    59.0; VAP      ;       0;
+   165.0;    21.0;       36;       1; amber     ;    35.0; VAP      ;       0;
+   166.0;     6.0;      378;       1; red/amber ;    17.0; VAP      ;       0;
+   166.0;    22.0;      306;       3; green     ;     2.0; VAP      ;       0;
+   166.0;    70.0;      282;       5; red       ;    14.0; VAP      ;       0;
+   166.0;    78.0;      210;       3; green     ;     2.0; VAP      ;       0;
+   166.0;    31.0;      101;       3; green     ;     2.0; VAP      ;       0;
+   166.0;    31.0;      101;       2; green     ;     2.0; VAP      ;       0;
+   166.0;    22.0;       75;       3; green     ;     2.0; VAP      ;       0;
+   166.0;     6.0;       73;       1; amber     ;    14.0; VAP      ;       0;
+   167.0;    71.0;      558;      13; red       ;    57.0; VAP      ;       0;
+   167.0;    79.0;      323;       2; red       ;     3.0; VAP      ;       0;
+   167.0;     7.0;      259;       2; green     ;     2.0; VAP      ;       0;
+   167.0;     7.0;      259;       1; green     ;     2.0; VAP      ;       0;
+   167.0;    35.0;      258;       2; red       ;     3.0; VAP      ;       0;
+   167.0;    35.0;      258;       1; red       ;     3.0; VAP      ;       0;
+   167.0;    23.0;       99;       1; red/amber ;    36.0; VAP      ;       0;
+   167.0;    79.0;       53;       3; green     ;     2.0; VAP      ;       0;
+   168.0;     8.0;      378;       1; green     ;     2.0; VAP      ;       0;
+   168.0;     8.0;       92;       1; amber     ;    15.0; VAP      ;       0;
+   168.0;     8.0;       72;       4; red       ;     9.0; VAP      ;       0;
+   168.0;    80.0;       53;       5; red       ;     3.0; VAP      ;       0;
+   168.0;    80.0;       51;       1; red/amber ;    30.0; VAP      ;       0;
+   168.0;    24.0;       36;       1; red       ;     3.0; VAP      ;       0;
+   169.0;    81.0;      323;       3; green     ;    55.0; VAP      ;       0;
+   169.0;    81.0;      323;       1; red/amber ;    48.0; VAP      ;       0;
+   169.0;    37.0;      258;       3; red/amber ;    30.0; VAP      ;       0;
+   169.0;    25.0;       99;       1; green     ;     2.0; VAP      ;       0;
+   169.0;     9.0;       74;       1; amber     ;    16.0; VAP      ;       0;
+   169.0;     9.0;       73;       1; red       ;     3.0; VAP      ;       0;
+   170.0;    26.0;      409;       2; red       ;    13.0; VAP      ;       0;
+   170.0;    26.0;       85;       2; amber     ;    14.0; VAP      ;       0;
+   170.0;    82.0;       71;       1; amber     ;    17.0; VAP      ;       0;
+   170.0;    82.0;       51;       1; green     ;     2.0; VAP      ;       0;
+   170.0;    26.0;       37;       5; red       ;    37.0; VAP      ;       0;
+   170.0;    26.0;       36;       3; green     ;    56.0; VAP      ;       0;
+   170.0;    74.0;        2;       4; amber     ;    19.0; VAP      ;       0;
+   171.0;    59.0;      587;       8; red/amber ;    87.0; VAP      ;       0;
+   171.0;    83.0;      323;       1; green     ;     2.0; VAP      ;       0;
+   171.0;    39.0;      258;       3; green     ;     2.0; VAP      ;       0;
+   171.0;    11.0;       92;       1; red       ;     3.0; VAP      ;       0;
+   171.0;    83.0;       53;       8; green     ;    77.0; VAP      ;       0;
+   171.0;    83.0;       52;       6; red       ;     8.0; VAP      ;       0;
+   171.0;    83.0;       52;       5; red       ;     8.0; VAP      ;       0;
+   171.0;    11.0;       43;       2; red/amber ;    52.0; VAP      ;       0;
+   171.0;    11.0;       43;       1; red/amber ;    52.0; VAP      ;       0;
+   171.0;    27.0;       36;       2; red/amber ;    46.0; VAP      ;       0;
+   172.0;    84.0;      205;       2; red/amber ;    44.0; VAP      ;       0;
+   172.0;    84.0;      205;       1; red/amber ;    44.0; VAP      ;       0;
+   172.0;    12.0;       74;       1; red       ;     3.0; VAP      ;       0;
+   172.0;    12.0;       73;       4; green     ;    33.0; VAP      ;       0;
+   172.0;    12.0;       73;       2; red/amber ;    25.0; VAP      ;       0;
+   173.0;    61.0;      587;       8; green     ;     2.0; VAP      ;       0;
+   173.0;    29.0;      281;       1; amber     ;    72.0; VAP      ;       0;
+   173.0;    13.0;       92;       4; green     ;    32.0; VAP      ;       0;
+   173.0;    13.0;       92;       3; red/amber ;    24.0; VAP      ;       0;
+   173.0;    13.0;       92;       2; red/amber ;    24.0; VAP      ;       0;
+   173.0;    29.0;       85;       2; red       ;     3.0; VAP      ;       0;
+   173.0;    13.0;       72;       2; amber     ;    12.0; VAP      ;       0;
+   173.0;    13.0;       72;       1; amber     ;    11.0; VAP      ;       0;
+   173.0;    85.0;       71;       1; red       ;     3.0; VAP      ;       0;
+   173.0;    13.0;       43;       2; green     ;     2.0; VAP      ;       0;
+   173.0;    13.0;       43;       1; green     ;     2.0; VAP      ;       0;
+   173.0;    29.0;       36;       2; green     ;     2.0; VAP      ;       0;
+   173.0;    77.0;        2;       4; red       ;     3.0; VAP      ;       0;
+   174.0;    78.0;      282;       4; red/amber ;    24.0; VAP      ;       0;
+   174.0;    14.0;      206;       3; amber     ;    47.0; VAP      ;       0;
+   174.0;    14.0;      206;       1; amber     ;    47.0; VAP      ;       0;
+   174.0;    86.0;      205;       2; green     ;     2.0; VAP      ;       0;
+   174.0;    86.0;      205;       1; green     ;     2.0; VAP      ;       0;
+   174.0;    14.0;       73;       2; green     ;     2.0; VAP      ;       0;
+   174.0;    86.0;       52;       4; red       ;    42.0; VAP      ;       0;
+   175.0;    79.0;      558;      12; red/amber ;    67.0; VAP      ;       0;
+   175.0;    15.0;       92;       3; green     ;     2.0; VAP      ;       0;
+   175.0;    15.0;       92;       2; green     ;     2.0; VAP      ;       0;
+   175.0;    31.0;       85;       3; green     ;    32.0; VAP      ;       0;
+   175.0;    31.0;       85;       1; red/amber ;    23.0; VAP      ;       0;
+   175.0;    87.0;       71;       4; green     ;    34.0; VAP      ;       0;
+   175.0;    79.0;        2;       2; red/amber ;    72.0; VAP      ;       0;
+   176.0;    80.0;      282;       4; green     ;     2.0; VAP      ;       0;
+   176.0;    32.0;      281;       1; red       ;     3.0; VAP      ;       0;
+   176.0;    16.0;       72;       2; red       ;     3.0; VAP      ;       0;
+   176.0;    16.0;       72;       1; red       ;     3.0; VAP      ;       0;
+   176.0;    88.0;       71;       2; red/amber ;    46.0; VAP      ;       0;
+   176.0;    80.0;        2;       6; green     ;    87.0; VAP      ;       0;
+   177.0;    81.0;      558;      12; green     ;     2.0; VAP      ;       0;
+   177.0;    33.0;      409;       1; red/amber ;    22.0; VAP      ;       0;
+   177.0;    17.0;      206;       3; red       ;     3.0; VAP      ;       0;
+   177.0;    17.0;      206;       1; red       ;     3.0; VAP      ;       0;
+   177.0;    33.0;       85;       1; green     ;     2.0; VAP      ;       0;
+   177.0;    17.0;       74;       2; red/amber ;    30.0; VAP      ;       0;
+   177.0;    81.0;        2;       2; green     ;     2.0; VAP      ;       0;
+   177.0;    81.0;        1;       4; red       ;    69.0; VAP      ;       0;
+   178.0;    34.0;      281;       3; red/amber ;    85.0; VAP      ;       0;
+   178.0;    18.0;       72;       5; green     ;    29.0; VAP      ;       0;
+   178.0;    18.0;       72;       3; red/amber ;    21.0; VAP      ;       0;
+   178.0;     2.0;       71;       2; green     ;     2.0; VAP      ;       0;
+   178.0;     2.0;       70;       2; amber     ;    20.0; VAP      ;       0;
+   178.0;     2.0;       69;       1; amber     ;    28.0; VAP      ;       0;
+   178.0;    34.0;       37;       2; amber     ;    40.0; VAP      ;       0;
+   178.0;    34.0;       37;       1; amber     ;    43.0; VAP      ;       0;
+   179.0;    35.0;      409;       1; green     ;     2.0; VAP      ;       0;
+   179.0;    35.0;      281;       2; red/amber ;    82.0; VAP      ;       0;
+   179.0;    19.0;       74;       2; green     ;     2.0; VAP      ;       0;
+   179.0;    19.0;       73;       4; red       ;     7.0; VAP      ;       0;
+   179.0;    83.0;        2;       7; green     ;    82.0; VAP      ;       0;
+   180.0;     4.0;      408;       3; amber     ;    41.0; VAP      ;       0;
+   180.0;    36.0;      306;       4; red       ;    16.0; VAP      ;       0;
+   180.0;    36.0;      281;       3; green     ;     2.0; VAP      ;       0;
+   180.0;     4.0;      258;       3; amber     ;     9.0; VAP      ;       0;
+   180.0;    20.0;      207;       5; red       ;    50.0; VAP      ;       0;
+   180.0;    20.0;      207;       4; red       ;    52.0; VAP      ;       0;
+   180.0;    20.0;      206;       2; red/amber ;    57.0; VAP      ;       0;
+   180.0;    20.0;       72;       3; green     ;     2.0; VAP      ;       0;
+   181.0;    37.0;      281;       2; green     ;     2.0; VAP      ;       0;
+   181.0;    21.0;       92;       4; red       ;     8.0; VAP      ;       0;
+   181.0;     5.0;       70;       2; red       ;     3.0; VAP      ;       0;
+   181.0;     5.0;       69;       1; red       ;     3.0; VAP      ;       0;
+   181.0;    85.0;       54;       2; amber     ;    31.0; VAP      ;       0;
+   181.0;    85.0;       54;       1; amber     ;    31.0; VAP      ;       0;
+   181.0;    69.0;       40;       9; red       ;    26.0; VAP      ;       0;
+   181.0;    69.0;       39;       1; amber     ;    17.0; VAP      ;       0;
+   181.0;    37.0;       37;       2; red       ;     3.0; VAP      ;       0;
+   181.0;    37.0;       37;       1; red       ;     3.0; VAP      ;       0;
+   182.0;    38.0;      306;       3; amber     ;    16.0; VAP      ;       0;
+   182.0;    22.0;      206;       2; green     ;     2.0; VAP      ;       0;
+   182.0;     6.0;       53;       8; red       ;    11.0; VAP      ;       0;
+   182.0;     6.0;       53;       6; red       ;    17.0; VAP      ;       0;
+   182.0;    70.0;       39;       2; amber     ;    18.0; VAP      ;       0;
+   183.0;     7.0;      408;       3; red       ;     3.0; VAP      ;       0;
+   183.0;     7.0;      258;       3; red       ;     3.0; VAP      ;       0;
+   183.0;    23.0;      207;       2; amber     ;    53.0; VAP      ;       0;
+   183.0;    23.0;      207;       1; amber     ;    53.0; VAP      ;       0;
+   183.0;     7.0;       69;       4; green     ;    46.0; VAP      ;       0;
+   183.0;     7.0;       69;       2; red/amber ;    37.0; VAP      ;       0;
+   183.0;    39.0;       37;       4; red/amber ;    49.0; VAP      ;       0;
+   183.0;    39.0;       37;       3; red/amber ;    55.0; VAP      ;       0;
+   183.0;    87.0;        1;       2; amber     ;    73.0; VAP      ;       0;
+   183.0;    87.0;        1;       1; amber     ;    73.0; VAP      ;       0;
+   184.0;    72.0;      212;       2; amber     ;    41.0; VAP      ;       0;
+   184.0;    72.0;      212;       1; amber     ;    41.0; VAP      ;       0;
+   184.0;    24.0;       74;       2; amber     ;     5.0; VAP      ;       0;
+   184.0;    24.0;       73;       2; amber     ;    10.0; VAP      ;       0;
+   184.0;     8.0;       70;       4; green     ;    37.0; VAP      ;       0;
+   184.0;     8.0;       69;       3; red/amber ;    38.0; VAP      ;       0;
+   184.0;    88.0;       54;       2; red       ;     3.0; VAP      ;       0;
+   184.0;    88.0;       54;       1; red       ;     3.0; VAP      ;       0;
+   184.0;    72.0;       39;       1; red       ;     3.0; VAP      ;       0;
+   185.0;    41.0;      306;       3; red       ;     3.0; VAP      ;       0;
+   185.0;     9.0;      258;       5; green     ;    24.0; VAP      ;       0;
+   185.0;     9.0;      258;       2; red/amber ;    18.0; VAP      ;       0;
+   185.0;     9.0;      258;       1; red/amber ;    18.0; VAP      ;       0;
+   185.0;     9.0;       70;       3; green     ;    82.0; VAP      ;       0;
+   185.0;     9.0;       69;       2; green     ;     2.0; VAP      ;       0;
+   185.0;    73.0;       39;       2; red       ;     3.0; VAP      ;       0;
+   185.0;    41.0;       37;       4; green     ;     2.0; VAP      ;       0;
+   185.0;    41.0;       37;       3; green     ;     2.0; VAP      ;       0;
+   185.0;    89.0;        2;       6; red       ;     9.0; VAP      ;       0;
+   186.0;    26.0;      387;       1; amber     ;    21.0; VAP      ;       0;
+   186.0;    26.0;      378;       1; amber     ;    18.0; VAP      ;       0;
+   186.0;    90.0;      283;       1; amber     ;    73.0; VAP      ;       0;
+   186.0;    42.0;      281;       3; amber     ;     6.0; VAP      ;       0;
+   186.0;    26.0;      207;       2; red       ;     3.0; VAP      ;       0;
+   186.0;    26.0;      207;       1; red       ;     3.0; VAP      ;       0;
+   186.0;    26.0;       92;       3; amber     ;    11.0; VAP      ;       0;
+   186.0;    26.0;       92;       2; amber     ;    11.0; VAP      ;       0;
+   186.0;    10.0;       69;       3; green     ;     2.0; VAP      ;       0;
+   186.0;    10.0;       52;       2; red/amber ;    56.0; VAP      ;       0;
+   186.0;    42.0;       36;       3; red       ;    16.0; VAP      ;       0;
+   186.0;    90.0;        1;       2; red       ;     3.0; VAP      ;       0;
+   186.0;    90.0;        1;       1; red       ;     3.0; VAP      ;       0;

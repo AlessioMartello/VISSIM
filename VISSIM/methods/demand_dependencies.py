@@ -4,8 +4,8 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-from VISSIM.methods.helpers import data_inputs_path
-from VISSIM.methods.helpers import load_VISSIM_file, get_project_name, df_writer
+from .helpers import data_inputs_path
+from .helpers import load_VISSIM_file, get_project_name, df_writer
 
 def get_demand_dependencies():
     all_results = pd.DataFrame()
@@ -52,9 +52,12 @@ def get_demand_dependencies():
             df = raw_data[(raw_data.Time > warmup_time) & (raw_data.Time < cooldown_time)]
             seed_results = []
             for SCJ_number, SC_number in zip(sites, sc):
-                green_signal_instances = df[
-                    (df.SCJ == SCJ_number) & (df.SC == SC_number) & (df["Signal"].str.contains(aspect))]
-                seed_results.append(len(green_signal_instances))
+                if df.empty: # If there is no data to be anaylsed.
+                    seed_results.append(0)
+                else:
+                    green_signal_instances = df[
+                        (df.SCJ == SCJ_number) & (df.SC == SC_number) & (df["Signal"].str.contains(aspect))]
+                    seed_results.append(len(green_signal_instances))
             all_results["Seed " + str(file_number + 1)] = pd.Series(seed_results, dtype=float)
             file_number += 1
             if project_name is None:

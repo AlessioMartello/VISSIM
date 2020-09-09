@@ -24,7 +24,10 @@ Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSI
 
 * Navigate to run.py
 * Execute file.
-code blocks for commands
+
+## Help
+
+* If the demand dependency output returns populated with 0's, ensure the Demand_dependency.xlsx is correctly populated, with your chosen Demand Dependant stages (see point two of "Installing" section above)
 
 ## Authors
 

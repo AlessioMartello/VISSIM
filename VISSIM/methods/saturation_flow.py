@@ -1,8 +1,8 @@
 import pathlib
 import pandas as pd
 
-from VISSIM.methods.helpers import data_inputs_path
-from VISSIM.methods.helpers import load_VISSIM_file, get_project_name, df_writer
+from .helpers import data_inputs_path
+from .helpers import load_VISSIM_file, get_project_name, df_writer
 
 def get_saturation_flow():
     maximum_headway_accepted = float(input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))

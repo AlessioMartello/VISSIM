@@ -1,0 +1,57 @@
+
+Table of Travel Times
+
+File:     b:\projects\6432 bond street (bris)\technical\modelling\mayfair  - bond street\vissim\1_base\updated base v1.4\pm peak v1.4\pm peak v1.4\mayfair_5404_pm_v1.4.inp
+Comment:  MAYFAIR - PM PEAK
+Date:     25 February 2016 09:34:16
+VISSIM:   5.40-13 [48219]
+
+No.10102 (Route 1 - WB Picca..): from link 10269 at    1.2 m to link   156 at  283.9 m, Distance  309.3 m
+No.10203 (Route 1 - WB Picca..): from link   156 at  283.7 m to link   156 at  541.8 m, Distance  258.0 m
+No.10304 (Route 1 - WB Picca..): from link   156 at  541.7 m to link   159 at   12.5 m, Distance  248.3 m
+No.10405 (Route 1 - WB Picca..): from link   159 at   12.5 m to link   158 at   14.3 m, Distance  160.4 m
+No.10809 (Route 1 - EB Picca..): from link   150 at  164.4 m to link   150 at  323.9 m, Distance  159.5 m
+No.10910 (Route 1 - EB Picca..): from link   150 at  324.0 m to link   162 at    8.3 m, Distance  215.4 m
+No.11011 (Route 1 - EB Picca..): from link   162 at    8.5 m to link   365 at   81.0 m, Distance  287.2 m
+No.11112 (Route 1 - EB Picca..): from link   365 at   81.0 m to link   366 at   85.8 m, Distance  284.5 m
+No.11213 (Route 1 - NB Regen..): from link   366 at   85.8 m to link   361 at   98.6 m, Distance  292.6 m
+No.11314 (Route 1 - NB Regen..): from link   361 at   98.5 m to link   361 at  308.6 m, Distance  210.1 m
+No.11415 (Route 1 - NB Regen..): from link   361 at  308.8 m to link 10229 at    1.5 m, Distance  257.0 m
+No.11516 (Route 1 - NB Regen..): from link 10229 at    1.2 m to link   133 at   47.9 m, Distance  133.2 m
+No.11920 (Route 1 -SB Regent..): from link   300 at    3.0 m to link   139 at   48.0 m, Distance  160.6 m
+No.12021 (Route 1 - SB Regen..): from link   139 at   48.1 m to link   369 at   92.9 m, Distance  235.9 m
+No.12122 (Route 1 - SB Regen..): from link   369 at   93.1 m to link   370 at   15.4 m, Distance  210.5 m
+No.12223 (Route 1 - SB Regen..): from link   370 at   15.2 m to link   368 at   92.6 m, Distance  261.7 m
+No.20102 (Route 2 - Brook St..): from link   397 at  134.6 m to link 10006 at    1.3 m, Distance  213.0 m
+No.20203 (Route 2 - New Bond..): from link 10006 at    1.4 m to link 10023 at    0.2 m, Distance  276.4 m
+No.20304 (Route 2 - Bruton S..): from link 10023 at    0.2 m to link 10057 at    8.3 m, Distance  196.7 m
+No.20405 (Route 2 - Berkeley..): from link 10057 at    8.1 m to link    33 at   51.6 m, Distance  154.7 m
+No.20506 (Route 2 - Berkeley..): from link    33 at   51.7 m to link 10295 at    0.9 m, Distance  254.2 m
+No.20607 (Route 2 - Piccadil..): from link 10295 at    1.0 m to link 10286 at    3.2 m, Distance  220.6 m
+No.20708 (Route 2 - Half Moo..): from link 10286 at    3.1 m to link 10172 at    5.0 m, Distance  171.1 m
+No.20809 (Route 2 - Charles ..): from link 10172 at    4.8 m to link 10045 at    7.9 m, Distance  319.6 m
+No.20910 (Route 2 - Berkeley..): from link 10045 at    7.9 m to link    42 at   32.1 m, Distance  193.5 m
+No.21011 (Route 2 - Davies S..): from link    42 at   32.1 m to link   397 at  134.8 m, Distance  279.9 m
+No.30102 (Route 3 - Upper Br..): from link    74 at   62.4 m to link    75 at  249.7 m, Distance  314.5 m
+No.30203 (Route 3 - Brook St..): from link    75 at  249.8 m to link 10193 at    0.7 m, Distance  323.0 m
+No.30304 (Route 3 - Brook St..): from link 10193 at    0.8 m to link 10005 at    1.5 m, Distance  211.6 m
+No.30405 (Route 3 - Harewood..): from link 10005 at    1.8 m to link    56 at   21.0 m, Distance  346.8 m
+No.30607 (Route 3 - Vere st/..): from link     1 at  155.1 m to link     3 at   40.8 m, Distance  190.1 m
+No.30708 (Route 3 -New Bond ..): from link     3 at   41.0 m to link 10010 at    0.6 m, Distance  133.9 m
+No.30809 (Route 3 - Grosveno..): from link 10010 at    0.6 m to link   364 at   21.6 m, Distance  388.4 m
+No.30910 (Route 3 - Upper Gr..): from link   364 at   21.7 m to link    70 at   47.4 m, Distance  462.4 m
+No.31011 (Route 3 - Park Lan..): from link    70 at   47.5 m to link    74 at   62.3 m, Distance  190.9 m
+No.99901 (Route 1 - Oxford S..): from link   349 at    6.1 m to link    19 at    2.9 m, Distance  436.5 m
+No.99902 (Route 2 - Grosveno..): from link    80 at   70.1 m to link     5 at   53.8 m, Distance  318.6 m
+No.99903 (Route 3 - New Bond..): from link 10023 at    0.3 m to link    34 at   77.6 m, Distance  589.8 m
+No.99904 (Route 4 - New Bond..): from link    13 at   11.2 m to link   364 at   18.1 m, Distance  381.0 m
+No.99913 (Conduit Street (EB) ): from link 10056 at   10.3 m to link   360 at  102.2 m, Distance  460.7 m
+No.99914 (Conduit Street (WB) ): from link    22 at   13.3 m to link 10057 at   14.6 m, Distance  473.8 m
+No.99915 (Old Bond Street SB  ): from link 10058 at    4.1 m to link    24 at  342.1 m, Distance  344.4 m
+No.99916 (New Bond Street SB..): from link     1 at  157.5 m to link    19 at    3.8 m, Distance  464.3 m
+
+  Time;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;  Trav;#Veh;
+  VehC;  General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         General traffic;;         All;;       All;;       All;;       All;;       All;;       All;;       All;;       All;;     
+  No.:; 10102;10102; 10203;10203; 10304;10304; 10405;10405; 10809;10809; 10910;10910; 11011;11011; 11112;11112; 11213;11213; 11314;11314; 11415;11415; 11516;11516; 11920;11920; 12021;12021; 12122;12122; 12223;12223; 20102;20102; 20203;20203; 20304;20304; 20405;20405; 20506;20506; 20607;20607; 20708;20708; 20809;20809; 20910;20910; 21011;21011; 30102;30102; 30203;30203; 30304;30304; 30405;30405; 30607;30607; 30708;30708; 30809;30809; 30910;30910; 31011;31011; 99901;99901; 99902;99902; 99903;99903; 99904;99904; 99913;99913; 99914;99914; 99915;99915; 99916;99916;
+ Name;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - WB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - EB Piccadilly;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 - NB Regent Street;Route 1 -SB Regent Street;Route 1 -SB Regent Street;Route 1 - SB Regent Street;Route 1 - SB Regent Street;Route 1 - SB Regent Street;Route 1 - SB Regent Street;Route 1 - SB Regent Street;Route 1 - SB Regent Street;Route 2 - Brook St EB;Route 2 - Brook St EB;Route 2 - New Bond Street SB;Route 2 - New Bond Street SB;Route 2 - Bruton Street WB;Route 2 - Bruton Street WB;Route 2 - Berkeley Street SB - Hay Hill;Route 2 - Berkeley Street SB - Hay Hill;Route 2 - Berkeley Street SB - Piccadilly;Route 2 - Berkeley Street SB - Piccadilly;Route 2 - Piccadilly WB;Route 2 - Piccadilly WB;Route 2 - Half Moon Street NB;Route 2 - Half Moon Street NB;Route 2 - Charles Place EB;Route 2 - Charles Place EB;Route 2 - Berkeley Square NB;Route 2 - Berkeley Square NB;Route 2 - Davies Street NB;Route 2 - Davies Street NB;Route 3 - Upper Brook St EB;Route 3 - Upper Brook St EB;Route 3 - Brook Street EB;Route 3 - Brook Street EB;Route 3 - Brook Street EB;Route 3 - Brook Street EB;Route 3 - Harewood Place NB;Route 3 - Harewood Place NB;Route 3 - Vere st/ New Bond St SB;Route 3 - Vere st/ New Bond St SB;Route 3 -New Bond Street SB;Route 3 -New Bond Street SB;Route 3 - Grosvenor Street WB;Route 3 - Grosvenor Street WB;Route 3 - Upper Grosvenor St WB;Route 3 - Upper Grosvenor St WB;Route 3 - Park Lane NB;Route 3 - Park Lane NB;Route 1 - Oxford St to Conduit St;Route 1 - Oxford St to Conduit St;Route 2 - Grosvenor Square-New Bond Street;Route 2 - Grosvenor Square-New Bond Street;Route 3 - New Bond Street to Piccadilly ;Route 3 - New Bond Street to Piccadilly ;Route 4 - New Bond Street-Grosvenor Square;Route 4 - New Bond Street-Grosvenor Square;Conduit Street (EB);Conduit Street (EB);Conduit Street (WB);Conduit Street (WB);Old Bond Street SB;Old Bond Street SB;New Bond Street SB (Vere St - Conduit Street);New Bond Street SB (Vere St - Conduit Street);
+  5400;  67.3;  36;  74.6;  35;  50.4; 313;  16.9; 545;  27.2; 381;  67.9; 327; 126.4; 134; 261.7; 235;  49.4; 121;  40.5; 220;  69.0; 175;  49.9; 297;  29.4; 208;  35.7;  99;  30.9; 117; 104.0; 135;  49.2; 117;  78.4;  32;  97.9;  76;  27.9;  60;  71.4;  70; 130.2;  17;  29.6;  63;  54.4;  88;  31.4; 114;  54.4; 167;  61.9; 177;  42.5;  53;  75.6;  16; 102.6; 114;  51.9; 173;  28.3; 103;  71.9;  93;  69.6; 116;   0.0;   0; 118.3; 302;  64.6; 281; 200.8;  95;  77.8; 509; 116.6; 116; 227.5; 212; 109.6;  91; 126.4; 218;
