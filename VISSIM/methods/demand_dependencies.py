@@ -4,14 +4,12 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-from .helpers import data_inputs_path
-from .helpers import load_VISSIM_file, get_project_name, df_writer
+from .helpers import data_inputs_path, project
+from .helpers import load_VISSIM_file, df_writer, check_project_name
 
 def get_demand_dependencies():
-    all_results = pd.DataFrame()
 
     # Read Excel file, extract the SC number and SCJ number.
-
     dd_file_path = data_inputs_path.joinpath('excel', 'Demand_dependancy.xlsx')
     book = openpyxl.load_workbook(dd_file_path)
     worksheet = book.active
@@ -26,19 +24,16 @@ def get_demand_dependencies():
         else:
             continue
 
-    # Get times from Excel file to inform where to slice the DataFrame
+    # Get times from Excel file to inform where to slice the following DataFrame
     warmup_time = worksheet.cell(row=5, column=15).value
     cooldown_time = worksheet.cell(row=5, column=16).value
 
     file_number = 0  # initialise variable to count the number of .lsa files
-    intro_lines = 8  # Hard code the number of introductory lines, to be ignored when reading DataFrame
-
+    intro_lines = 8  # Hard code the number of introductory lines to be ignored when reading DataFrame
     suffix = ".lsa"  # The suffix for demand dependency files from VISSIM, to be checked for when reading files
-
-    # Filter the combined DataFrame for each of the extracted value combinations. Average the length of the occurrence and
-    # append the results to a list.
     aspect = "green"
-    project_name = None
+    all_results = pd.DataFrame()
+
     # Read each .lsa file in directory, filter based on the warmup and cooldown times.
     # Get each demand dependant stage count per filtered file.
     # Append to the all_results DataFrame.
@@ -52,7 +47,7 @@ def get_demand_dependencies():
             df = raw_data[(raw_data.Time > warmup_time) & (raw_data.Time < cooldown_time)]
             seed_results = []
             for SCJ_number, SC_number in zip(sites, sc):
-                if df.empty: # If there is no data to be anaylsed.
+                if df.empty:
                     seed_results.append(0)
                 else:
                     green_signal_instances = df[
@@ -60,8 +55,7 @@ def get_demand_dependencies():
                     seed_results.append(len(green_signal_instances))
             all_results["Seed " + str(file_number + 1)] = pd.Series(seed_results, dtype=float)
             file_number += 1
-            if project_name is None:
-                project_name = get_project_name(path)
+            project_name = check_project_name(project, path)
 
     # Rename the indices of the results DataFrame using the Demand dependency codes
     names = [f'{SCJ}_{SC}_{aspect}' for SCJ, SC in zip(sites, sc)]

@@ -1,6 +1,6 @@
 # VISSIM
 
-A Python program to automate the analysis of output data from PTV VISSIM traffic simulation software.
+A Python program to automate the analysis of output data from [PTV VISSIM](https://www.ptvgroup.com/en/solutions/products/ptv-vissim/) traffic simulation software.
 
 ## Description
 
@@ -25,7 +25,7 @@ Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSI
 * Navigate to run.py
 * Execute file.
 
-## Help
+### Help
 
 * If the demand dependency output returns populated with 0's, ensure the Demand_dependency.xlsx is correctly populated, with your chosen Demand Dependant stages (see point two of "Installing" section above)
 
@@ -44,4 +44,5 @@ Pull requests welcome.
 *[MIT license](http://opensource.org/licenses/mit-license.php)**
 * See LICENSE.md for details
 
-## Acknowledgments
+## References 
+* For details of VISSIM Data see: https://www.et.byu.edu/~msaito/CE662MS/Labs/VISSIM_530_e.pdf

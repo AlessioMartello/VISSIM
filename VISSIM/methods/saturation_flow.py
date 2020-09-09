@@ -1,17 +1,18 @@
 import pathlib
 import pandas as pd
 
-from .helpers import data_inputs_path
-from .helpers import load_VISSIM_file, get_project_name, df_writer
+from .helpers import data_inputs_path, project
+from .helpers import load_VISSIM_file, df_writer, check_project_name
+
 
 def get_saturation_flow():
-    maximum_headway_accepted = float(input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
+    maximum_headway_accepted = float(
+        input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
 
     # Declare DataFrames so that results can be appended at the end.
     results = pd.DataFrame()
     summary_results = pd.DataFrame()
     ignored_results = pd.DataFrame()
-    project_name = None
     # Perform algorithm on each file in "Special_eval_files" folder.
     for path in pathlib.Path(data_inputs_path).iterdir():
         if str(path)[-4:-2] == ".a":
@@ -20,33 +21,24 @@ def get_saturation_flow():
                 use_cols = all_cols[3:]  # We are only concerned with the fourth column, onwards.
 
                 # Read the file, using our desired columns, delimiter set as space separated.
-                raw_data = load_VISSIM_file(path, sep= '\s+|:',columns=all_cols, use_cols=use_cols, skiprows=7)
+                raw_data = load_VISSIM_file(path, sep='\s+|:', columns=all_cols, use_cols=use_cols, skiprows=7)
 
                 # Slice the numerical data from the raw data and make a copy, to avoid chained-assignment warning.
                 df = raw_data[1:].copy()
 
-                # Locate the row containing the stopline name, extract the name and remove th trailing parenthesis.
+                # Locate the row containing the stopline name, extract the name and remove the trailing parenthesis.
                 categorical_info = raw_data.iloc[0].copy()
                 stopline_name = int(categorical_info[7][:-1])
-
-                # Remove excess empty columns
-                df.dropna(axis="columns", how="all", inplace=True)
-
-                # Make a list of Column names using the length of the df
+                df.dropna(axis="columns", how="all", inplace=True)  # Remove excess empty columns
                 col_names = ["Column " + col for col in df]
-
-                # Assign the names to the df
                 df.columns = col_names
-
-                # Replace null values with zeros
-                df.fillna(-1, inplace=True)
+                df.fillna(-1, inplace=True)  # Replace null values with -1 as to be ignored later
 
                 # Remove the brackets and parenthesis so that data can be returned as int
                 for col_name in col_names:
                     df[col_name] = df[col_name].astype(str).str.replace("(", "-")
 
-                # Change values containing trailing parenthesis to -1, so they get discarded in the final
-                # calculation.
+                # Change values containing trailing parenthesis to -1, so they get discarded in the final calculation.
                 for col in df:
                     rows = 1  # Since we sliced the df, row 0 is not present and we start on row 1.
                     for value in df[col]:
@@ -58,13 +50,12 @@ def get_saturation_flow():
                 for col_name in col_names:
                     df[col_name] = pd.to_numeric(df[col_name])
 
-                # The Macro doesnt count anything above or including the maximum acceptable headway. So set anything above this
-                # to -1, so it gets ignored. The same goes for pre-existing zeros.
+                # The Macro doesnt count anything above or including the maximum acceptable headway. So set anything
+                # above this to -1, so it gets ignored. The same goes for pre-existing zeros.
                 df[df >= maximum_headway_accepted] = -1
                 df[df == 0] = -1
 
-                # Convert to numpy array for easier and faster manipulation.
-                df = df.to_numpy()
+                df = df.to_numpy()  # Convert to numpy array for easier and faster manipulation.
 
                 # Find the row which doesnt contain useful data, from the shape of the array. This is constant throughout
                 # data-sets.
@@ -93,7 +84,6 @@ def get_saturation_flow():
                 # Perform the Saturation Flow calculation.
                 sat_flow = round(3600 / (cumulative_discharge_rate / discharge_rate_count))
 
-                # Un-comment to see each file's Saturation flow
                 results = results.append({"File": path, "Count": discharge_rate_count,
                                           "Saturation flow": sat_flow}, ignore_index=True)
 
@@ -101,8 +91,7 @@ def get_saturation_flow():
                 summary_results = summary_results.append(
                     {'ID': str(path)[-3:], "Stop-line": stopline_name, "Number of measurements": discharge_rate_count,
                      "Saturation flow": sat_flow}, ignore_index=True)
-                if project_name is None:
-                    project_name = get_project_name(path)
+                project_name = check_project_name(project, path)
 
             except ZeroDivisionError:
                 ignored_results = ignored_results.append(
