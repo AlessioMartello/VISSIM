@@ -40,7 +40,7 @@ def get_project_name(path):
         file_name: a string containing the name of the project.
     """
 
-    df = load_VISSIM_file(path=path, columns=None, use_cols=None, skiprows=4, nrows=1, index_col=False, sep="\s|:")
+    df = load_VISSIM_file(path=path, columns=list(), use_cols=list(), skiprows=4, nrows=1, index_col=False, sep="\s|:")
     df = df.values.tolist()[0]
     file_name = [element for element in df if element != "Comment" and type(element) == str]
     file_name = " ".join(file_name)
@@ -72,16 +72,16 @@ def check_project_name(project, path):
         return get_project_name(path)
 
 
-data_inputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")
-data_outputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\outputs")
-project = None
-
-
 def df_to_numeric(columns, *dfs):
-    """ Converts DataFrames containing data as Python Objects to numerical data """
+    """ Converts any number of DataFrames with data as Python Objects to numerical data. """
     for df in dfs:
         for col in columns:
             try:
                 df[col] = pd.to_numeric(df[col])
             except KeyError:
                 continue
+
+
+data_inputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")
+data_outputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\outputs")
+project = None
