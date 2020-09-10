@@ -6,6 +6,7 @@ from .helpers import load_VISSIM_file, df_writer, check_project_name
 
 
 def get_saturation_flow():
+    """ Calculates the saturation flow per stop-line, averaged over the numerous seeds. """
     maximum_headway_accepted = float(
         input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
 
@@ -13,6 +14,7 @@ def get_saturation_flow():
     results = pd.DataFrame()
     summary_results = pd.DataFrame()
     ignored_results = pd.DataFrame()
+
     # Perform algorithm on each file in "Special_eval_files" folder.
     for path in pathlib.Path(data_inputs_path).iterdir():
         if str(path)[-4:-2] == ".a":

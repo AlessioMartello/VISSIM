@@ -9,6 +9,7 @@ from .helpers import data_inputs_path, project
 # Any changing values have been considered and their calculation automated.
 # Such as the length of rows to skip
 def get_journey_times():
+    """Extracts the relevant journey times and the average across the seeds."""
     results = pd.DataFrame()  # Initiate results DataFrame to append to on line 23
     use_cols = [col for col in range(1, 400, 2)]  # Create list of columns, to use when reading the DataFrame.
     suffix = ".rsz"  # Define filename suffix for Journey time analysis

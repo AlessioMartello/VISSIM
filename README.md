@@ -12,7 +12,7 @@ Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSI
 
 * Python 3.8
 * Windows 10 OS
-* for libraries see requirements.txt
+* For libraries see requirements.txt
 
 ### Installing
 

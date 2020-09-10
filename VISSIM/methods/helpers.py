@@ -4,17 +4,42 @@ import pandas as pd
 from datetime import datetime
 
 
-# Function to load data from the VISSIM data files into a Pandas DataFrame
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
                      skipfooter=0):
+    """
+    Function to load data from the VISSIM data files format.
+
+    Parameters:
+        path (Path): File location.
+        columns (list): Column names.
+        use_cols (list): Columns to be used.
+        skiprows (int): Rows to skip from the top when reading DataFrame.
+        nrows (int): Number of rows to include.
+        index_col (Bool): Boolean, informs whether to treat first column as the index column.
+        sep (regEx): custom delimiter to define the separator(s) between useful data.
+        skipfooter (int): Rows to skip form the bottom when reading DataFrame.
+
+    Returns:
+        raw_data: A pandas DataFrame.
+    """
+
     raw_data = pd.read_csv(filepath_or_buffer=path, sep=sep, names=columns, header=None, engine="python",
                            skiprows=skiprows,
                            skipfooter=skipfooter, usecols=use_cols, index_col=index_col, nrows=nrows)
     return raw_data
 
 
-# Function used to get the name of the data set from the files and use this to name the output file.
 def get_project_name(path):
+    """
+    Function used to get the name of the data set from the loaded DatFrame; it is used to name the output file.
+
+    Parameters:
+        path (Path): File path object.
+
+    Returns:
+        file_name: a string containing the name of the project.
+    """
+
     df = load_VISSIM_file(path=path, columns=None, use_cols=None, skiprows=4, nrows=1, index_col=False, sep="\s|:")
     df = df.values.tolist()[0]
     file_name = [element for element in df if element != "Comment" and type(element) == str]
@@ -23,6 +48,17 @@ def get_project_name(path):
 
 
 def df_writer(project_name, analysis):
+    """
+    Function returns full path and name of the save location.
+
+    Parameters:
+        project_name (str): The returned string from get_project_name()
+        analysis (str): The analysis type being performed; it is used to inform the filename.
+
+    Returns:
+        writer: a Pandas Excel writer object containing the file path of the project and where to save.
+    """
+
     now = datetime.now().strftime("%d-%m_%H.%M")
     save_filename = f"{analysis}_{project_name}_{now}.xlsx"
     writer = data_outputs_path.joinpath(analysis.lower(), save_filename)
@@ -30,6 +66,7 @@ def df_writer(project_name, analysis):
 
 
 def check_project_name(project, path):
+    """"" Checks whether a project name exist, and if not, to obtain it using get_project_name()"""
     if project is None:
         project = 1
         return get_project_name(path)
