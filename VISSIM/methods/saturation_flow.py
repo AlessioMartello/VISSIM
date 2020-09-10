@@ -2,11 +2,11 @@ import pathlib
 import pandas as pd
 
 from .helpers import data_inputs_path, project
-from .helpers import load_VISSIM_file, df_writer, check_project_name
+from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 
 
 def get_saturation_flow():
-    """ Calculates the saturation flow per stop-line, averaged over the numerous seeds. """
+    """ Calculates the average saturation flow per stop-line. """
     maximum_headway_accepted = float(
         input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
 
@@ -48,15 +48,12 @@ def get_saturation_flow():
                             df.at[rows, str(col)] = -1
                         rows += 1
 
-                # Make the data numerical.
-                for col_name in col_names:
-                    df[col_name] = pd.to_numeric(df[col_name])
+                df_to_numeric(col_names, df)  # Make the data numerical.
 
                 # The Macro doesnt count anything above or including the maximum acceptable headway. So set anything
                 # above this to -1, so it gets ignored. The same goes for pre-existing zeros.
                 df[df >= maximum_headway_accepted] = -1
                 df[df == 0] = -1
-
                 df = df.to_numpy()  # Convert to numpy array for easier and faster manipulation.
 
                 # Find the row which doesnt contain useful data, from the shape of the array. This is constant throughout

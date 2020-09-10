@@ -49,7 +49,7 @@ def get_project_name(path):
 
 def df_writer(project_name, analysis):
     """
-    Function returns full path and name of the save location.
+    Function returns full file path and name of the save location.
 
     Parameters:
         project_name (str): The returned string from get_project_name()
@@ -66,7 +66,7 @@ def df_writer(project_name, analysis):
 
 
 def check_project_name(project, path):
-    """"" Checks whether a project name exist, and if not, to obtain it using get_project_name()"""
+    """"" Checks whether a project name exist, and if not, returns it using get_project_name()"""
     if project is None:
         project = 1
         return get_project_name(path)
@@ -75,3 +75,13 @@ def check_project_name(project, path):
 data_inputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")
 data_outputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\outputs")
 project = None
+
+
+def df_to_numeric(columns, *dfs):
+    """ Converts DataFrames containing data as Python Objects to numerical data """
+    for df in dfs:
+        for col in columns:
+            try:
+                df[col] = pd.to_numeric(df[col])
+            except KeyError:
+                continue

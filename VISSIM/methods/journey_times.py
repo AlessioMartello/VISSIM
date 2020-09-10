@@ -1,7 +1,7 @@
 import pandas as pd
 import pathlib
 
-from .helpers import load_VISSIM_file, df_writer, check_project_name
+from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 from .helpers import data_inputs_path, project
 
 
@@ -9,10 +9,10 @@ from .helpers import data_inputs_path, project
 # Any changing values have been considered and their calculation automated.
 # Such as the length of rows to skip
 def get_journey_times():
-    """Extracts the relevant journey times and the average across the seeds."""
-    results = pd.DataFrame()  # Initiate results DataFrame to append to on line 23
+    """Extracts the average journey times of each route."""
+    results = pd.DataFrame()  # Initiate results DataFrame to append results
     use_cols = [col for col in range(1, 400, 2)]  # Create list of columns, to use when reading the DataFrame.
-    suffix = ".rsz"  # Define filename suffix for Journey time analysis
+    suffix = ".rsz"
     file_count = 0  # Initialise file count to be used for column names
     for path in pathlib.Path(data_inputs_path).iterdir():
         if str(path).endswith(suffix):
@@ -25,13 +25,7 @@ def get_journey_times():
             project_name = check_project_name(project, path)
     jt_route = relevant_data.drop([0, 1, 3, 4])  # Extract the Journey Time labels
 
-    # Convert the data to be numerical
-    for col in use_cols:
-        try:
-            results[col] = pd.to_numeric(results[col])
-            jt_route[col] = pd.to_numeric(jt_route[col])
-        except KeyError:
-            continue
+    df_to_numeric(use_cols, results, jt_route)  # Convert the data to be numerical
 
     avg = results.mean(axis=0)  # Average journey times
     results = results.append(avg, ignore_index=True)  # Add average to the end of the results DataFrame

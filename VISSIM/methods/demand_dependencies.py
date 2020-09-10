@@ -8,8 +8,8 @@ from .helpers import data_inputs_path, project
 from .helpers import load_VISSIM_file, df_writer, check_project_name
 
 def get_demand_dependencies():
-    """ Calculates the number of demand dependant stages that occur, as defined by Demand_dependency.xlsx """
-    # Read Excel file, extract the SC number and SCJ number.
+    """ Calculates the number of times the specified demand dependant stages are called. """
+    # Read Excel file, extract the SC number and SCJ number, to inform the name of the demand dependant stage.
     dd_file_path = data_inputs_path.joinpath('excel', 'Demand_dependancy.xlsx')
     book = openpyxl.load_workbook(dd_file_path)
     worksheet = book.active
