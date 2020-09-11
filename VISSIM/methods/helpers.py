@@ -40,7 +40,7 @@ def get_project_name(path):
         file_name: a string containing the name of the project.
     """
 
-    df = load_VISSIM_file(path=path, columns=list(), use_cols=list(), skiprows=4, nrows=1, index_col=False, sep="\s|:")
+    df = load_VISSIM_file(path=path, columns=None, use_cols=None, skiprows=4, nrows=1, index_col=False, sep="\s|:")
     df = df.values.tolist()[0]
     file_name = [element for element in df if element != "Comment" and type(element) == str]
     file_name = " ".join(file_name)

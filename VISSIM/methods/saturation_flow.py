@@ -23,7 +23,8 @@ def get_saturation_flow():
                 use_cols = all_cols[3:]  # We are only concerned with the fourth column, onwards.
 
                 # Read the file, using our desired columns, delimiter set as space separated.
-                raw_data = load_VISSIM_file(path, sep='\s+|:', columns=all_cols, use_cols=use_cols, skiprows=7)
+                raw_data = load_VISSIM_file(path, sep='\s+|:', columns=all_cols, use_cols=use_cols, skiprows=7,
+                                            skipfooter=4)
 
                 # Slice the numerical data from the raw data and make a copy, to avoid chained-assignment warning.
                 df = raw_data[1:].copy()
@@ -56,11 +57,6 @@ def get_saturation_flow():
                 df[df == 0] = -1
                 df = df.to_numpy()  # Convert to numpy array for easier and faster manipulation.
 
-                # Find the row which doesnt contain useful data, from the shape of the array. This is constant throughout
-                # data-sets.
-                number_of_rows = df.shape[0]
-                vehicle_position_index_row = number_of_rows - 3
-
                 # Loop through each row. If the value (discharge rate) is over the headway limit, go to the next line.
                 # Otherwise increase the count and add this discharge rate to the cumulative_discharge_rate. Skip the row
                 # containing un-useful data and after this row, start the loop one column to the right, to account for the
@@ -69,16 +65,12 @@ def get_saturation_flow():
                 discharge_rate_count = 0
                 current_row = 0
                 for row in df:
-                    current_row += 1
-                    if current_row >= vehicle_position_index_row:
-                        continue
-                    else:
-                        for col in row:
-                            if 0 <= col <= maximum_headway_accepted:
-                                cumulative_discharge_rate = cumulative_discharge_rate + col
-                                discharge_rate_count += 1
-                            else:
-                                break
+                    for col in row:
+                        if 0 <= col <= maximum_headway_accepted:
+                            cumulative_discharge_rate = cumulative_discharge_rate + col
+                            discharge_rate_count += 1
+                        else:
+                            break
 
                 # Perform the Saturation Flow calculation.
                 sat_flow = round(3600 / (cumulative_discharge_rate / discharge_rate_count))
