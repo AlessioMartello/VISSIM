@@ -5,16 +5,14 @@ from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_nume
 from .helpers import data_inputs_path, project
 
 
-# Some values are hardcoded into the script (skipfooter and initial skiprows). These are not variable.
-# Any changing values have been considered and their calculation automated.
-# Such as the length of rows to skip
-def get_journey_times():
+def get_journey_times(data_directory):
     """Extracts the average journey times of each route."""
+
     results = pd.DataFrame()  # Initiate results DataFrame to append results
     use_cols = [col for col in range(1, 400, 2)]  # Create list of columns, to use when reading the DataFrame.
-    suffix = ".rsz"
-    file_count = 0  # Initialise file count to be used for column names
-    for path in pathlib.Path(data_inputs_path).iterdir():
+    suffix, file_count = ".rsz", 0  # Initialise file count to be used for column names
+
+    for path in pathlib.Path(data_directory).iterdir():
         if str(path).endswith(suffix):
             excess_data = load_VISSIM_file(path=path, skiprows=8, skipfooter=5)
             skip_length = len(excess_data[excess_data[0].str.contains("No.")])  # Get the number of rows to skip
@@ -34,7 +32,7 @@ def get_journey_times():
 
     # Create list of columns, rename dataFrame
     files = ["Routes"]
-    [files.append("Seed " + str(i + 1)) for i in range(file_count)]
+    [files.append("Seed " + str(num + 1)) for num in range(file_count)]
     files.append("Average")
     results_transposed.columns = files
 

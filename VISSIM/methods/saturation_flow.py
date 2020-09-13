@@ -5,24 +5,23 @@ from .helpers import data_inputs_path, project
 from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 
 
-def get_saturation_flow():
+def get_saturation_flow(data_directory):
     """ Calculates the average saturation flow per stop-line. """
+
     maximum_headway_accepted = float(
         input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
 
     # Declare DataFrames so that results can be appended at the end.
-    results = pd.DataFrame()
-    summary_results = pd.DataFrame()
-    ignored_results = pd.DataFrame()
+    results, summary_results, ignored_results = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
     # Perform algorithm on each file in "Special_eval_files" folder.
-    for path in pathlib.Path(data_inputs_path).iterdir():
+    for path in pathlib.Path(data_directory).iterdir():
         if str(path)[-4:-2] == ".a":
             try:
                 all_cols = [str(col) for col in range(100)]
                 use_cols = all_cols[3:]  # We are only concerned with the fourth column, onwards.
 
-                # Read the file, using our desired columns, delimiter set as space separated.
+                # Read the file, using our desired columns, delimiter set as space or colon separated.
                 raw_data = load_VISSIM_file(path, sep='\s+|:', columns=all_cols, use_cols=use_cols, skiprows=7,
                                             skipfooter=4)
 
@@ -33,12 +32,11 @@ def get_saturation_flow():
                 categorical_info = raw_data.iloc[0].copy()
                 stopline_name = int(categorical_info[7][:-1])
                 df.dropna(axis="columns", how="all", inplace=True)  # Remove excess empty columns
-                col_names = ["Column " + col for col in df]
-                df.columns = col_names
+                df.columns = ["Column " + col for col in df]
                 df.fillna(-1, inplace=True)  # Replace null values with -1 as to be ignored later
 
                 # Remove the brackets and parenthesis so that data can be returned as int
-                for col_name in col_names:
+                for col_name in df.columns:
                     df[col_name] = df[col_name].astype(str).str.replace("(", "-")
 
                 # Change values containing trailing parenthesis to -1, so they get discarded in the final calculation.
@@ -49,21 +47,18 @@ def get_saturation_flow():
                             df.at[rows, str(col)] = -1
                         rows += 1
 
-                df_to_numeric(col_names, df)  # Make the data numerical.
+                df_to_numeric(df.columns, df)  # Make the data numerical.
 
                 # The Macro doesnt count anything above or including the maximum acceptable headway. So set anything
                 # above this to -1, so it gets ignored. The same goes for pre-existing zeros.
-                df[df >= maximum_headway_accepted] = -1
-                df[df == 0] = -1
+                df[(df >= maximum_headway_accepted) | (df == 0)] = -1
                 df = df.to_numpy()  # Convert to numpy array for easier and faster manipulation.
 
-                # Loop through each row. If the value (discharge rate) is over the headway limit, go to the next line.
-                # Otherwise increase the count and add this discharge rate to the cumulative_discharge_rate. Skip the row
-                # containing un-useful data and after this row, start the loop one column to the right, to account for the
-                # indent in the data.
-                cumulative_discharge_rate = 0
-                discharge_rate_count = 0
-                current_row = 0
+                # Loop through each row. If the value (discharge rate) is over the headway limit, go to the next
+                # line. Otherwise increase the count and add this discharge rate to the cumulative_discharge_rate.
+                # Skip the row containing un-useful data and after this row, start the loop one column to the right,
+                # to account for the indent in the data.
+                cumulative_discharge_rate, discharge_rate_count = 0, 0
                 for row in df:
                     for col in row:
                         if 0 <= col <= maximum_headway_accepted:

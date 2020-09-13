@@ -7,14 +7,13 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 from .helpers import data_inputs_path, project
 from .helpers import load_VISSIM_file, df_writer, check_project_name
 
-def get_demand_dependencies():
+def get_demand_dependencies(data_directory):
     """ Calculates the number of times the specified demand dependant stages are called. """
     # Read Excel file, extract the SC number and SCJ number, to inform the name of the demand dependant stage.
     dd_file_path = data_inputs_path.joinpath('excel', 'Demand_dependancy.xlsx')
     book = openpyxl.load_workbook(dd_file_path)
     worksheet = book.active
-    sites = []
-    sc = []
+    sites, sc = [], []
     for row in worksheet.iter_rows(min_row=5):
         site = row[0].value
         signal_control = row[4].value
@@ -37,7 +36,7 @@ def get_demand_dependencies():
     # Read each .lsa file in directory, filter based on the warmup and cooldown times.
     # Get each demand dependant stage count per filtered file.
     # Append to the all_results DataFrame.
-    for path in pathlib.Path(data_inputs_path).iterdir():
+    for path in pathlib.Path(data_directory).iterdir():
         if str(path).endswith(suffix):
             raw_data = load_VISSIM_file(path=path, sep=";", columns=["Time", "SCJ", "SC", "Signal"], use_cols=[0, 2, 3, 4],
                                         skiprows=intro_lines)
