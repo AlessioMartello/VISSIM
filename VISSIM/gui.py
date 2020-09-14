@@ -7,7 +7,7 @@ from methods.demand_dependencies import get_demand_dependencies
 
 background_colour = "white"
 foreground_colour = "#512d6d"
-root = tk.Tk()  # Window contains all the widgets
+root = tk.Tk()
 root.geometry("500x400")
 root.configure(bg= background_colour)
 
@@ -37,6 +37,8 @@ def hit_and_run():
             get_journey_times(data_directory)
     except NameError:
         messagebox.showinfo("Error", "First you must select a data folder.")
+    except ValueError:
+    	messagebox.showinfo("Error", "Ensure your chosen folder has the appropriate data")
 
 
 intro_label = tk.Label(root, text="Select the analyses you would like to perform:", bg= background_colour, fg= foreground_colour, font= ("", 15, "bold")).pack()
