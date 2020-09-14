@@ -5,11 +5,8 @@ from .helpers import data_inputs_path, project
 from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 
 
-def get_saturation_flow(data_directory):
+def get_saturation_flow(data_directory, max_headway):
     """ Calculates the average saturation flow per stop-line. """
-
-    maximum_headway_accepted = float(
-        input("Enter the maximum headway accepted for the Saturation flow, as an integer: "))
 
     # Declare DataFrames so that results can be appended at the end.
     results, summary_results, ignored_results = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
@@ -51,7 +48,7 @@ def get_saturation_flow(data_directory):
 
                 # The Macro doesnt count anything above or including the maximum acceptable headway. So set anything
                 # above this to -1, so it gets ignored. The same goes for pre-existing zeros.
-                df[(df >= maximum_headway_accepted) | (df == 0)] = -1
+                df[(df >= max_headway) | (df == 0)] = -1
                 df = df.to_numpy()  # Convert to numpy array for easier and faster manipulation.
 
                 # Loop through each row. If the value (discharge rate) is over the headway limit, go to the next
@@ -61,7 +58,7 @@ def get_saturation_flow(data_directory):
                 cumulative_discharge_rate, discharge_rate_count = 0, 0
                 for row in df:
                     for col in row:
-                        if 0 <= col <= maximum_headway_accepted:
+                        if 0 <= col <= max_headway:
                             cumulative_discharge_rate = cumulative_discharge_rate + col
                             discharge_rate_count += 1
                         else:
