@@ -5,7 +5,7 @@ from methods.saturation_flow import get_saturation_flow
 from methods.journey_times import get_journey_times
 from methods.demand_dependencies import get_demand_dependencies
 
-background_colour = "white"
+background_colour = "#d6d6d6"
 foreground_colour = "#512d6d"
 root = tk.Tk()
 root.geometry("500x400")
@@ -55,9 +55,9 @@ demand_dependency_button = tk.Checkbutton(root, text="Demand dependency", variab
 journey_time_button = tk.Checkbutton(root, text="Journey time", variable=journey_time_state, bg=background_colour, fg=foreground_colour, highlightcolor=foreground_colour, font= ("", 15), pady=10).pack()
 saturation_flow_button = tk.Checkbutton(root, text="Saturation flow", variable=saturation_flow_state, bg=background_colour, fg=foreground_colour, highlightcolor=foreground_colour, font= ("", 15), pady=10).pack()
 
-headway_label = tk.Label(root, text= "Enter the maximum accepted headway below if saturation flow is being performed.", bg = background_colour, fg=foreground_colour).pack()
+headway_label = tk.Label(root, text= "Enter the maximum accepted headway below if saturation flow is being performed.", bg = background_colour, fg=foreground_colour, font= ("", 10)).pack()
 
-e = tk.Entry(root, width = 5, borderwidth=5, bg= background_colour, fg=foreground_colour)
+e = tk.Entry(root, width = 5, borderwidth=5, bg= "white", fg=foreground_colour)
 e.pack()
 
 select_data_button = tk.Button(root, text="Select data folder", state="normal", command=open_directory_dialogue, padx=50,
