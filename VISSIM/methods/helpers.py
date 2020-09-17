@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
-                     skipfooter=0):
+                     skipfooter=0, header=None):
     """
     Function to load data from the VISSIM data files format.
 
@@ -23,7 +23,7 @@ def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=N
         raw_data: A pandas DataFrame.
     """
 
-    raw_data = pd.read_csv(filepath_or_buffer=path, sep=sep, names=columns, header=None, engine="python",
+    raw_data = pd.read_csv(filepath_or_buffer=path, sep=sep, names=columns, header=header, engine="python",
                            skiprows=skiprows,
                            skipfooter=skipfooter, usecols=use_cols, index_col=index_col, nrows=nrows)
     return raw_data
@@ -77,7 +77,7 @@ def df_to_numeric(columns, *dfs):
     for df in dfs:
         for col in columns:
             try:
-                df[col] = pd.to_numeric(df[col])
+                df[col] = pd.to_numeric(df[col], errors="coerce")
             except KeyError:
                 continue
 
