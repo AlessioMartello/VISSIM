@@ -67,6 +67,7 @@ def hit_and_run():
             get_journey_times(data_directory)
         elif traffic_flow_state.get():
             get_traffic_flows(data_directory)
+        messagebox.showinfo("Success", "Analysis finished.")
     except NameError:
         messagebox.showinfo("Error", "First you must select a data folder, containing the appropriate data.")
     except KeyError:

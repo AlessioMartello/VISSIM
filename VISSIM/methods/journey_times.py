@@ -37,6 +37,6 @@ def get_journey_times(data_directory):
     results_transposed.columns = files
 
     # Write results to an Excel file, timestamp ensures no overwriting
-    writer = pd.ExcelWriter(df_writer(project_name, "Journey_times"))
+    writer = pd.ExcelWriter(df_writer(project_name, "Journey_times", data_directory))
     results_transposed.to_excel(writer, "Journey time results", index=False)
     writer.save()

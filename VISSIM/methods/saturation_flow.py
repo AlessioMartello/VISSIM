@@ -85,7 +85,7 @@ def get_saturation_flows(data_directory, max_headway):
     results_grouped = summary_results.groupby(["ID", "Stop-line"]).agg(
         {"Saturation flow": "mean", "Number of measurements": "sum"}).round()
 
-    writer = pd.ExcelWriter(df_writer(project_name, "Saturation_flows"))
+    writer = pd.ExcelWriter(df_writer(project_name, "Saturation_flows", data_directory))
     results_grouped.to_excel(writer, "Summary results")
     results.to_excel(writer, "All results", index=False)
     ignored_results.to_excel(writer, "Ignored files", index=False)

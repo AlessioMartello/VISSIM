@@ -16,7 +16,7 @@ def get_traffic_flows(data_directory):
             try:
                 if not writer:  # Get the project name and create a writer object only once
                     project_name = check_project_name(project, path)
-                    writer = pd.ExcelWriter(df_writer(project_name, "Traffic_flows"))
+                    writer = pd.ExcelWriter(df_writer(project_name, "Traffic_flows", data_directory))
                 raw_data = load_VISSIM_file(path=path, sep='\s+|:', skiprows=8)
                 skip_length = len(
                     raw_data[raw_data[0].str.contains("Measurement")])  # Automate the number of rows to skip

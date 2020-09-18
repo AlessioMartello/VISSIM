@@ -47,13 +47,14 @@ def get_project_name(path):
     return file_name
 
 
-def df_writer(project_name, analysis):
+def df_writer(project_name, analysis, data_directory):
     """
     Function returns full file path and name of the save location.
 
     Parameters:
         project_name (str): The returned string from get_project_name()
         analysis (str): The analysis type being performed; it is used to inform the filename.
+        data_directory:
 
     Returns:
         writer: a Pandas Excel writer object containing the file path of the project and where to save.
@@ -61,7 +62,7 @@ def df_writer(project_name, analysis):
 
     now = datetime.now().strftime("%d-%m_%H.%M")
     save_filename = f"{analysis}_{project_name}_{now}.xlsx"
-    writer = data_outputs_path.joinpath(analysis.lower(), save_filename)
+    writer = pathlib.Path(data_directory).joinpath(save_filename)
     return writer
 
 

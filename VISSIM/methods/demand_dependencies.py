@@ -74,4 +74,4 @@ def get_demand_dependencies(data_directory):
         worksheet.append(row)
 
     # Save the file
-    book.save(df_writer(project_name, "Demand_dependencies"))
+    book.save(df_writer(project_name, "Demand_dependencies", data_directory))
