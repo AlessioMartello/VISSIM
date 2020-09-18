@@ -76,7 +76,10 @@ def hit_and_run():
 intro_label = tk.Label(root, text="Select the analyses you would like to perform:", bg=background_colour,
                        fg=foreground_colour, font=("", 15, "bold")).pack()
 
+# Declare the Boolean variables, used to indicate the selection of an analysis in the gui
 demand_dependency_state, journey_time_state, saturation_flow_state, traffic_flow_state = tk.BooleanVar(), tk.BooleanVar(), tk.BooleanVar(), tk.BooleanVar()
+
+# Button objects, linked to the Boolean variables
 demand_dependency_button = tk.Checkbutton(root, text="Demand dependency", variable=demand_dependency_state,
                                          bg=background_colour, fg=foreground_colour, highlightcolor=foreground_colour,
                                           font=("", 15), pady=10).pack()
@@ -93,13 +96,16 @@ saturation_flow_button = tk.Checkbutton(root, text="Saturation flow", variable=s
 headway_label = tk.Label(root, text="Enter the maximum accepted headway below if saturation flow is being performed.",
                          bg=background_colour, fg=foreground_colour, font=("", 10)).pack()
 
+# Entry boc for the maximum accepted headway, linked to the saturation flow function
 e = tk.Entry(root, width=5, borderwidth=5, bg="white", fg=foreground_colour)
 e.pack()
 
+# Directory selector, enables the location of any folder no matter where the script is located
 select_data_button = tk.Button(root, text="Select data folder", state="normal", command=open_directory_dialogue,
                                padx=50,
                                pady=20, fg=foreground_colour, font=("", 0, "bold")).pack()
 
+# Executes the various analyses depending on which check boxes are selected
 run = tk.Button(root, text="Run", state="normal", command=hit_and_run, padx=50,
                 pady=20, fg=foreground_colour, font=("", 0, "bold")).pack()
 
