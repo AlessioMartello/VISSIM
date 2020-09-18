@@ -4,7 +4,7 @@ A Python program to automate the analysis of output data from [PTV VISSIM](https
 
 ## Description
 
-Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSIM. The program yields three separate .xlsx files, saved in the respective /data/outputs folder. 
+Data analyis is currently performed on .lsa .rsz .mes and .aXX files, output by VISSIM. The program yields four separate .xlsx files, saved in the selected data folder. 
 
 ## Getting Started
 
@@ -15,20 +15,15 @@ Data analyis is currently performed on .lsa .rsz and .aXX files, output by VISSI
 * For libraries see requirements.txt
 * Recommended using Spyder (Anaconda) for all dependencies readily available.
 
-### Installing
-
-* Download the program.
-* Modify the file VISSIM/data/inputs/excel/"Demand_dependancy.xlsx" according to the instructions inside the file.
-* Put all the data outputs from VISSIM into the  VISSIM/data/inputs directory.
-
 ## Executing the program
 
 * Navigate to gui.py
-* Execute file.
+* Execute file in Spyder or install requirements and run from any IDE.
 
 ### Usage
+* Modify the file VISSIM/data/inputs/excel/"Demand_dependancy.xlsx" according to the instructions inside the file, if running demand depedancy analysis.
 * Select the desired analyses from the checkboxes.
-* If Saturation flow anlysis is to be performed, enter the maximum acceptable headway in the entry box.
+* If Saturation flow analysis is to be performed, enter the maximum acceptable headway in the entry box.
 * Locate the folder containing the appropriate data.
 * Click run.
 * Results will be output into the "outputs" folder.
