@@ -5,7 +5,7 @@ from .helpers import data_inputs_path, project
 from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 
 
-def get_saturation_flow(data_directory, max_headway):
+def get_saturation_flows(data_directory, max_headway):
     """ Calculates the average saturation flow per stop-line. """
 
     # Declare DataFrames so that results can be appended at the end.
