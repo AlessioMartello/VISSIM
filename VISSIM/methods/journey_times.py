@@ -10,10 +10,10 @@ def get_journey_times(data_directory):
 
     results = pd.DataFrame()  # Initiate results DataFrame to append results
     use_cols = [col for col in range(1, 400, 2)]  # Create list of columns, to use when reading the DataFrame.
-    suffix, file_count = ".rsz", 0  # Initialise file count to be used for column names
+    SUFFIX, file_count = ".rsz", 0  # Initialise file count to be used for column names
 
     for path in pathlib.Path(data_directory).iterdir():
-        if str(path).endswith(suffix):
+        if str(path).endswith(SUFFIX):
             excess_data = load_VISSIM_file(path=path, skiprows=8, skipfooter=5)
             skip_length = len(excess_data[excess_data[0].str.contains("No.")])  # Get the number of rows to skip
             relevant_data = load_VISSIM_file(path=path, sep=";", skiprows=(8 + skip_length), use_cols=use_cols)

@@ -1,7 +1,6 @@
 import pathlib
 
 import pandas as pd
-from datetime import datetime
 
 
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
@@ -54,14 +53,13 @@ def df_writer(project_name, analysis, data_directory):
     Parameters:
         project_name (str): The returned string from get_project_name()
         analysis (str): The analysis type being performed; it is used to inform the filename.
-        data_directory:
+        data_directory: The directory path gathered from the ask dialogue in gui.py
 
     Returns:
         writer: a Pandas Excel writer object containing the file path of the project and where to save.
     """
 
-    now = datetime.now().strftime("%d-%m_%H.%M")
-    save_filename = f"{analysis}_{project_name}_{now}.xlsx"
+    save_filename = f"{analysis}_{project_name}.xlsx"
     writer = pathlib.Path(data_directory).joinpath(save_filename)
     return writer
 
