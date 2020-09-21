@@ -8,7 +8,7 @@ Data analyis is currently performed on .lsa .rsz .mes and .aXX files, output by 
 
 ## Getting Started
 
-### Dependencies
+#### Dependencies
 
 * Python 3.8
 * Windows 10 OS
@@ -20,13 +20,16 @@ Data analyis is currently performed on .lsa .rsz .mes and .aXX files, output by 
 * Navigate to gui.py
 * Execute file in Spyder or install requirements and run from any IDE.
 
-### Usage
-* Modify the file VISSIM/data/inputs/excel/"Demand_dependancy.xlsx" according to the instructions inside the file, if running demand depedancy analysis.
+#### GUI
 * Select the desired analyses from the checkboxes.
 * If Saturation flow analysis is to be performed, enter the maximum acceptable headway in the entry box.
 * Locate the folder containing the appropriate data.
 * Click run.
 * Results will be output into the "outputs" folder.
+
+#### Demand dependancy
+* If running demand dependancy analysis locate the template file saved in VISSIM/data/templates/excel/"Demand_dependancy.xlsx" and make a copy in the location of the data you would you like to perform analysis on.
+* Populate the spreadsheet according to the instructions inside the file.
 
 ## Help
 

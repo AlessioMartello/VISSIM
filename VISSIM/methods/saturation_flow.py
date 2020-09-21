@@ -9,11 +9,12 @@ def get_saturation_flows(data_directory, max_headway):
     """ Calculates the average saturation flow per stop-line. """
 
     # Declare DataFrames so that results can be appended at the end.
+    SUFFIX = ".a"
     results, summary_results, ignored_results = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
     # Perform algorithm on each file in "Special_eval_files" folder.
     for path in pathlib.Path(data_directory).iterdir():
-        if str(path)[-4:-2] == ".a":
+        if str(path)[-4:-2] == SUFFIX:
             try:
                 all_cols = [str(col) for col in range(100)]
                 use_cols = all_cols[3:]  # We are only concerned with the fourth column, onwards.
