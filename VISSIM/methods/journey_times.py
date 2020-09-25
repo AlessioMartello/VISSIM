@@ -25,15 +25,16 @@ def get_journey_times(data_directory):
 
     df_to_numeric(use_cols, results, jt_route)  # Convert the data to be numerical
 
-    avg = results.mean(axis=0)  # Average journey times
-    results = results.append(avg, ignore_index=True)  # Add average to the end of the results DataFrame
+    avg = results.mean(axis=0).round()  # Average journey times
+    std = results.std(axis=0).round() # Obtain the standard deviation of results
+    results = results.append([std, avg], ignore_index=True)  # Add average to the end of the results DataFrame
     results = pd.concat([jt_route, results]).reset_index(drop=True)  # Add the respective Journey time labels
     results_transposed = results.transpose(copy=True)  # Transpose DataFrame for readability in Excel
 
     # Create list of columns, rename dataFrame
     files = ["Travel time section"]
     [files.append("Seed " + str(num + 1)) for num in range(file_count)]
-    files.append("Average")
+    files += "Standard deviation", "Average Journey Time"
     results_transposed.columns = files
 
     # Write results to an Excel file, timestamp ensures no overwriting
