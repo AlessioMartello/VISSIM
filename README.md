@@ -1,6 +1,9 @@
-# VISSIM
+# VISSIM outputs automation
 
 A Python program to automate the analysis of output data from [PTV VISSIM](https://www.ptvgroup.com/en/solutions/products/ptv-vissim/) traffic simulation software.
+
+## Releases
+0.1 - Initial release for internal testing
 
 ## Description
 

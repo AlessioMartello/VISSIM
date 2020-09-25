@@ -1,17 +1,21 @@
+import pathlib
 import tkinter as tk
 from tkinter import filedialog, messagebox
+from PIL import ImageTk, Image
 
 from methods.saturation_flow import get_saturation_flows
 from methods.journey_times import get_journey_times
 from methods.demand_dependencies import get_demand_dependencies
 from methods.traffic_flows import get_traffic_flows
 
+image_directory = pathlib.Path(__file__).parents[1] / "data/templates/images"
 BACKGROUND_COLOUR = "#d6d6d6"
 FOREGROUND_COLOUR = "#512d6d"
 root = tk.Tk()
-root.geometry("600x450")
+root.geometry("650x550")
 root.configure(bg=BACKGROUND_COLOUR)
 root.title("VISSIM output automation v0.1")
+root.iconbitmap(image_directory / "NRP Final Logo .ico")
 
 
 def open_directory_dialogue():
@@ -80,6 +84,9 @@ def hit_and_run():
         messagebox.showinfo("Error", "Ensure the previous demand dependency output is closed before overwriting.")
 
 
+nrp_logo = ImageTk.PhotoImage(Image.open(image_directory / "NRP Final Logo .jpg").resize((150, 100), Image.ANTIALIAS))
+nrp_label = tk.Label(image=nrp_logo).pack()
+
 intro_label = tk.Label(root, text="Select the analyses you would like to perform:", bg=BACKGROUND_COLOUR,
                        fg=FOREGROUND_COLOUR, font=("", 15, "bold")).pack()
 
@@ -88,7 +95,7 @@ demand_dependency_state, journey_time_state, saturation_flow_state, traffic_flow
 
 # Button objects, linked to the Boolean variables
 demand_dependency_button = tk.Checkbutton(root, text="Demand dependency", variable=demand_dependency_state,
-                                         bg=BACKGROUND_COLOUR, fg=FOREGROUND_COLOUR, highlightcolor=FOREGROUND_COLOUR,
+                                          bg=BACKGROUND_COLOUR, fg=FOREGROUND_COLOUR, highlightcolor=FOREGROUND_COLOUR,
                                           font=("", 15), pady=10).pack()
 journey_time_button = tk.Checkbutton(root, text="Journey time", variable=journey_time_state, bg=BACKGROUND_COLOUR,
                                      fg=FOREGROUND_COLOUR, highlightcolor=FOREGROUND_COLOUR, font=("", 15),
