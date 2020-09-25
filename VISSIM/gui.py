@@ -11,6 +11,7 @@ FOREGROUND_COLOUR = "#512d6d"
 root = tk.Tk()
 root.geometry("600x450")
 root.configure(bg=BACKGROUND_COLOUR)
+root.title("VISSIM output automation v0.1")
 
 
 def open_directory_dialogue():
@@ -75,6 +76,9 @@ def hit_and_run():
         messagebox.showinfo("Error", "Folder does not contain appropriate data.")
     except FileNotFoundError:
         messagebox.showinfo("Error", "Ensure the Demand dependency setup file is in the data folder.")
+    except PermissionError:
+        messagebox.showinfo("Error", "Ensure the previous demand dependency output is closed before overwriting.")
+
 
 intro_label = tk.Label(root, text="Select the analyses you would like to perform:", bg=BACKGROUND_COLOUR,
                        fg=FOREGROUND_COLOUR, font=("", 15, "bold")).pack()

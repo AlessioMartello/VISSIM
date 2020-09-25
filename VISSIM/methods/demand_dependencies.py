@@ -18,7 +18,7 @@ def get_demand_dependencies(data_directory):
     sites, sc = [], []
     for row in worksheet.iter_rows(min_row=5):
         site = row[0].value
-        signal_control = row[4].value
+        signal_control = row[1].value
         if type(site) is int:
             sites.append(site)
             sc.append(signal_control)
