@@ -31,7 +31,7 @@ def get_journey_times(data_directory):
     results_transposed = results.transpose(copy=True)  # Transpose DataFrame for readability in Excel
 
     # Create list of columns, rename dataFrame
-    files = ["Data collection point"]
+    files = ["Travel time section"]
     [files.append("Seed " + str(num + 1)) for num in range(file_count)]
     files.append("Average")
     results_transposed.columns = files

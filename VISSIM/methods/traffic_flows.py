@@ -23,14 +23,14 @@ def get_traffic_flows(data_directory):
                 relevant_data = load_VISSIM_file(path=path, sep=";", skiprows=(16 + skip_length), header=0)
 
                 # Extract the relevant columns, label the Route column and make data numerical. Write to Excel file
-                relevant_data.rename(columns={relevant_data.columns[0]: "Route"}, inplace=True)
+                relevant_data.rename(columns={relevant_data.columns[0]: "Data collection point"}, inplace=True)
                 relevant_data.drop(relevant_data.columns[[1, 2]], axis=1, inplace=True)
                 df_to_numeric(relevant_data.columns, relevant_data)
                 relevant_data.to_excel(writer, f"Seed {count}", index=False, header=True)
 
                 # Join all data together vertically, group by the route name, get the average
                 df_concat = pd.concat((df_concat, relevant_data))
-                grouped = df_concat.groupby(by=["Route"])
+                grouped = df_concat.groupby(by=["Data collection point"])
                 df_means = grouped.mean().round()
 
             except IndexError:

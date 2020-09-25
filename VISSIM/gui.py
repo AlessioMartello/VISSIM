@@ -26,7 +26,6 @@ def hit_and_run():
         try:
             max_headway = int(e.get())
         except ValueError:
-            messagebox.showinfo("Error", "Folder does not contain appropriate data.")
             pass
     try:
         if journey_time_state.get() and saturation_flow_state.get() and demand_dependency_state.get() and traffic_flow_state.get():
@@ -74,7 +73,8 @@ def hit_and_run():
         messagebox.showinfo("Error", "Maximum headway cannot be zero.")
     except ValueError:
         messagebox.showinfo("Error", "Folder does not contain appropriate data.")
-
+    except FileNotFoundError:
+        messagebox.showinfo("Error", "Ensure the Demand dependency setup file is in the data folder.")
 
 intro_label = tk.Label(root, text="Select the analyses you would like to perform:", bg=BACKGROUND_COLOUR,
                        fg=FOREGROUND_COLOUR, font=("", 15, "bold")).pack()
