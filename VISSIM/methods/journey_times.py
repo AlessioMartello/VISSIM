@@ -2,7 +2,7 @@ import pandas as pd
 import pathlib
 
 from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
-from .helpers import data_inputs_path, project
+from .helpers import project
 
 
 def get_journey_times(data_directory):

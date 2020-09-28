@@ -1,7 +1,7 @@
 import pathlib
 import pandas as pd
 
-from .helpers import data_inputs_path, project
+from .helpers import project
 from .helpers import load_VISSIM_file, df_writer, check_project_name, df_to_numeric
 
 

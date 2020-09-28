@@ -4,7 +4,7 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
 
-from .helpers import data_inputs_path, project
+from .helpers import project
 from .helpers import load_VISSIM_file, df_writer, check_project_name
 
 
@@ -12,7 +12,7 @@ def get_demand_dependencies(data_directory):
     """ Calculates the number of times the specified demand dependant stages are called. """
     # Read the Excel file, which was manually setup, from the selected data directory, extract the SC number and SCJ
     # number to inform the name of the demand dependant stage.
-    dd_file_path = pathlib.Path(data_directory) / 'Demand_dependancy.xlsx'
+    dd_file_path = pathlib.Path(data_directory) / 'Demand_dependancy_master.xlsx'
     book = openpyxl.load_workbook(dd_file_path)
     worksheet = book.active
     sites, sc = [], []

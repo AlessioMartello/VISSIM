@@ -2,6 +2,8 @@ import pathlib
 
 import pandas as pd
 
+project = None
+
 
 def load_VISSIM_file(path=None, columns=None, use_cols=None, skiprows=0, nrows=None, index_col=False, sep="\s+",
                      skipfooter=0, header=None):
@@ -80,7 +82,3 @@ def df_to_numeric(columns, *dfs):
             except KeyError:
                 continue
 
-
-data_inputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\inputs")
-data_outputs_path = pathlib.Path(__file__).resolve().parents[2].joinpath("data\\outputs")
-project = None

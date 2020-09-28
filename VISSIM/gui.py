@@ -29,7 +29,7 @@ def hit_and_run():
     # Refactor me to be more elegant!
     if saturation_flow_state.get():
         try:
-            max_headway = int(e.get())
+            max_headway = float(e.get())
         except ValueError:
             pass
     try:
@@ -76,8 +76,8 @@ def hit_and_run():
         messagebox.showinfo("Error", "First you must select a data folder, containing the appropriate data.")
     except KeyError:
         messagebox.showinfo("Error", "Maximum headway cannot be zero.")
-    # except ValueError:
-    #     messagebox.showinfo("Error", "Folder does not contain appropriate data.")
+    except ValueError:
+        messagebox.showinfo("Error", "Folder does not contain appropriate data.")
     except FileNotFoundError:
         messagebox.showinfo("Error", "Ensure the Demand dependency setup file is in the data folder.")
     except PermissionError:
